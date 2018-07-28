@@ -1,0 +1,24 @@
+{
+  "name": "pokemon-ja",
+  "version": "0.0.1",
+  "description": "Get Pokémon information in Japanese",
+  "main": "src/index.js",
+  "repository": "https://github.com/ytakahashi/pokemon-ja.git",
+  "author": "ytakahashi <yt01tc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && istanbul cover _mocha -- test",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
