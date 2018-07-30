@@ -24,7 +24,7 @@ describe('pokemon class', () => {
   const stub = sinon.stub(Pokemons.prototype, 'getAll').callsFake(() => test)
   const pokemon = new Index()
 
-  it('returns expected Pokemon (id)', () => {
+  it('returns expected Pokemon (id: 25)', () => {
     const actual = pokemon.getById(25)
 
     const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"abilities":[{"hidden":false,"name":"せいでんき"},{"hidden":true,"name":"ひらいしん"}],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"eggGroups":["陸上","妖精"],"generation":1}'
@@ -33,7 +33,7 @@ describe('pokemon class', () => {
       .to.deep.equal(expected)
   })
 
-  it('returns expected Pokemon (name)', () => {
+  it('returns expected Pokemon (name: ピカチュウ)', () => {
     const actual = pokemon.getByName('ピカチュウ')
 
     const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"abilities":[{"hidden":false,"name":"せいでんき"},{"hidden":true,"name":"ひらいしん"}],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"eggGroups":["陸上","妖精"],"generation":1}'
@@ -42,7 +42,7 @@ describe('pokemon class', () => {
       .to.deep.equal(expected)
   })
 
-  it('returns expected Pokemon Array (filter by type, generation)', () => {
+  it('returns expected Pokemon Array (filter by type: でんき, generation: 1)', () => {
     const actual = pokemon
       .ofGeneration(1)
       .withType('でんき')
@@ -53,7 +53,7 @@ describe('pokemon class', () => {
       .to.deep.equal(expected)
   })
 
-  it('returns expected Pokemon Array (filter by base status, egg group)', () => {
+  it('returns expected Pokemon Array (filter by base status: 400-500, egg group: 妖精)', () => {
     const actual = pokemon
       .totalBaseStatusGe(400)
       .totalBaseStatusLe(500)

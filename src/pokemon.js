@@ -3,9 +3,9 @@ const Ability = require('./ability')
 
 const jsons = new Map(
   [
-    ['1', require('../resource/pokemon/gen1.json')],
-    ['2', require('../resource/pokemon/gen2.json')],
-    ['3', require('../resource/pokemon/gen3.json')]
+    ['1', require('./resources/gen1.json')],
+    ['2', require('./resources/gen2.json')],
+    ['3', require('./resources/gen3.json')]
   ]
 )
 
