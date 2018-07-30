@@ -1,8 +1,16 @@
 const Status = require('./status')
 const Ability = require('./ability')
 
+const jsons = new Map(
+  [
+    ['1', require('../resource/pokemon/gen1.json')],
+    ['2', require('../resource/pokemon/gen2.json')],
+    ['3', require('../resource/pokemon/gen3.json')]
+  ]
+)
+
 class Pokemon {
-  constructor (pokemon) {
+  constructor (pokemon, gen) {
     this.id = pokemon.id
     this.name = pokemon.name
     this.type = pokemon.type
@@ -12,40 +20,23 @@ class Pokemon {
     }
     this.baseStatus = new Status(pokemon.status)
     this.eggGroups = pokemon.egg_groups
+    this.generation = gen
   }
 }
 
 class Pokemons {
   constructor () {
-    this.pokeMap = new Map()
+    this.list = []
 
-    const json = require('../resource/pokemon/gen1.json')
-
-    for (const pokemon of json) {
-      let p = new Pokemon(pokemon)
-
-      this.pokeMap.set(p.id, p)
-    }
-  }
-
-  getPokemonById (id) {
-    return Array.from(this.pokeMap)
-      .map(obj => obj[1])
-      .find(obj => String(id) === obj.id)
-  }
-
-  getPokemonByIds (ids) {
-    return Array.from(this.pokeMap)
-      .filter(obj => ids.includes(Number(obj[0])))
-      .map(obj => obj[1])
-  }
-
-  getPokemonByName (name) {
-    for (const value of this.pokeMap.values()) {
-      if (value.name === name) {
-        return value
+    for (const [gen, json] of jsons) {
+      for (const pokemon of json) {
+        this.list.push(new Pokemon(pokemon, Number(gen)))
       }
     }
+  }
+
+  getAll () {
+    return this.list
   }
 }
 
