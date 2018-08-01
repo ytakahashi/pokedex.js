@@ -2,7 +2,7 @@ const expect = require('chai').expect
 
 const { Pokemon, Pokemons } = require('../src/pokemon')
 
-describe('Pokemon class', () => {
+describe('Pokemon class (language: ja)', () => {
   it('returns corrent properties', () => {
     const pikachu = new Pokemon({
       'id': '25',
@@ -28,7 +28,9 @@ describe('Pokemon class', () => {
         '陸上',
         '妖精'
       ]
-    })
+    },
+    1,
+    'ja')
 
     expect(pikachu.id)
       .to.equal('25')
@@ -40,7 +42,7 @@ describe('Pokemon class', () => {
       .and.that.include('でんき')
     expect(pikachu.baseStatus)
       .to.have.all.keys('H', 'A', 'B', 'C', 'D', 'S')
-    expect(pikachu.eggGroups)
+    expect(pikachu.eggGroup)
       .to.be.an('array')
       .that.has.lengthOf(2)
       .and.that.include('陸上')

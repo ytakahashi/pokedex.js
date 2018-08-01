@@ -2,11 +2,18 @@
 
 const { Pokemons } = require('./pokemon')
 
-const pokemons = new Pokemons()
+module.exports = class Pokedex {
+  constructor (lang) {
+    if (lang === void 0) {
+      this.lang = 'ja'
+    } else if (lang === 'ja' | lang === 'en') {
+      this.lang = lang
+    } else {
+      throw new Error(`Language '${lang}' is not supported.`)
+    }
 
-module.exports = class Pokemon {
-  constructor () {
-    this.poke = pokemons.getAll()
+    this.pokemons = new Pokemons(this.lang)
+    this.poke = this.pokemons.getAll()
   }
 
   getById (id) {
@@ -35,7 +42,7 @@ module.exports = class Pokemon {
 
   belongsToEggGroup (eggGroup) {
     this.poke =
-      this.poke.filter(pokemon => pokemon.eggGroups.includes(eggGroup))
+      this.poke.filter(pokemon => pokemon.eggGroup.includes(eggGroup))
     return this
   }
 
@@ -53,7 +60,7 @@ module.exports = class Pokemon {
 
   get () {
     const ret = this.poke
-    this.poke = pokemons.getAll()
+    this.poke = this.pokemons.getAll()
     return JSON.stringify(ret)
   }
 }

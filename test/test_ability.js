@@ -1,24 +1,18 @@
-/* eslint no-unused-expressions: 0 */
-
 const expect = require('chai').expect
 
-const Ability = require('../src/ability')
+const ability = require('../src/ability')
 describe('Ability class', () => {
-  it('has normal ability', () => {
-    const ability = new Ability({
-      'name': 'せいでんき'
-    })
+  it('test ability', () => {
+    const abilities = [
+      {
+        'name': 'しんりょく'
+      },
+      {
+        'name': '*ようりょくそ'
+      }
+    ]
 
-    expect(ability.name).to.equal('せいでんき')
-    expect(ability.hidden).to.be.false
-  })
-
-  it('has hidden ability', () => {
-    const ability = new Ability({
-      'name': '*ひらいしん'
-    })
-
-    expect(ability.name).to.equal('ひらいしん')
-    expect(ability.hidden).to.be.true
+    const actual = ability.getAbility(abilities)
+    expect(actual).to.have.length(2)
   })
 })
