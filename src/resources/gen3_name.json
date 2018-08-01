@@ -1,0 +1,947 @@
+[
+  {
+    "id": "252",
+    "name": {
+      "jp": "キモリ",
+      "en": "treecko"
+    }
+  },
+  {
+    "id": "253",
+    "name": {
+      "jp": "ジュプトル",
+      "en": "grovyle"
+    }
+  },
+  {
+    "id": "254",
+    "name": {
+      "jp": "ジュカイン",
+      "en": "sceptile"
+    }
+  },
+  {
+    "id": "255",
+    "name": {
+      "jp": "アチャモ",
+      "en": "torchic"
+    }
+  },
+  {
+    "id": "256",
+    "name": {
+      "jp": "ワカシャモ",
+      "en": "combusken"
+    }
+  },
+  {
+    "id": "257",
+    "name": {
+      "jp": "バシャーモ",
+      "en": "blaziken"
+    }
+  },
+  {
+    "id": "258",
+    "name": {
+      "jp": "ミズゴロウ",
+      "en": "mudkip"
+    }
+  },
+  {
+    "id": "259",
+    "name": {
+      "jp": "ヌマクロー",
+      "en": "marshtomp"
+    }
+  },
+  {
+    "id": "260",
+    "name": {
+      "jp": "ラグラージ",
+      "en": "swampert"
+    }
+  },
+  {
+    "id": "261",
+    "name": {
+      "jp": "ポチエナ",
+      "en": "poochyena"
+    }
+  },
+  {
+    "id": "262",
+    "name": {
+      "jp": "グラエナ",
+      "en": "mightyena"
+    }
+  },
+  {
+    "id": "263",
+    "name": {
+      "jp": "ジグザグマ",
+      "en": "zigzagoon"
+    }
+  },
+  {
+    "id": "264",
+    "name": {
+      "jp": "マッスグマ",
+      "en": "linoone"
+    }
+  },
+  {
+    "id": "265",
+    "name": {
+      "jp": "ケムッソ",
+      "en": "wurmple"
+    }
+  },
+  {
+    "id": "266",
+    "name": {
+      "jp": "カラサリス",
+      "en": "silcoon"
+    }
+  },
+  {
+    "id": "267",
+    "name": {
+      "jp": "アゲハント",
+      "en": "beautifly"
+    }
+  },
+  {
+    "id": "268",
+    "name": {
+      "jp": "マユルド",
+      "en": "cascoon"
+    }
+  },
+  {
+    "id": "269",
+    "name": {
+      "jp": "ドクケイル",
+      "en": "dustox"
+    }
+  },
+  {
+    "id": "270",
+    "name": {
+      "jp": "ハスボー",
+      "en": "lotad"
+    }
+  },
+  {
+    "id": "271",
+    "name": {
+      "jp": "ハスブレロ",
+      "en": "lombre"
+    }
+  },
+  {
+    "id": "272",
+    "name": {
+      "jp": "ルンパッパ",
+      "en": "ludicolo"
+    }
+  },
+  {
+    "id": "273",
+    "name": {
+      "jp": "タネボー",
+      "en": "seedot"
+    }
+  },
+  {
+    "id": "274",
+    "name": {
+      "jp": "コノハナ",
+      "en": "nuzleaf"
+    }
+  },
+  {
+    "id": "275",
+    "name": {
+      "jp": "ダーテング",
+      "en": "shiftry"
+    }
+  },
+  {
+    "id": "276",
+    "name": {
+      "jp": "スバメ",
+      "en": "taillow"
+    }
+  },
+  {
+    "id": "277",
+    "name": {
+      "jp": "オオスバメ",
+      "en": "swellow"
+    }
+  },
+  {
+    "id": "278",
+    "name": {
+      "jp": "キャモメ",
+      "en": "wingull"
+    }
+  },
+  {
+    "id": "279",
+    "name": {
+      "jp": "ペリッパー",
+      "en": "pelliper"
+    }
+  },
+  {
+    "id": "280",
+    "name": {
+      "jp": "ラルトス",
+      "en": "ralts"
+    }
+  },
+  {
+    "id": "281",
+    "name": {
+      "jp": "キルリア",
+      "en": "kirlia"
+    }
+  },
+  {
+    "id": "282",
+    "name": {
+      "jp": "サーナイト",
+      "en": "gardevoir"
+    }
+  },
+  {
+    "id": "283",
+    "name": {
+      "jp": "アメタマ",
+      "en": "surskit"
+    }
+  },
+  {
+    "id": "284",
+    "name": {
+      "jp": "アメモース",
+      "en": "masquerain"
+    }
+  },
+  {
+    "id": "285",
+    "name": {
+      "jp": "キノココ",
+      "en": "shroomish"
+    }
+  },
+  {
+    "id": "286",
+    "name": {
+      "jp": "キノガッサ",
+      "en": "breloom"
+    }
+  },
+  {
+    "id": "287",
+    "name": {
+      "jp": "ナマケロ",
+      "en": "slakoth"
+    }
+  },
+  {
+    "id": "288",
+    "name": {
+      "jp": "ヤルキモノ",
+      "en": "vigoroth"
+    }
+  },
+  {
+    "id": "289",
+    "name": {
+      "jp": "ケッキング",
+      "en": "slaking"
+    }
+  },
+  {
+    "id": "290",
+    "name": {
+      "jp": "ツチニン",
+      "en": "nincada"
+    }
+  },
+  {
+    "id": "291",
+    "name": {
+      "jp": "テッカニン",
+      "en": "ninjask"
+    }
+  },
+  {
+    "id": "292",
+    "name": {
+      "jp": "ヌケニン",
+      "en": "shedinja"
+    }
+  },
+  {
+    "id": "293",
+    "name": {
+      "jp": "ゴニョニョ",
+      "en": "whismur"
+    }
+  },
+  {
+    "id": "294",
+    "name": {
+      "jp": "ドゴーム",
+      "en": "loudred"
+    }
+  },
+  {
+    "id": "295",
+    "name": {
+      "jp": "バクオング",
+      "en": "exploud"
+    }
+  },
+  {
+    "id": "296",
+    "name": {
+      "jp": "マクノシタ",
+      "en": "makuhita"
+    }
+  },
+  {
+    "id": "297",
+    "name": {
+      "jp": "ハリテヤマ",
+      "en": "hariyama"
+    }
+  },
+  {
+    "id": "298",
+    "name": {
+      "jp": "ルリリ",
+      "en": "azurill"
+    }
+  },
+  {
+    "id": "299",
+    "name": {
+      "jp": "ノズパス",
+      "en": "nosepass"
+    }
+  },
+  {
+    "id": "300",
+    "name": {
+      "jp": "エネコ",
+      "en": "skitty"
+    }
+  },
+  {
+    "id": "301",
+    "name": {
+      "jp": "エネコロロ",
+      "en": "delcatty"
+    }
+  },
+  {
+    "id": "302",
+    "name": {
+      "jp": "ヤミラミ",
+      "en": "sableye"
+    }
+  },
+  {
+    "id": "303",
+    "name": {
+      "jp": "クチート",
+      "en": "mawile"
+    }
+  },
+  {
+    "id": "304",
+    "name": {
+      "jp": "ココドラ",
+      "en": "aron"
+    }
+  },
+  {
+    "id": "305",
+    "name": {
+      "jp": "コドラ",
+      "en": "lairon"
+    }
+  },
+  {
+    "id": "306",
+    "name": {
+      "jp": "ボスゴドラ",
+      "en": "aggron"
+    }
+  },
+  {
+    "id": "307",
+    "name": {
+      "jp": "アサナン",
+      "en": "meditite"
+    }
+  },
+  {
+    "id": "308",
+    "name": {
+      "jp": "チャーレム",
+      "en": "medicham"
+    }
+  },
+  {
+    "id": "309",
+    "name": {
+      "jp": "ラクライ",
+      "en": "electrike"
+    }
+  },
+  {
+    "id": "310",
+    "name": {
+      "jp": "ライボルト",
+      "en": "manectric"
+    }
+  },
+  {
+    "id": "311",
+    "name": {
+      "jp": "プラスル",
+      "en": "plusle"
+    }
+  },
+  {
+    "id": "312",
+    "name": {
+      "jp": "マイナン",
+      "en": "minun"
+    }
+  },
+  {
+    "id": "313",
+    "name": {
+      "jp": "バルビート",
+      "en": "volbeat"
+    }
+  },
+  {
+    "id": "314",
+    "name": {
+      "jp": "イルミーゼ",
+      "en": "illumise"
+    }
+  },
+  {
+    "id": "315",
+    "name": {
+      "jp": "ロゼリア",
+      "en": "roselia"
+    }
+  },
+  {
+    "id": "316",
+    "name": {
+      "jp": "ゴクリン",
+      "en": "gulpin"
+    }
+  },
+  {
+    "id": "317",
+    "name": {
+      "jp": "マルノーム",
+      "en": "swalot"
+    }
+  },
+  {
+    "id": "318",
+    "name": {
+      "jp": "キバニア",
+      "en": "carvanha"
+    }
+  },
+  {
+    "id": "319",
+    "name": {
+      "jp": "サメハダー",
+      "en": "sharpedo"
+    }
+  },
+  {
+    "id": "320",
+    "name": {
+      "jp": "ホエルコ",
+      "en": "wailmer"
+    }
+  },
+  {
+    "id": "321",
+    "name": {
+      "jp": "ホエルオー",
+      "en": "wailord"
+    }
+  },
+  {
+    "id": "322",
+    "name": {
+      "jp": "ドンメル",
+      "en": "numel"
+    }
+  },
+  {
+    "id": "323",
+    "name": {
+      "jp": "バクーダ",
+      "en": "camerupt"
+    }
+  },
+  {
+    "id": "324",
+    "name": {
+      "jp": "コータス",
+      "en": "torkoal"
+    }
+  },
+  {
+    "id": "325",
+    "name": {
+      "jp": "バネブー",
+      "en": "spoink"
+    }
+  },
+  {
+    "id": "326",
+    "name": {
+      "jp": "ブーピッグ",
+      "en": "grumpig"
+    }
+  },
+  {
+    "id": "327",
+    "name": {
+      "jp": "パッチール",
+      "en": "spinda"
+    }
+  },
+  {
+    "id": "328",
+    "name": {
+      "jp": "ナックラー",
+      "en": "trapinch"
+    }
+  },
+  {
+    "id": "329",
+    "name": {
+      "jp": "ビブラーバ",
+      "en": "vibrava"
+    }
+  },
+  {
+    "id": "330",
+    "name": {
+      "jp": "フライゴン",
+      "en": "flygon"
+    }
+  },
+  {
+    "id": "331",
+    "name": {
+      "jp": "サボネア",
+      "en": "cacnea"
+    }
+  },
+  {
+    "id": "332",
+    "name": {
+      "jp": "ノクタス",
+      "en": "cacturne"
+    }
+  },
+  {
+    "id": "333",
+    "name": {
+      "jp": "チルット",
+      "en": "swablu"
+    }
+  },
+  {
+    "id": "334",
+    "name": {
+      "jp": "チルタリス",
+      "en": "altaria"
+    }
+  },
+  {
+    "id": "335",
+    "name": {
+      "jp": "ザングース",
+      "en": "zangoose"
+    }
+  },
+  {
+    "id": "336",
+    "name": {
+      "jp": "ハブネーク",
+      "en": "seviper"
+    }
+  },
+  {
+    "id": "337",
+    "name": {
+      "jp": "ルナトーン",
+      "en": "lunatone"
+    }
+  },
+  {
+    "id": "338",
+    "name": {
+      "jp": "ソルロック",
+      "en": "solrock"
+    }
+  },
+  {
+    "id": "339",
+    "name": {
+      "jp": "ドジョッチ",
+      "en": "barboach"
+    }
+  },
+  {
+    "id": "340",
+    "name": {
+      "jp": "ナマズン",
+      "en": "whiscash"
+    }
+  },
+  {
+    "id": "341",
+    "name": {
+      "jp": "ヘイガニ",
+      "en": "corphish"
+    }
+  },
+  {
+    "id": "342",
+    "name": {
+      "jp": "シザリガー",
+      "en": "crawdaunt"
+    }
+  },
+  {
+    "id": "343",
+    "name": {
+      "jp": "ヤジロン",
+      "en": "baltoy"
+    }
+  },
+  {
+    "id": "344",
+    "name": {
+      "jp": "ネンドール",
+      "en": "claydol"
+    }
+  },
+  {
+    "id": "345",
+    "name": {
+      "jp": "リリーラ",
+      "en": "lileep"
+    }
+  },
+  {
+    "id": "346",
+    "name": {
+      "jp": "ユレイドル",
+      "en": "cradily"
+    }
+  },
+  {
+    "id": "347",
+    "name": {
+      "jp": "アノプス",
+      "en": "anorith"
+    }
+  },
+  {
+    "id": "348",
+    "name": {
+      "jp": "アーマルド",
+      "en": "armaldo"
+    }
+  },
+  {
+    "id": "349",
+    "name": {
+      "jp": "ヒンバス",
+      "en": "feebas"
+    }
+  },
+  {
+    "id": "350",
+    "name": {
+      "jp": "ミロカロス",
+      "en": "milotic"
+    }
+  },
+  {
+    "id": "351",
+    "name": {
+      "jp": "ポワルン",
+      "en": "castform"
+    }
+  },
+  {
+    "id": "352",
+    "name": {
+      "jp": "カクレオン",
+      "en": "kecleon"
+    }
+  },
+  {
+    "id": "353",
+    "name": {
+      "jp": "カゲボウズ",
+      "en": "shuppet"
+    }
+  },
+  {
+    "id": "354",
+    "name": {
+      "jp": "ジュペッタ",
+      "en": "banette"
+    }
+  },
+  {
+    "id": "355",
+    "name": {
+      "jp": "ヨマワル",
+      "en": "duskull"
+    }
+  },
+  {
+    "id": "356",
+    "name": {
+      "jp": "サマヨール",
+      "en": "dusclops"
+    }
+  },
+  {
+    "id": "357",
+    "name": {
+      "jp": "トロピウス",
+      "en": "tropius"
+    }
+  },
+  {
+    "id": "358",
+    "name": {
+      "jp": "チリーン",
+      "en": "chimecho"
+    }
+  },
+  {
+    "id": "359",
+    "name": {
+      "jp": "アブソル",
+      "en": "absol"
+    }
+  },
+  {
+    "id": "360",
+    "name": {
+      "jp": "ソーナノ",
+      "en": "wynaut"
+    }
+  },
+  {
+    "id": "361",
+    "name": {
+      "jp": "ユキワラシ",
+      "en": "snorunt"
+    }
+  },
+  {
+    "id": "362",
+    "name": {
+      "jp": "オニゴーリ",
+      "en": "glalie"
+    }
+  },
+  {
+    "id": "363",
+    "name": {
+      "jp": "タマザラシ",
+      "en": "spheal"
+    }
+  },
+  {
+    "id": "364",
+    "name": {
+      "jp": "トドグラー",
+      "en": "sealeo"
+    }
+  },
+  {
+    "id": "365",
+    "name": {
+      "jp": "トドゼルガ",
+      "en": "walrein"
+    }
+  },
+  {
+    "id": "366",
+    "name": {
+      "jp": "パールル",
+      "en": "clamperl"
+    }
+  },
+  {
+    "id": "367",
+    "name": {
+      "jp": "ハンテール",
+      "en": "huntail"
+    }
+  },
+  {
+    "id": "368",
+    "name": {
+      "jp": "サクラビス",
+      "en": "gorebyss"
+    }
+  },
+  {
+    "id": "369",
+    "name": {
+      "jp": "ジーランス",
+      "en": "relicanth"
+    }
+  },
+  {
+    "id": "370",
+    "name": {
+      "jp": "ラブカス",
+      "en": "luvdisc"
+    }
+  },
+  {
+    "id": "371",
+    "name": {
+      "jp": "タツベイ",
+      "en": "bagon"
+    }
+  },
+  {
+    "id": "372",
+    "name": {
+      "jp": "コモルー",
+      "en": "shelgon"
+    }
+  },
+  {
+    "id": "373",
+    "name": {
+      "jp": "ボーマンダ",
+      "en": "salamence"
+    }
+  },
+  {
+    "id": "374",
+    "name": {
+      "jp": "ダンバル",
+      "en": "beldum"
+    }
+  },
+  {
+    "id": "375",
+    "name": {
+      "jp": "メタング",
+      "en": "metang"
+    }
+  },
+  {
+    "id": "376",
+    "name": {
+      "jp": "メタグロス",
+      "en": "metagross"
+    }
+  },
+  {
+    "id": "377",
+    "name": {
+      "jp": "レジロック",
+      "en": "regirock"
+    }
+  },
+  {
+    "id": "378",
+    "name": {
+      "jp": "レジアイス",
+      "en": "regice"
+    }
+  },
+  {
+    "id": "379",
+    "name": {
+      "jp": "レジスチル",
+      "en": "registeel"
+    }
+  },
+  {
+    "id": "380",
+    "name": {
+      "jp": "ラティアス",
+      "en": "latias"
+    }
+  },
+  {
+    "id": "381",
+    "name": {
+      "jp": "ラティオス",
+      "en": "latios"
+    }
+  },
+  {
+    "id": "382",
+    "name": {
+      "jp": "カイオーガ",
+      "en": "kyogre"
+    }
+  },
+  {
+    "id": "383",
+    "name": {
+      "jp": "グラードン",
+      "en": "groudon"
+    }
+  },
+  {
+    "id": "384",
+    "name": {
+      "jp": "レックウザ",
+      "en": "rayquaza"
+    }
+  },
+  {
+    "id": "385",
+    "name": {
+      "jp": "ジラーチ",
+      "en": "jirachi"
+    }
+  },
+  {
+    "id": "386",
+    "name": {
+      "jp": "デオキシス",
+      "en": "deoxys"
+    }
+  }
+]

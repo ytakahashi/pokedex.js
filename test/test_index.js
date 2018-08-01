@@ -7,74 +7,114 @@ const gen1Pokemon = require('./resources/test1.json')
 const gen2Pokemon = require('./resources/test2.json')
 const gen3Pokemon = require('./resources/test3.json')
 
-const Index = require('../src/index')
+const Pokedex = require('../src/index')
 
-describe('pokemon class', () => {
-  const test = []
-  for (const pokemon of gen1Pokemon) {
-    test.push(new Pokemon(pokemon, 1))
-  }
-  for (const pokemon of gen2Pokemon) {
-    test.push(new Pokemon(pokemon, 2))
-  }
-  for (const pokemon of gen3Pokemon) {
-    test.push(new Pokemon(pokemon, 3))
-  }
+describe('Pokedex class', () => {
+  let stub
 
-  const stub = sinon.stub(Pokemons.prototype, 'getAll').callsFake(() => test)
-  const pokemon = new Index()
-
-  it('returns expected Pokemon (id: 25)', () => {
-    const actual = pokemon.getById(25)
-
-    const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"abilities":[{"hidden":false,"name":"せいでんき"},{"hidden":true,"name":"ひらいしん"}],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"eggGroups":["陸上","妖精"],"generation":1}'
-
-    expect(actual)
-      .to.deep.equal(expected)
+  describe('language: foo)', () => {
+    it('throws Error', () => {
+      expect(() => new Pokedex('foo'))
+        .to.throw(Error, 'Language \'foo\' is not supported.')
+    })
   })
 
-  it('returns expected Pokemon (name: ピカチュウ)', () => {
-    const actual = pokemon.getByName('ピカチュウ')
+  describe('language ja)', () => {
+    let pokedex
 
-    const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"abilities":[{"hidden":false,"name":"せいでんき"},{"hidden":true,"name":"ひらいしん"}],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"eggGroups":["陸上","妖精"],"generation":1}'
+    before(() => {
+      const lang = 'ja'
+      const testPokemon = [].concat(
+        gen1Pokemon.map(pokemon => new Pokemon(pokemon, 1, lang)),
+        gen2Pokemon.map(pokemon => new Pokemon(pokemon, 2, lang)),
+        gen3Pokemon.map(pokemon => new Pokemon(pokemon, 3, lang))
+      )
 
-    expect(actual)
-      .to.deep.equal(expected)
+      stub = sinon.stub(Pokemons.prototype, 'getAll').callsFake(() => testPokemon)
+      pokedex = new Pokedex()
+    })
+
+    it('returns expected Pokemon (id: 25)', () => {
+      const actual = pokedex.getById(25)
+
+      const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+
+      expect(actual)
+        .to.deep.equal(expected)
+    })
+
+    it('returns expected Pokemon (name: ピカチュウ)', () => {
+      const actual = pokedex.getByName('ピカチュウ')
+
+      const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+
+      expect(actual)
+        .to.deep.equal(expected)
+    })
+
+    it('returns expected Pokemon Array (filter by type: でんき, generation: 1)', () => {
+      const actual = pokedex
+        .ofGeneration(1)
+        .withType('でんき')
+        .get()
+      const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+
+      expect(actual)
+        .to.deep.equal(expected)
+    })
+
+    it('returns expected Pokemon Array (filter by base status: 400-500, egg group: 妖精)', () => {
+      const actual = pokedex
+        .totalBaseStatusGe(400)
+        .totalBaseStatusLe(500)
+        .belongsToEggGroup('妖精')
+        .get()
+      const expected = '[{"id":"176","name":"トゲチック","type":["フェアリー","ひこう"],"ability":[{"name":"はりきり","hidden":false},{"name":"てんのめぐみ","hidden":false},{"name":"きょううん","hidden":true}],"eggGroup":["飛行","妖精"],"baseStatus":{"H":"55","A":"40","B":"85","C":"80","D":"105","S":"40"},"generation":2}]'
+
+      expect(actual)
+        .to.deep.equal(expected)
+    })
+
+    it('returns undefined for not defined name', () => {
+      const actual = pokedex.getById('foo')
+      expect(actual)
+        .to.be.an('undefined')
+    })
+
+    it('returns undefined for not defined id', () => {
+      const actual = pokedex.getById(0)
+      expect(actual)
+        .to.be.an('undefined')
+    })
+
+    after(() => {
+      stub.restore()
+    })
   })
 
-  it('returns expected Pokemon Array (filter by type: でんき, generation: 1)', () => {
-    const actual = pokemon
-      .ofGeneration(1)
-      .withType('でんき')
-      .get()
-    const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"abilities":[{"hidden":false,"name":"せいでんき"},{"hidden":true,"name":"ひらいしん"}],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"eggGroups":["陸上","妖精"],"generation":1}]'
+  describe('language: en)', () => {
+    let pokedex
 
-    expect(actual)
-      .to.deep.equal(expected)
-  })
+    before(() => {
+      const lang = 'en'
+      const testPokemon = [].concat(
+        gen1Pokemon.map(pokemon => new Pokemon(pokemon, 1, lang)),
+        gen2Pokemon.map(pokemon => new Pokemon(pokemon, 2, lang)),
+        gen3Pokemon.map(pokemon => new Pokemon(pokemon, 3, lang))
+      )
 
-  it('returns expected Pokemon Array (filter by base status: 400-500, egg group: 妖精)', () => {
-    const actual = pokemon
-      .totalBaseStatusGe(400)
-      .totalBaseStatusLe(500)
-      .belongsToEggGroup('妖精')
-      .get()
-    const expected = '[{"id":"176","name":"トゲチック","type":["フェアリー","ひこう"],"abilities":[{"hidden":false,"name":"はりきり"},{"hidden":false,"name":"てんのめぐみ"},{"hidden":true,"name":"きょううん"}],"baseStatus":{"H":"55","A":"40","B":"85","C":"80","D":"105","S":"40"},"eggGroups":["飛行","妖精"],"generation":2}]'
+      stub = sinon.stub(Pokemons.prototype, 'getAll').callsFake(() => testPokemon)
 
-    expect(actual)
-      .to.deep.equal(expected)
-  })
+      pokedex = new Pokedex('en')
+    })
 
-  it('returns undefined for not defined name', () => {
-    const actual = pokemon.getById('foo')
-    expect(actual)
-      .to.be.an('undefined')
-  })
+    it('returns expected Pokemon (id: 25)', () => {
+      const actual = pokedex.getById(25)
 
-  it('returns undefined for not defined id', () => {
-    const actual = pokemon.getById(0)
-    expect(actual)
-      .to.be.an('undefined')
+      const expected = '{"id":"25","name":"pikachu","type":["ELECTRIC"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      expect(actual)
+        .to.deep.equal(expected)
+    })
   })
 
   after(() => {
