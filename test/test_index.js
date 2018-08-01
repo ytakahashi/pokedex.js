@@ -111,7 +111,7 @@ describe('Pokedex class', () => {
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.getById(25)
 
-      const expected = '{"id":"25","name":"pikachu","type":["ELECTRIC"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      const expected = '{"id":"25","name":"pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
       expect(actual)
         .to.deep.equal(expected)
     })

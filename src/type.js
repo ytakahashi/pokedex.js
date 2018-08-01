@@ -1,24 +1,24 @@
 
 const typeMap = new Map(
   [
-    ['ノーマル', 'NORMAL'],
-    ['ほのお', 'FIRE'],
-    ['みず', 'WATER'],
-    ['でんき', 'ELECTRIC'],
-    ['くさ', 'GRASS'],
-    ['こおり', 'ICE'],
-    ['かくとう', 'FIGHTING'],
-    ['どく', 'POISON'],
-    ['じめん', 'GROUND'],
-    ['ひこう', 'FLYING'],
-    ['エスパー', 'PSYCHIC'],
-    ['むし', 'BUG'],
-    ['いわ', 'ROCK'],
-    ['ゴースト', 'GHOST'],
-    ['ドラゴン', 'DRAGON'],
-    ['あく', 'DARK'],
-    ['はがね', 'STEEL'],
-    ['フェアリー', 'FAIRY']
+    ['ノーマル', 'Normal'],
+    ['ほのお', 'Fire'],
+    ['みず', 'Water'],
+    ['でんき', 'Electric'],
+    ['くさ', 'Grass'],
+    ['こおり', 'Ice'],
+    ['かくとう', 'Fighting'],
+    ['どく', 'Poison'],
+    ['じめん', 'Ground'],
+    ['ひこう', 'Flying'],
+    ['エスパー', 'Psychic'],
+    ['むし', 'Bug'],
+    ['いわ', 'Rock'],
+    ['ゴースト', 'Ghost'],
+    ['ドラゴン', 'Dragon'],
+    ['あく', 'Dark'],
+    ['はがね', 'Steel'],
+    ['フェアリー', 'Fairy']
   ]
 )
 

@@ -15,7 +15,6 @@ const jsons = new Map(
 class Pokemon {
   constructor (pokemon, gen, lang) {
     this.id = pokemon.id
-    // this.name = pokemon.name
     this.name = name.getName(pokemon.id, lang)
     this.type = pokemonType.getType(pokemon.type, lang)
     this.ability = ability.getAbility(pokemon.abilities, lang)
