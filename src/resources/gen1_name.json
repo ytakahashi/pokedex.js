@@ -3,1057 +3,1057 @@
     "id": "1",
     "name": {
       "jp": "フシギダネ",
-      "en": "bulbasaur"
+      "en": "Bulbasaur"
     }
   },
   {
     "id": "2",
     "name": {
       "jp": "フシギソウ",
-      "en": "ivysaur"
+      "en": "Ivysaur"
     }
   },
   {
     "id": "3",
     "name": {
       "jp": "フシギバナ",
-      "en": "venusaur"
+      "en": "Venusaur"
     }
   },
   {
     "id": "4",
     "name": {
       "jp": "ヒトカゲ",
-      "en": "charmander"
+      "en": "Charmander"
     }
   },
   {
     "id": "5",
     "name": {
       "jp": "リザード",
-      "en": "charmeleon"
+      "en": "Charmeleon"
     }
   },
   {
     "id": "6",
     "name": {
       "jp": "リザードン",
-      "en": "charizard"
+      "en": "Charizard"
     }
   },
   {
     "id": "7",
     "name": {
       "jp": "ゼニガメ",
-      "en": "squirtle"
+      "en": "Squirtle"
     }
   },
   {
     "id": "8",
     "name": {
       "jp": "カメール",
-      "en": "wartortle"
+      "en": "Wartortle"
     }
   },
   {
     "id": "9",
     "name": {
       "jp": "カメックス",
-      "en": "blastoise"
+      "en": "Blastoise"
     }
   },
   {
     "id": "10",
     "name": {
       "jp": "キャタピー",
-      "en": "caterpie"
+      "en": "Caterpie"
     }
   },
   {
     "id": "11",
     "name": {
       "jp": "トランセル",
-      "en": "metapod"
+      "en": "Metapod"
     }
   },
   {
     "id": "12",
     "name": {
       "jp": "バタフリー",
-      "en": "butterfree"
+      "en": "Butterfree"
     }
   },
   {
     "id": "13",
     "name": {
       "jp": "ビードル",
-      "en": "weedle"
+      "en": "Weedle"
     }
   },
   {
     "id": "14",
     "name": {
       "jp": "コクーン",
-      "en": "kakuna"
+      "en": "Kakuna"
     }
   },
   {
     "id": "15",
     "name": {
       "jp": "スピアー",
-      "en": "beedrill"
+      "en": "Beedrill"
     }
   },
   {
     "id": "16",
     "name": {
       "jp": "ポッポ",
-      "en": "pidgey"
+      "en": "Pidgey"
     }
   },
   {
     "id": "17",
     "name": {
       "jp": "ピジョン",
-      "en": "pidgeotto"
+      "en": "Pidgeotto"
     }
   },
   {
     "id": "18",
     "name": {
       "jp": "ピジョット",
-      "en": "pidgeot"
+      "en": "Pidgeot"
     }
   },
   {
     "id": "19",
     "name": {
       "jp": "コラッタ",
-      "en": "rattata"
+      "en": "Rattata"
     }
   },
   {
     "id": "20",
     "name": {
       "jp": "ラッタ",
-      "en": "raticate"
+      "en": "Raticate"
     }
   },
   {
     "id": "21",
     "name": {
       "jp": "オニスズメ",
-      "en": "spearow"
+      "en": "Spearow"
     }
   },
   {
     "id": "22",
     "name": {
       "jp": "オニドリル",
-      "en": "fearow"
+      "en": "Fearow"
     }
   },
   {
     "id": "23",
     "name": {
       "jp": "アーボ",
-      "en": "ekans"
+      "en": "Ekans"
     }
   },
   {
     "id": "24",
     "name": {
       "jp": "アーボック",
-      "en": "arbok"
+      "en": "Arbok"
     }
   },
   {
     "id": "25",
     "name": {
       "jp": "ピカチュウ",
-      "en": "pikachu"
+      "en": "Pikachu"
     }
   },
   {
     "id": "26",
     "name": {
       "jp": "ライチュウ",
-      "en": "raichu"
+      "en": "Raichu"
     }
   },
   {
     "id": "27",
     "name": {
       "jp": "サンド",
-      "en": "sandshrew"
+      "en": "Sandshrew"
     }
   },
   {
     "id": "28",
     "name": {
       "jp": "サンドパン",
-      "en": "sandslash"
+      "en": "Sandslash"
     }
   },
   {
     "id": "29",
     "name": {
       "jp": "ニドラン♀",
-      "en": "nidoranf"
+      "en": "Nidoranf"
     }
   },
   {
     "id": "30",
     "name": {
       "jp": "ニドリーナ",
-      "en": "nidorina"
+      "en": "Nidorina"
     }
   },
   {
     "id": "31",
     "name": {
       "jp": "ニドクイン",
-      "en": "nidoqueen"
+      "en": "Nidoqueen"
     }
   },
   {
     "id": "32",
     "name": {
       "jp": "ニドラン♂",
-      "en": "nidoranm"
+      "en": "Nidoranm"
     }
   },
   {
     "id": "33",
     "name": {
       "jp": "ニドリーノ",
-      "en": "nidorino"
+      "en": "Nidorino"
     }
   },
   {
     "id": "34",
     "name": {
       "jp": "ニドキング",
-      "en": "nidoking"
+      "en": "Nidoking"
     }
   },
   {
     "id": "35",
     "name": {
       "jp": "ピッピ",
-      "en": "clefairy"
+      "en": "Clefairy"
     }
   },
   {
     "id": "36",
     "name": {
       "jp": "ピクシー",
-      "en": "clefable"
+      "en": "Clefable"
     }
   },
   {
     "id": "37",
     "name": {
       "jp": "ロコン",
-      "en": "vulpix"
+      "en": "Vulpix"
     }
   },
   {
     "id": "38",
     "name": {
       "jp": "キュウコン",
-      "en": "ninetales"
+      "en": "Ninetales"
     }
   },
   {
     "id": "39",
     "name": {
       "jp": "プリン",
-      "en": "jigglypuff"
+      "en": "Jigglypuff"
     }
   },
   {
     "id": "40",
     "name": {
       "jp": "プクリン",
-      "en": "wigglytuff"
+      "en": "Wigglytuff"
     }
   },
   {
     "id": "41",
     "name": {
       "jp": "ズバット",
-      "en": "zubat"
+      "en": "Zubat"
     }
   },
   {
     "id": "42",
     "name": {
       "jp": "ゴルバット",
-      "en": "golbat"
+      "en": "Golbat"
     }
   },
   {
     "id": "43",
     "name": {
       "jp": "ナゾノクサ",
-      "en": "oddish"
+      "en": "Oddish"
     }
   },
   {
     "id": "44",
     "name": {
       "jp": "クサイハナ",
-      "en": "gloom"
+      "en": "Gloom"
     }
   },
   {
     "id": "45",
     "name": {
       "jp": "ラフレシア",
-      "en": "vileplume"
+      "en": "Vileplume"
     }
   },
   {
     "id": "46",
     "name": {
       "jp": "パラス",
-      "en": "paras"
+      "en": "Paras"
     }
   },
   {
     "id": "47",
     "name": {
       "jp": "パラセクト",
-      "en": "parasect"
+      "en": "Parasect"
     }
   },
   {
     "id": "48",
     "name": {
       "jp": "コンパン",
-      "en": "venonat"
+      "en": "Venonat"
     }
   },
   {
     "id": "49",
     "name": {
       "jp": "モルフォン",
-      "en": "venomoth"
+      "en": "Venomoth"
     }
   },
   {
     "id": "50",
     "name": {
       "jp": "ディグダ",
-      "en": "diglett"
+      "en": "Diglett"
     }
   },
   {
     "id": "51",
     "name": {
       "jp": "ダグトリオ",
-      "en": "dugtrio"
+      "en": "Dugtrio"
     }
   },
   {
     "id": "52",
     "name": {
       "jp": "ニャース",
-      "en": "meowth"
+      "en": "Meowth"
     }
   },
   {
     "id": "53",
     "name": {
       "jp": "ペルシアン",
-      "en": "persian"
+      "en": "Persian"
     }
   },
   {
     "id": "54",
     "name": {
       "jp": "コダック",
-      "en": "psyduck"
+      "en": "Psyduck"
     }
   },
   {
     "id": "55",
     "name": {
       "jp": "ゴルダック",
-      "en": "golduck"
+      "en": "Golduck"
     }
   },
   {
     "id": "56",
     "name": {
       "jp": "マンキー",
-      "en": "mankey"
+      "en": "Mankey"
     }
   },
   {
     "id": "57",
     "name": {
       "jp": "オコリザル",
-      "en": "primeape"
+      "en": "Primeape"
     }
   },
   {
     "id": "58",
     "name": {
       "jp": "ガーディ",
-      "en": "growlithe"
+      "en": "Growlithe"
     }
   },
   {
     "id": "59",
     "name": {
       "jp": "ウインディ",
-      "en": "arcanine"
+      "en": "Arcanine"
     }
   },
   {
     "id": "60",
     "name": {
       "jp": "ニョロモ",
-      "en": "poliwag"
+      "en": "Poliwag"
     }
   },
   {
     "id": "61",
     "name": {
       "jp": "ニョロゾ",
-      "en": "poliwhirl"
+      "en": "Poliwhirl"
     }
   },
   {
     "id": "62",
     "name": {
       "jp": "ニョロボン",
-      "en": "poliwrath"
+      "en": "Poliwrath"
     }
   },
   {
     "id": "63",
     "name": {
       "jp": "ケーシィ",
-      "en": "abra"
+      "en": "Abra"
     }
   },
   {
     "id": "64",
     "name": {
       "jp": "ユンゲラー",
-      "en": "kadabra"
+      "en": "Kadabra"
     }
   },
   {
     "id": "65",
     "name": {
       "jp": "フーディン",
-      "en": "alakazam"
+      "en": "Alakazam"
     }
   },
   {
     "id": "66",
     "name": {
       "jp": "ワンリキー",
-      "en": "machop"
+      "en": "Machop"
     }
   },
   {
     "id": "67",
     "name": {
       "jp": "ゴーリキー",
-      "en": "machoke"
+      "en": "Machoke"
     }
   },
   {
     "id": "68",
     "name": {
       "jp": "カイリキー",
-      "en": "machamp"
+      "en": "Machamp"
     }
   },
   {
     "id": "69",
     "name": {
       "jp": "マダツボミ",
-      "en": "bellsprout"
+      "en": "Bellsprout"
     }
   },
   {
     "id": "70",
     "name": {
       "jp": "ウツドン",
-      "en": "weepinbell"
+      "en": "Weepinbell"
     }
   },
   {
     "id": "71",
     "name": {
       "jp": "ウツボット",
-      "en": "victreebel"
+      "en": "Victreebel"
     }
   },
   {
     "id": "72",
     "name": {
       "jp": "メノクラゲ",
-      "en": "tentacool"
+      "en": "Tentacool"
     }
   },
   {
     "id": "73",
     "name": {
       "jp": "ドククラゲ",
-      "en": "tentacruel"
+      "en": "Tentacruel"
     }
   },
   {
     "id": "74",
     "name": {
       "jp": "イシツブテ",
-      "en": "geodude"
+      "en": "Geodude"
     }
   },
   {
     "id": "75",
     "name": {
       "jp": "ゴローン",
-      "en": "graveler"
+      "en": "Graveler"
     }
   },
   {
     "id": "76",
     "name": {
       "jp": "ゴローニャ",
-      "en": "golem"
+      "en": "Golem"
     }
   },
   {
     "id": "77",
     "name": {
       "jp": "ポニータ",
-      "en": "ponyta"
+      "en": "Ponyta"
     }
   },
   {
     "id": "78",
     "name": {
       "jp": "ギャロップ",
-      "en": "rapidash"
+      "en": "Rapidash"
     }
   },
   {
     "id": "79",
     "name": {
       "jp": "ヤドン",
-      "en": "slowpoke"
+      "en": "Slowpoke"
     }
   },
   {
     "id": "80",
     "name": {
       "jp": "ヤドラン",
-      "en": "slowbro"
+      "en": "Slowbro"
     }
   },
   {
     "id": "81",
     "name": {
       "jp": "コイル",
-      "en": "magnemite"
+      "en": "Magnemite"
     }
   },
   {
     "id": "82",
     "name": {
       "jp": "レアコイル",
-      "en": "magneton"
+      "en": "Magneton"
     }
   },
   {
     "id": "83",
     "name": {
       "jp": "カモネギ",
-      "en": "farfetch'd"
+      "en": "Farfetch'd"
     }
   },
   {
     "id": "84",
     "name": {
       "jp": "ドードー",
-      "en": "doduo"
+      "en": "Doduo"
     }
   },
   {
     "id": "85",
     "name": {
       "jp": "ドードリオ",
-      "en": "dodrio"
+      "en": "Dodrio"
     }
   },
   {
     "id": "86",
     "name": {
       "jp": "パウワウ",
-      "en": "seel"
+      "en": "Seel"
     }
   },
   {
     "id": "87",
     "name": {
       "jp": "ジュゴン",
-      "en": "dewgong"
+      "en": "Dewgong"
     }
   },
   {
     "id": "88",
     "name": {
       "jp": "ベトベター",
-      "en": "grimer"
+      "en": "Grimer"
     }
   },
   {
     "id": "89",
     "name": {
       "jp": "ベトベトン",
-      "en": "muk"
+      "en": "Muk"
     }
   },
   {
     "id": "90",
     "name": {
       "jp": "シェルダー",
-      "en": "shellder"
+      "en": "Shellder"
     }
   },
   {
     "id": "91",
     "name": {
       "jp": "パルシェン",
-      "en": "cloyster"
+      "en": "Cloyster"
     }
   },
   {
     "id": "92",
     "name": {
       "jp": "ゴース",
-      "en": "gastly"
+      "en": "Gastly"
     }
   },
   {
     "id": "93",
     "name": {
       "jp": "ゴースト",
-      "en": "haunter"
+      "en": "Haunter"
     }
   },
   {
     "id": "94",
     "name": {
       "jp": "ゲンガー",
-      "en": "gengar"
+      "en": "Gengar"
     }
   },
   {
     "id": "95",
     "name": {
       "jp": "イワーク",
-      "en": "onix"
+      "en": "Onix"
     }
   },
   {
     "id": "96",
     "name": {
       "jp": "スリープ",
-      "en": "drowzee"
+      "en": "Drowzee"
     }
   },
   {
     "id": "97",
     "name": {
       "jp": "スリーパー",
-      "en": "hypno"
+      "en": "Hypno"
     }
   },
   {
     "id": "98",
     "name": {
       "jp": "クラブ",
-      "en": "krabby"
+      "en": "Krabby"
     }
   },
   {
     "id": "99",
     "name": {
       "jp": "キングラー",
-      "en": "kingler"
+      "en": "Kingler"
     }
   },
   {
     "id": "100",
     "name": {
       "jp": "ビリリダマ",
-      "en": "voltorb"
+      "en": "Voltorb"
     }
   },
   {
     "id": "101",
     "name": {
       "jp": "マルマイン",
-      "en": "electrode"
+      "en": "Electrode"
     }
   },
   {
     "id": "102",
     "name": {
       "jp": "タマタマ",
-      "en": "exeggcute"
+      "en": "Exeggcute"
     }
   },
   {
     "id": "103",
     "name": {
       "jp": "ナッシー",
-      "en": "exeggutor"
+      "en": "Exeggutor"
     }
   },
   {
     "id": "104",
     "name": {
       "jp": "カラカラ",
-      "en": "cubone"
+      "en": "Cubone"
     }
   },
   {
     "id": "105",
     "name": {
       "jp": "ガラガラ",
-      "en": "marowak"
+      "en": "Marowak"
     }
   },
   {
     "id": "106",
     "name": {
       "jp": "サワムラー",
-      "en": "hitmonlee"
+      "en": "Hitmonlee"
     }
   },
   {
     "id": "107",
     "name": {
       "jp": "エビワラー",
-      "en": "hitmonchan"
+      "en": "Hitmonchan"
     }
   },
   {
     "id": "108",
     "name": {
       "jp": "ベロリンガ",
-      "en": "lickitung"
+      "en": "Lickitung"
     }
   },
   {
     "id": "109",
     "name": {
       "jp": "ドガース",
-      "en": "koffing"
+      "en": "Koffing"
     }
   },
   {
     "id": "110",
     "name": {
       "jp": "マタドガス",
-      "en": "weezing"
+      "en": "Weezing"
     }
   },
   {
     "id": "111",
     "name": {
       "jp": "サイホーン",
-      "en": "rhyhorn"
+      "en": "Rhyhorn"
     }
   },
   {
     "id": "112",
     "name": {
       "jp": "サイドン",
-      "en": "rhydon"
+      "en": "Rhydon"
     }
   },
   {
     "id": "113",
     "name": {
       "jp": "ラッキー",
-      "en": "chansey"
+      "en": "Chansey"
     }
   },
   {
     "id": "114",
     "name": {
       "jp": "モンジャラ",
-      "en": "tangela"
+      "en": "Tangela"
     }
   },
   {
     "id": "115",
     "name": {
       "jp": "ガルーラ",
-      "en": "kangaskhan"
+      "en": "Kangaskhan"
     }
   },
   {
     "id": "116",
     "name": {
       "jp": "タッツー",
-      "en": "horsea"
+      "en": "Horsea"
     }
   },
   {
     "id": "117",
     "name": {
       "jp": "シードラ",
-      "en": "seadra"
+      "en": "Seadra"
     }
   },
   {
     "id": "118",
     "name": {
       "jp": "トサキント",
-      "en": "goldeen"
+      "en": "Goldeen"
     }
   },
   {
     "id": "119",
     "name": {
       "jp": "アズマオウ",
-      "en": "seaking"
+      "en": "Seaking"
     }
   },
   {
     "id": "120",
     "name": {
       "jp": "ヒトデマン",
-      "en": "staryu"
+      "en": "Staryu"
     }
   },
   {
     "id": "121",
     "name": {
       "jp": "スターミー",
-      "en": "starmie"
+      "en": "Starmie"
     }
   },
   {
     "id": "122",
     "name": {
       "jp": "バリヤード",
-      "en": "mr. mime"
+      "en": "Mr. mime"
     }
   },
   {
     "id": "123",
     "name": {
       "jp": "ストライク",
-      "en": "scyther"
+      "en": "Scyther"
     }
   },
   {
     "id": "124",
     "name": {
       "jp": "ルージュラ",
-      "en": "jynx"
+      "en": "Jynx"
     }
   },
   {
     "id": "125",
     "name": {
       "jp": "エレブー",
-      "en": "electabuzz"
+      "en": "Electabuzz"
     }
   },
   {
     "id": "126",
     "name": {
       "jp": "ブーバー",
-      "en": "magmar"
+      "en": "Magmar"
     }
   },
   {
     "id": "127",
     "name": {
       "jp": "カイロス",
-      "en": "pinsir"
+      "en": "Pinsir"
     }
   },
   {
     "id": "128",
     "name": {
       "jp": "ケンタロス",
-      "en": "tauros"
+      "en": "Tauros"
     }
   },
   {
     "id": "129",
     "name": {
       "jp": "コイキング",
-      "en": "magikarp"
+      "en": "Magikarp"
     }
   },
   {
     "id": "130",
     "name": {
       "jp": "ギャラドス",
-      "en": "gyarados"
+      "en": "Gyarados"
     }
   },
   {
     "id": "131",
     "name": {
       "jp": "ラプラス",
-      "en": "lapras"
+      "en": "Lapras"
     }
   },
   {
     "id": "132",
     "name": {
       "jp": "メタモン",
-      "en": "ditto"
+      "en": "Ditto"
     }
   },
   {
     "id": "133",
     "name": {
       "jp": "イーブイ",
-      "en": "eevee"
+      "en": "Eevee"
     }
   },
   {
     "id": "134",
     "name": {
       "jp": "シャワーズ",
-      "en": "vaporeon"
+      "en": "Vaporeon"
     }
   },
   {
     "id": "135",
     "name": {
       "jp": "サンダース",
-      "en": "jolteon"
+      "en": "Jolteon"
     }
   },
   {
     "id": "136",
     "name": {
       "jp": "ブースター",
-      "en": "flareon"
+      "en": "Flareon"
     }
   },
   {
     "id": "137",
     "name": {
       "jp": "ポリゴン",
-      "en": "porygon"
+      "en": "Porygon"
     }
   },
   {
     "id": "138",
     "name": {
       "jp": "オムナイト",
-      "en": "omanyte"
+      "en": "Omanyte"
     }
   },
   {
     "id": "139",
     "name": {
       "jp": "オムスター",
-      "en": "omastar"
+      "en": "Omastar"
     }
   },
   {
     "id": "140",
     "name": {
       "jp": "カブト",
-      "en": "kabuto"
+      "en": "Kabuto"
     }
   },
   {
     "id": "141",
     "name": {
       "jp": "カブトプス",
-      "en": "kabutops"
+      "en": "Kabutops"
     }
   },
   {
     "id": "142",
     "name": {
       "jp": "プテラ",
-      "en": "aerodactyl"
+      "en": "Aerodactyl"
     }
   },
   {
     "id": "143",
     "name": {
       "jp": "カビゴン",
-      "en": "snorlax"
+      "en": "Snorlax"
     }
   },
   {
     "id": "144",
     "name": {
       "jp": "フリーザー",
-      "en": "articuno"
+      "en": "Articuno"
     }
   },
   {
     "id": "145",
     "name": {
       "jp": "サンダー",
-      "en": "zapdos"
+      "en": "Zapdos"
     }
   },
   {
     "id": "146",
     "name": {
       "jp": "ファイヤー",
-      "en": "moltres"
+      "en": "Moltres"
     }
   },
   {
     "id": "147",
     "name": {
       "jp": "ミニリュウ",
-      "en": "dratini"
+      "en": "Dratini"
     }
   },
   {
     "id": "148",
     "name": {
       "jp": "ハクリュー",
-      "en": "dragonair"
+      "en": "Dragonair"
     }
   },
   {
     "id": "149",
     "name": {
       "jp": "カイリュー",
-      "en": "dragonite"
+      "en": "Dragonite"
     }
   },
   {
     "id": "150",
     "name": {
       "jp": "ミュウツー",
-      "en": "mewtwo"
+      "en": "Mewtwo"
     }
   },
   {
     "id": "151",
     "name": {
       "jp": "ミュウ",
-      "en": "mew"
+      "en": "Mew"
     }
   }
 ]

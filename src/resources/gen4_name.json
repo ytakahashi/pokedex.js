@@ -3,749 +3,749 @@
     "id": "387",
     "name": {
       "jp": "ナエトル",
-      "en": "turtwig"
+      "en": "Turtwig"
     }
   },
   {
     "id": "388",
     "name": {
       "jp": "ハヤシガメ",
-      "en": "grotle"
+      "en": "Grotle"
     }
   },
   {
     "id": "389",
     "name": {
       "jp": "ドダイトス",
-      "en": "torterra"
+      "en": "Torterra"
     }
   },
   {
     "id": "390",
     "name": {
       "jp": "ヒコザル",
-      "en": "chimchar"
+      "en": "Chimchar"
     }
   },
   {
     "id": "391",
     "name": {
       "jp": "モウカザル",
-      "en": "monferno"
+      "en": "Monferno"
     }
   },
   {
     "id": "392",
     "name": {
       "jp": "ゴウカザル",
-      "en": "infernape"
+      "en": "Infernape"
     }
   },
   {
     "id": "393",
     "name": {
       "jp": "ポッチャマ",
-      "en": "piplup"
+      "en": "Piplup"
     }
   },
   {
     "id": "394",
     "name": {
       "jp": "ポッタイシ",
-      "en": "prinplup"
+      "en": "Prinplup"
     }
   },
   {
     "id": "395",
     "name": {
       "jp": "エンペルト",
-      "en": "empoleon"
+      "en": "Empoleon"
     }
   },
   {
     "id": "396",
     "name": {
       "jp": "ムックル",
-      "en": "starly"
+      "en": "Starly"
     }
   },
   {
     "id": "397",
     "name": {
       "jp": "ムクバード",
-      "en": "staravia"
+      "en": "Staravia"
     }
   },
   {
     "id": "398",
     "name": {
       "jp": "ムクホーク",
-      "en": "staraptor"
+      "en": "Staraptor"
     }
   },
   {
     "id": "399",
     "name": {
       "jp": "ビッパ",
-      "en": "bidoof"
+      "en": "Bidoof"
     }
   },
   {
     "id": "400",
     "name": {
       "jp": "ビーダル",
-      "en": "bibarel"
+      "en": "Bibarel"
     }
   },
   {
     "id": "401",
     "name": {
       "jp": "コロボーシ",
-      "en": "kricketot"
+      "en": "Kricketot"
     }
   },
   {
     "id": "402",
     "name": {
       "jp": "コロトック",
-      "en": "kricketune"
+      "en": "Kricketune"
     }
   },
   {
     "id": "403",
     "name": {
       "jp": "コリンク",
-      "en": "shinx"
+      "en": "Shinx"
     }
   },
   {
     "id": "404",
     "name": {
       "jp": "ルクシオ",
-      "en": "luxio"
+      "en": "Luxio"
     }
   },
   {
     "id": "405",
     "name": {
       "jp": "レントラー",
-      "en": "luxray"
+      "en": "Luxray"
     }
   },
   {
     "id": "406",
     "name": {
       "jp": "スボミー",
-      "en": "budew"
+      "en": "Budew"
     }
   },
   {
     "id": "407",
     "name": {
       "jp": "ロズレイド",
-      "en": "roserade"
+      "en": "Roserade"
     }
   },
   {
     "id": "408",
     "name": {
       "jp": "ズガイドス",
-      "en": "cranidos"
+      "en": "Cranidos"
     }
   },
   {
     "id": "409",
     "name": {
       "jp": "ラムパルド",
-      "en": "rampardos"
+      "en": "Rampardos"
     }
   },
   {
     "id": "410",
     "name": {
       "jp": "タテトプス",
-      "en": "shieldon"
+      "en": "Shieldon"
     }
   },
   {
     "id": "411",
     "name": {
       "jp": "トリデプス",
-      "en": "bastiodon"
+      "en": "Bastiodon"
     }
   },
   {
     "id": "412",
     "name": {
       "jp": "ミノムッチ",
-      "en": "burmy"
+      "en": "Burmy"
     }
   },
   {
     "id": "413",
     "name": {
       "jp": "ミノマダム",
-      "en": "wormadam"
+      "en": "Wormadam"
     }
   },
   {
     "id": "414",
     "name": {
       "jp": "ガーメイル",
-      "en": "mothim"
+      "en": "Mothim"
     }
   },
   {
     "id": "415",
     "name": {
       "jp": "ミツハニー",
-      "en": "combee"
+      "en": "Combee"
     }
   },
   {
     "id": "416",
     "name": {
       "jp": "ビークイン",
-      "en": "vespiquen"
+      "en": "Vespiquen"
     }
   },
   {
     "id": "417",
     "name": {
       "jp": "パチリス",
-      "en": "pachirisu"
+      "en": "Pachirisu"
     }
   },
   {
     "id": "418",
     "name": {
       "jp": "ブイゼル",
-      "en": "buizel"
+      "en": "Buizel"
     }
   },
   {
     "id": "419",
     "name": {
       "jp": "フローゼル",
-      "en": "floatzel"
+      "en": "Floatzel"
     }
   },
   {
     "id": "420",
     "name": {
       "jp": "チェリンボ",
-      "en": "cherubi"
+      "en": "Cherubi"
     }
   },
   {
     "id": "421",
     "name": {
       "jp": "チェリム",
-      "en": "cherrim"
+      "en": "Cherrim"
     }
   },
   {
     "id": "422",
     "name": {
       "jp": "カラナクシ",
-      "en": "shellos"
+      "en": "Shellos"
     }
   },
   {
     "id": "423",
     "name": {
       "jp": "トリトドン",
-      "en": "gastrodon"
+      "en": "Gastrodon"
     }
   },
   {
     "id": "424",
     "name": {
       "jp": "エテボース",
-      "en": "ambipon"
+      "en": "Ambipon"
     }
   },
   {
     "id": "425",
     "name": {
       "jp": "フワンテ",
-      "en": "drifloon"
+      "en": "Drifloon"
     }
   },
   {
     "id": "426",
     "name": {
       "jp": "フワライド",
-      "en": "drifblim"
+      "en": "Drifblim"
     }
   },
   {
     "id": "427",
     "name": {
       "jp": "ミミロル",
-      "en": "buneary"
+      "en": "Buneary"
     }
   },
   {
     "id": "428",
     "name": {
       "jp": "ミミロップ",
-      "en": "lopunny"
+      "en": "Lopunny"
     }
   },
   {
     "id": "429",
     "name": {
       "jp": "ムウマージ",
-      "en": "mismagius"
+      "en": "Mismagius"
     }
   },
   {
     "id": "430",
     "name": {
       "jp": "ドンカラス",
-      "en": "honchkrow"
+      "en": "Honchkrow"
     }
   },
   {
     "id": "431",
     "name": {
       "jp": "ニャルマー",
-      "en": "glameow"
+      "en": "Glameow"
     }
   },
   {
     "id": "432",
     "name": {
       "jp": "ブニャット",
-      "en": "purugly"
+      "en": "Purugly"
     }
   },
   {
     "id": "433",
     "name": {
       "jp": "リーシャン",
-      "en": "chingling"
+      "en": "Chingling"
     }
   },
   {
     "id": "434",
     "name": {
       "jp": "スカンプー",
-      "en": "stunky"
+      "en": "Stunky"
     }
   },
   {
     "id": "435",
     "name": {
       "jp": "スカタンク",
-      "en": "skuntank"
+      "en": "Skuntank"
     }
   },
   {
     "id": "436",
     "name": {
       "jp": "ドーミラー",
-      "en": "bronzor"
+      "en": "Bronzor"
     }
   },
   {
     "id": "437",
     "name": {
       "jp": "ドータクン",
-      "en": "bronzong"
+      "en": "Bronzong"
     }
   },
   {
     "id": "438",
     "name": {
       "jp": "ウソハチ",
-      "en": "bonsly"
+      "en": "Bonsly"
     }
   },
   {
     "id": "439",
     "name": {
       "jp": "マネネ",
-      "en": "mime jr."
+      "en": "Mime jr."
     }
   },
   {
     "id": "440",
     "name": {
       "jp": "ピンプク",
-      "en": "happiny"
+      "en": "Happiny"
     }
   },
   {
     "id": "441",
     "name": {
       "jp": "ペラップ",
-      "en": "chatot"
+      "en": "Chatot"
     }
   },
   {
     "id": "442",
     "name": {
       "jp": "ミカルゲ",
-      "en": "spiritomb"
+      "en": "Spiritomb"
     }
   },
   {
     "id": "443",
     "name": {
       "jp": "フカマル",
-      "en": "gible"
+      "en": "Gible"
     }
   },
   {
     "id": "444",
     "name": {
       "jp": "ガバイト",
-      "en": "gabite"
+      "en": "Gabite"
     }
   },
   {
     "id": "445",
     "name": {
       "jp": "ガブリアス",
-      "en": "garchomp"
+      "en": "Garchomp"
     }
   },
   {
     "id": "446",
     "name": {
       "jp": "ゴンベ",
-      "en": "munchlax"
+      "en": "Munchlax"
     }
   },
   {
     "id": "447",
     "name": {
       "jp": "リオル",
-      "en": "riolu"
+      "en": "Riolu"
     }
   },
   {
     "id": "448",
     "name": {
       "jp": "ルカリオ",
-      "en": "lucario"
+      "en": "Lucario"
     }
   },
   {
     "id": "449",
     "name": {
       "jp": "ヒポポタス",
-      "en": "hippopotas"
+      "en": "Hippopotas"
     }
   },
   {
     "id": "450",
     "name": {
       "jp": "カバルドン",
-      "en": "hippowdon"
+      "en": "Hippowdon"
     }
   },
   {
     "id": "451",
     "name": {
       "jp": "スコルピ",
-      "en": "skorupi"
+      "en": "Skorupi"
     }
   },
   {
     "id": "452",
     "name": {
       "jp": "ドラピオン",
-      "en": "drapion"
+      "en": "Drapion"
     }
   },
   {
     "id": "453",
     "name": {
       "jp": "グレッグル",
-      "en": "croagunk"
+      "en": "Croagunk"
     }
   },
   {
     "id": "454",
     "name": {
       "jp": "ドクロッグ",
-      "en": "toxicroak"
+      "en": "Toxicroak"
     }
   },
   {
     "id": "455",
     "name": {
       "jp": "マスキッパ",
-      "en": "carnivine"
+      "en": "Carnivine"
     }
   },
   {
     "id": "456",
     "name": {
       "jp": "ケイコウオ",
-      "en": "finneon"
+      "en": "Finneon"
     }
   },
   {
     "id": "457",
     "name": {
       "jp": "ネオラント",
-      "en": "lumineon"
+      "en": "Lumineon"
     }
   },
   {
     "id": "458",
     "name": {
       "jp": "タマンタ",
-      "en": "mantyke"
+      "en": "Mantyke"
     }
   },
   {
     "id": "459",
     "name": {
       "jp": "ユキカブリ",
-      "en": "snover"
+      "en": "Snover"
     }
   },
   {
     "id": "460",
     "name": {
       "jp": "ユキノオー",
-      "en": "abomasnow"
+      "en": "Abomasnow"
     }
   },
   {
     "id": "461",
     "name": {
       "jp": "マニューラ",
-      "en": "weavile"
+      "en": "Weavile"
     }
   },
   {
     "id": "462",
     "name": {
       "jp": "ジバコイル",
-      "en": "magnezone"
+      "en": "Magnezone"
     }
   },
   {
     "id": "463",
     "name": {
       "jp": "ベロベルト",
-      "en": "licklicky"
+      "en": "Licklicky"
     }
   },
   {
     "id": "464",
     "name": {
       "jp": "ドサイドン",
-      "en": "rhyperior"
+      "en": "Rhyperior"
     }
   },
   {
     "id": "465",
     "name": {
       "jp": "モジャンボ",
-      "en": "tangrowth"
+      "en": "Tangrowth"
     }
   },
   {
     "id": "466",
     "name": {
       "jp": "エレキブル",
-      "en": "electivire"
+      "en": "Electivire"
     }
   },
   {
     "id": "467",
     "name": {
       "jp": "ブーバーン",
-      "en": "magmortar"
+      "en": "Magmortar"
     }
   },
   {
     "id": "468",
     "name": {
       "jp": "トゲキッス",
-      "en": "togekiss"
+      "en": "Togekiss"
     }
   },
   {
     "id": "469",
     "name": {
       "jp": "メガヤンマ",
-      "en": "yanmega"
+      "en": "Yanmega"
     }
   },
   {
     "id": "470",
     "name": {
       "jp": "リーフィア",
-      "en": "leafeon"
+      "en": "Leafeon"
     }
   },
   {
     "id": "471",
     "name": {
       "jp": "グレイシア",
-      "en": "glaceon"
+      "en": "Glaceon"
     }
   },
   {
     "id": "472",
     "name": {
       "jp": "グライオン",
-      "en": "gliscor"
+      "en": "Gliscor"
     }
   },
   {
     "id": "473",
     "name": {
       "jp": "マンムー",
-      "en": "mamoswine"
+      "en": "Mamoswine"
     }
   },
   {
     "id": "474",
     "name": {
       "jp": "ポリゴンZ",
-      "en": "porygon-z"
+      "en": "Porygon-z"
     }
   },
   {
     "id": "475",
     "name": {
       "jp": "エルレイド",
-      "en": "gallade"
+      "en": "Gallade"
     }
   },
   {
     "id": "476",
     "name": {
       "jp": "ダイノーズ",
-      "en": "probopass"
+      "en": "Probopass"
     }
   },
   {
     "id": "477",
     "name": {
       "jp": "ヨノワール",
-      "en": "dusknoir"
+      "en": "Dusknoir"
     }
   },
   {
     "id": "478",
     "name": {
       "jp": "ユキメノコ",
-      "en": "froslass"
+      "en": "Froslass"
     }
   },
   {
     "id": "479",
     "name": {
       "jp": "ロトム",
-      "en": "rotom"
+      "en": "Rotom"
     }
   },
   {
     "id": "480",
     "name": {
       "jp": "ユクシー",
-      "en": "uxie"
+      "en": "Uxie"
     }
   },
   {
     "id": "481",
     "name": {
       "jp": "エムリット",
-      "en": "mesprit"
+      "en": "Mesprit"
     }
   },
   {
     "id": "482",
     "name": {
       "jp": "アグノム",
-      "en": "azelf"
+      "en": "Azelf"
     }
   },
   {
     "id": "483",
     "name": {
       "jp": "ディアルガ",
-      "en": "dialga"
+      "en": "Dialga"
     }
   },
   {
     "id": "484",
     "name": {
       "jp": "パルキア",
-      "en": "palkia"
+      "en": "Palkia"
     }
   },
   {
     "id": "485",
     "name": {
       "jp": "ヒードラン",
-      "en": "heatran"
+      "en": "Heatran"
     }
   },
   {
     "id": "486",
     "name": {
       "jp": "レジギガス",
-      "en": "regigigas"
+      "en": "Regigigas"
     }
   },
   {
     "id": "487",
     "name": {
       "jp": "ギラティナ",
-      "en": "giratina"
+      "en": "Giratina"
     }
   },
   {
     "id": "488",
     "name": {
       "jp": "クレセリア",
-      "en": "cresselia"
+      "en": "Cresselia"
     }
   },
   {
     "id": "489",
     "name": {
       "jp": "フィオネ",
-      "en": "phione"
+      "en": "Phione"
     }
   },
   {
     "id": "490",
     "name": {
       "jp": "マナフィ",
-      "en": "hippopotas"
+      "en": "Hippopotas"
     }
   },
   {
     "id": "491",
     "name": {
       "jp": "ダークライ",
-      "en": "darkrai"
+      "en": "Darkrai"
     }
   },
   {
     "id": "492",
     "name": {
       "jp": "シェイミ",
-      "en": "shaymin"
+      "en": "Shaymin"
     }
   },
   {
     "id": "493",
     "name": {
       "jp": "アルセウス",
-      "en": "arceus"
+      "en": "Arceus"
     }
   }
 ]
