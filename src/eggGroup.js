@@ -4,7 +4,7 @@ const eggGroupMap = new Map(
     ['ドラゴン', 'Dragon'],
     ['鉱物', 'Mineral'],
     ['植物', 'Grass'],
-    ['人形', 'Human-Like'],
+    ['人型', 'Human-Like'],
     ['水中1', 'Water1'],
     ['水中2', 'Water2'],
     ['水中3', 'Water3'],
