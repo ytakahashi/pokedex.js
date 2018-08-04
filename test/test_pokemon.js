@@ -55,6 +55,6 @@ describe('Pokemons class', () => {
 
   it('returns pokemon array', () => {
     expect(pokemons.getAll())
-      .to.have.length(386)
+      .to.have.length(807)
   })
 })

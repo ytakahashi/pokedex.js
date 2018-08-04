@@ -1,15 +1,22 @@
 {
-  "name": "pokemon-ja",
+  "name": "pokedex.js",
   "version": "0.0.1",
-  "description": "Get Pokémon information in Japanese",
+  "description": "Get/Search Pokémon information!",
   "main": "src/index.js",
-  "repository": "https://github.com/ytakahashi/pokemon-ja.git",
+  "repository": "https://github.com/ytakahashi/pokedex.js.git",
   "author": "ytakahashi <yt01tc@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "standard && istanbul cover _mocha -- test",
     "lint": "standard"
   },
+  "keywords": [
+    "pokedex",
+    "pokemon",
+    "pokémon",
+    "pokédex",
+    "ポケモン"
+  ],
   "devDependencies": {
     "chai": "^4.1.2",
     "istanbul": "^0.4.5",
