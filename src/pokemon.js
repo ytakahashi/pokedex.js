@@ -8,7 +8,11 @@ const jsons = new Map(
   [
     ['1', require('./resources/gen1.json')],
     ['2', require('./resources/gen2.json')],
-    ['3', require('./resources/gen3.json')]
+    ['3', require('./resources/gen3.json')],
+    ['4', require('./resources/gen4.json')],
+    ['5', require('./resources/gen5.json')],
+    ['6', require('./resources/gen6.json')],
+    ['7', require('./resources/gen7.json')]
   ]
 )
 

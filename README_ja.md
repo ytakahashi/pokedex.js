@@ -1,0 +1,54 @@
+# Pekedex.js
+
+[:us:](./README.md) :jp:
+
+## 使い方
+
+### simple usage
+
+```node.js
+const Pokedex = require('pokedex.js')
+const pokedex = new Pokedex('ja')
+
+console.log(pokedex.getByName('Pikachu'))
+// {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
+
+console.log(pokedex.getById(25))
+// {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
+```
+
+### With filtering
+
+#### filter by type
+
+Get Pokémons which have type Water/Fairy
+
+```node.js
+console.log(
+  pokedex.withType('Water').withType('Fairy').get()
+)
+// [{"id":"183","name":"マリル","type":["みず","フェアリー"],"ability":[{"name":"あついしぼう","hidden":false},{"name":"ちからもち","hidden":false},{"name":"そうしょく","hidden":true}],"eggGroup":["水中1","妖精"],"baseStatus":{"H":"70","A":"20","B":"50","C":"20","D":"50","S":"40"},"generation":2},{"id":"184","name":"マリルリ","type":["みず","フェアリー"],"ability":[{"name":"あついしぼう","hidden":false},{"name":"ちからもち","hidden":false},{"name":"そうしょく","hidden":true}],"eggGroup":["水中1","妖精"],"baseStatus":{"H":"100","A":"50","B":"80","C":"60","D":"80","S":"50"},"generation":2},{"id":"730","name":"アシレーヌ","type":["みず","フェアリー"],"ability":[{"name":"げきりゅう","hidden":false},{"name":"うるおいボイス","hidden":true}],"eggGroup":["水中1","陸上"],"baseStatus":{"H":"80","A":"74","B":"74","C":"126","D":"116","S":"60"},"generation":7},{"id":"788","name":"カプ・レヒレ","type":["みず","フェアリー"],"ability":[{"name":"ミストメイカー","hidden":false},{"name":"テレパシー","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"70","A":"75","B":"115","C":"95","D":"130","S":"85"},"generation":7}]
+```
+
+#### filter by total base status, generation
+
+Get Pokémons which have total base status between 580 and 600, and added at 1st generation.
+
+```node.js
+console.log(
+  pokedex
+    .totalBaseStatusGe(580)
+    .totalBaseStatusLe(600)
+    .ofGeneration(1)
+    .get()
+)
+// [{"id":"144","name":"フリーザー","type":["こおり","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"ゆきがくれ","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"90","A":"85","B":"100","C":"95","D":"125","S":"85"},"generation":1},{"id":"145","name":"サンダー","type":["でんき","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいでんき","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"90","A":"90","B":"85","C":"125","D":"90","S":"100"},"generation":1},{"id":"146","name":"ファイヤー","type":["ほのお","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"ほのおのからだ","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"90","A":"100","B":"90","C":"125","D":"85","S":"90"},"generation":1},{"id":"149","name":"カイリュー","type":["ドラゴン","ひこう"],"ability":[{"name":"せいしんりょく","hidden":false},{"name":"マルチスケイル","hidden":true}],"eggGroup":["水中1","ドラゴン"],"baseStatus":{"H":"91","A":"134","B":"95","C":"100","D":"100","S":"80"},"generation":1},{"id":"151","name":"ミュウ","type":["エスパー"],"ability":[{"name":"シンクロ","hidden":false}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":1}]
+```
+
+### available filters
+
+- `withType(type: string)` : 指定されたタイプでフィルタします。
+- `ofGeneration(generation: number)` : 指定された世代のポケモンでフィルタします。
+- `belongsToEggGroup(eggGroop: string)` : 指定されたタマゴグループのポケモンでフィルタします。
+- `totalBaseStatusGe(status: number)` : 指定された合計種族値でフィルタします。
+- `totalBaseStatusLe(status: number)` : 指定された合計種族値でフィルタします。
