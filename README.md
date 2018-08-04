@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/ytakahashi/pokedex.js.svg?style=shield&circle-token=7cf6f0c8b57b6a06542156647c3e2b9af3cae77e)](https://circleci.com/gh/ytakahashi/pokedex.js)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://badge.fury.io/js/pokedex.js.svg)](https://badge.fury.io/js/pokedex.js)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A library to get Pokémon information.
 
@@ -70,3 +72,7 @@ console.log(
 - `belongsToEggGroup(eggGroop: string)` : extract Pokemons that belong to a given egg group
 - `totalBaseStatusGe(status: number)` : filters Pokemon list by given total base status
 - `totalBaseStatusLe(status: number)` : filters Pokemon list by given total base status
+
+Multiple filters can be applied at the same time by chaining methods like examples above.
+
+Everything can be done in Japanese! See [README_ja.md](./README_ja.md).
