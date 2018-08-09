@@ -12,7 +12,7 @@
 const Pokedex = require('pokedex.js')
 const pokedex = new Pokedex('ja')
 
-console.log(pokedex.getByName('Pikachu'))
+console.log(pokedex.getByName('ピカチュウ'))
 // {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStatus":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
 
 console.log(pokedex.getById(25))
@@ -27,7 +27,7 @@ console.log(pokedex.getById(25))
 
 ```node.js
 console.log(
-  pokedex.withType('Water').withType('Fairy').get()
+  pokedex.withType('みず').withType('フェアリー').get()
 )
 // [{"id":"183","name":"マリル","type":["みず","フェアリー"],"ability":[{"name":"あついしぼう","hidden":false},{"name":"ちからもち","hidden":false},{"name":"そうしょく","hidden":true}],"eggGroup":["水中1","妖精"],"baseStatus":{"H":"70","A":"20","B":"50","C":"20","D":"50","S":"40"},"generation":2},{"id":"184","name":"マリルリ","type":["みず","フェアリー"],"ability":[{"name":"あついしぼう","hidden":false},{"name":"ちからもち","hidden":false},{"name":"そうしょく","hidden":true}],"eggGroup":["水中1","妖精"],"baseStatus":{"H":"100","A":"50","B":"80","C":"60","D":"80","S":"50"},"generation":2},{"id":"730","name":"アシレーヌ","type":["みず","フェアリー"],"ability":[{"name":"げきりゅう","hidden":false},{"name":"うるおいボイス","hidden":true}],"eggGroup":["水中1","陸上"],"baseStatus":{"H":"80","A":"74","B":"74","C":"126","D":"116","S":"60"},"generation":7},{"id":"788","name":"カプ・レヒレ","type":["みず","フェアリー"],"ability":[{"name":"ミストメイカー","hidden":false},{"name":"テレパシー","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStatus":{"H":"70","A":"75","B":"115","C":"95","D":"130","S":"85"},"generation":7}]
 ```

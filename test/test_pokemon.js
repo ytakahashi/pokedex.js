@@ -1,3 +1,5 @@
+/* eslint no-unused-expressions: 0 */
+
 const expect = require('chai').expect
 
 const { Pokemon, Pokemons } = require('../src/pokemon')
@@ -51,10 +53,28 @@ describe('Pokemon class (language: ja)', () => {
 })
 
 describe('Pokemons class', () => {
-  const pokemons = new Pokemons()
+  const pokemonValidator = (pokemon) => {
+    expect(pokemon.id).to.exist
+    expect(pokemon.name).to.exist
+    expect(pokemon.type).to.exist
+    expect(pokemon.baseStatus).to.exist
+    expect(pokemon.eggGroup).to.exist
+    return true
+  }
 
-  it('returns pokemon array', () => {
-    expect(pokemons.getAll())
-      .to.have.length(807)
+  it('returns pokemon array (lang: ja)', () => {
+    const pokemons = new Pokemons('ja')
+    const allPokemons = pokemons.getAll()
+    expect(allPokemons).to.have.length(807)
+
+    expect(allPokemons.every(pokemonValidator)).to.be.true
+  })
+
+  it('returns pokemon array (lang: en)', () => {
+    const pokemons = new Pokemons('en')
+    const allPokemons = pokemons.getAll()
+    expect(allPokemons).to.have.length(807)
+
+    expect(allPokemons.every(pokemonValidator)).to.be.true
   })
 })
