@@ -1,6 +1,18 @@
 'use strict'
 
-const { Pokemons } = require('./pokemon')
+const { Pokemon } = require('./pokemon')
+
+const getAll = (lang) => {
+  return [].concat(
+    require('./resources/gen1.json').map(p => new Pokemon(p, Number(1), lang)),
+    require('./resources/gen2.json').map(p => new Pokemon(p, Number(2), lang)),
+    require('./resources/gen3.json').map(p => new Pokemon(p, Number(3), lang)),
+    require('./resources/gen4.json').map(p => new Pokemon(p, Number(4), lang)),
+    require('./resources/gen5.json').map(p => new Pokemon(p, Number(5), lang)),
+    require('./resources/gen6.json').map(p => new Pokemon(p, Number(6), lang)),
+    require('./resources/gen7.json').map(p => new Pokemon(p, Number(7), lang))
+  )
+}
 
 module.exports = class Pokedex {
   constructor (lang) {
@@ -12,8 +24,8 @@ module.exports = class Pokedex {
       throw new Error(`Language '${lang}' is not supported.`)
     }
 
-    this.pokemons = new Pokemons(this.lang)
-    this.poke = this.pokemons.getAll()
+    this.allPoke = getAll(this.lang)
+    this.poke = this.allPoke
   }
 
   getById (id) {
@@ -46,21 +58,21 @@ module.exports = class Pokedex {
     return this
   }
 
-  totalBaseStatusGe (value) {
+  totalBaseStatsGe (value) {
     this.poke =
-      this.poke.filter(pokemon => pokemon.baseStatus.total >= Number(value))
+      this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
     return this
   }
 
-  totalBaseStatusLe (value) {
+  totalBaseStatsLe (value) {
     this.poke =
-      this.poke.filter(pokemon => pokemon.baseStatus.total <= Number(value))
+      this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
     return this
   }
 
   get () {
     const ret = this.poke
-    this.poke = this.pokemons.getAll()
+    this.poke = this.allPoke
     return JSON.stringify(ret)
   }
 }
