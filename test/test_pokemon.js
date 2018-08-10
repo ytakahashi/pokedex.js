@@ -1,6 +1,8 @@
+/* eslint no-unused-expressions: 0 */
+
 const expect = require('chai').expect
 
-const { Pokemon, Pokemons } = require('../src/pokemon')
+const { Pokemon } = require('../src/pokemon')
 
 describe('Pokemon class (language: ja)', () => {
   it('returns corrent properties', () => {
@@ -40,21 +42,12 @@ describe('Pokemon class (language: ja)', () => {
       .to.be.an('array')
       .that.has.lengthOf(1)
       .and.that.include('でんき')
-    expect(pikachu.baseStatus)
+    expect(pikachu.baseStats)
       .to.have.all.keys('H', 'A', 'B', 'C', 'D', 'S')
     expect(pikachu.eggGroup)
       .to.be.an('array')
       .that.has.lengthOf(2)
       .and.that.include('陸上')
       .and.that.include('妖精')
-  })
-})
-
-describe('Pokemons class', () => {
-  const pokemons = new Pokemons()
-
-  it('returns pokemon array', () => {
-    expect(pokemons.getAll())
-      .to.have.length(807)
   })
 })

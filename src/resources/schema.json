@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pokemon",
+  "description": "A Schema of Pokemon of pokedex.js",
+  "type": "object",
+  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup", "generation" ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Pokedex ID of this Pokemon"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of this Pokemon."
+    },
+    "type": {
+      "type": "array",
+      "description": "Array of types that this Pokemon has.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ability": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ability"
+      }
+    },
+    "baseStats": {
+      "$ref": "#/definitions/baseStats"
+    },
+    "eggGroup": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generation": {
+      "type": "integer",
+      "description": "Shows at which generation this Pokemon was added",
+      "minimum": 1,
+      "maximum": 7
+    }
+  },
+  "definitions": {
+    "ability": {
+      "type": "object",
+      "required": [ "name", "hidden" ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of this ability."
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "If true, this ability is hidden."
+        }
+      }
+    },
+    "baseStats": {
+      "type": "object",
+      "required": [ "H", "A", "B", "C", "D", "S" ],
+      "properties": {
+        "H": {
+          "type": "string",
+          "description": "Base Stat of HP"
+        },
+        "A": {
+          "type": "string",
+          "description": "Base Stat of Attack"
+        },
+        "B": {
+          "type": "string",
+          "description": "Base Stat of Defence"
+        },
+        "C": {
+          "type": "string",
+          "description": "Base Stat of Sp. Attack"
+        },
+        "D": {
+          "type": "string",
+          "description": "Base Stat of Sp. Defence"
+        },
+        "S": {
+          "type": "string",
+          "description": "Base Stat of Speed"
+        }
+      }
+    }
+  }
+}
