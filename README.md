@@ -1,8 +1,9 @@
 # Pekedex.js
 
-[![CircleCI](https://circleci.com/gh/ytakahashi/pokedex.js.svg?style=shield&circle-token=7cf6f0c8b57b6a06542156647c3e2b9af3cae77e)](https://circleci.com/gh/ytakahashi/pokedex.js)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm version](https://badge.fury.io/js/pokedex.js.svg)](https://badge.fury.io/js/pokedex.js)
+[![CircleCI](https://circleci.com/gh/ytakahashi/pokedex.js.svg?style=shield&circle-token=7cf6f0c8b57b6a06542156647c3e2b9af3cae77e)](https://circleci.com/gh/ytakahashi/pokedex.js)
+[![codecov](https://codecov.io/gh/ytakahashi/pokedex.js/branch/master/graph/badge.svg)](https://codecov.io/gh/ytakahashi/pokedex.js)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A library to get Pokémon information.
@@ -75,7 +76,7 @@ console.log(
 - `totalBaseStatsGe(status: number)` : filters Pokemon list by given total base stats
 - `totalBaseStatsLe(status: number)` : filters Pokemon list by given total base stats
 
-Multiple filters can be applied at the same time by chaining methods like examples above.
+Multiple filters can be applied at the same time by chaining methods like examples above.  
 By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.
 
 Everything can be done in Japanese! See [README_ja.md](./README_ja.md).
