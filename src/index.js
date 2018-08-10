@@ -4,13 +4,13 @@ const { Pokemon } = require('./pokemon')
 
 const getAll = (lang) => {
   return [].concat(
-    require('./resources/gen1.json').map(p => new Pokemon(p, Number(1), lang)),
-    require('./resources/gen2.json').map(p => new Pokemon(p, Number(2), lang)),
-    require('./resources/gen3.json').map(p => new Pokemon(p, Number(3), lang)),
-    require('./resources/gen4.json').map(p => new Pokemon(p, Number(4), lang)),
-    require('./resources/gen5.json').map(p => new Pokemon(p, Number(5), lang)),
-    require('./resources/gen6.json').map(p => new Pokemon(p, Number(6), lang)),
-    require('./resources/gen7.json').map(p => new Pokemon(p, Number(7), lang))
+    require('./resources/pokemon/gen1.json').map(p => new Pokemon(p, Number(1), lang)),
+    require('./resources/pokemon/gen2.json').map(p => new Pokemon(p, Number(2), lang)),
+    require('./resources/pokemon/gen3.json').map(p => new Pokemon(p, Number(3), lang)),
+    require('./resources/pokemon/gen4.json').map(p => new Pokemon(p, Number(4), lang)),
+    require('./resources/pokemon/gen5.json').map(p => new Pokemon(p, Number(5), lang)),
+    require('./resources/pokemon/gen6.json').map(p => new Pokemon(p, Number(6), lang)),
+    require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang))
   )
 }
 
