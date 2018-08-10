@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "test": "standard && istanbul cover _mocha -- test",
+    "test-ci": "standard && istanbul cover _mocha -- test && codecov",
     "lint": "standard"
   },
   "keywords": [
@@ -18,6 +19,7 @@
   ],
   "devDependencies": {
     "chai": "^4.1.2",
+    "codecov": "^3.0.4",
     "istanbul": "^0.4.5",
     "jsonschema": "^1.2.4",
     "mocha": "^5.2.0",

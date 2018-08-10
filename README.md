@@ -37,6 +37,8 @@ console.log(pokedex.getById(25))
 
 ```
 
+These return Pokemon JSON ([schema of Pokemon JSON](./src/resources/schema.json)).
+
 ### With filtering
 
 #### filter by type
@@ -74,5 +76,6 @@ console.log(
 - `totalBaseStatsLe(status: number)` : filters Pokemon list by given total base stats
 
 Multiple filters can be applied at the same time by chaining methods like examples above.
+By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.
 
 Everything can be done in Japanese! See [README_ja.md](./README_ja.md).

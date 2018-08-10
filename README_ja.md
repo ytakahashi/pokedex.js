@@ -19,6 +19,8 @@ console.log(pokedex.getById(25))
 // {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
 ```
 
+返却される JSON の形式は、[Pokemon JSON schema](./src/resources/schema.json)を参照してください。
+
 ### フィルタ
 
 #### タイプでフィルタ
@@ -54,3 +56,5 @@ console.log(
 - `belongsToEggGroup(eggGroop: string)` : 指定されたタマゴグループのポケモンでフィルタします。
 - `totalBaseStatsGe(status: number)` : 指定された合計種族値でフィルタします。
 - `totalBaseStatsLe(status: number)` : 指定された合計種族値でフィルタします。
+
+上記例のようにフィルタメソッドの最後に `.get()` を付けることで、条件に合うポケモンのリストを JSON として取得できます。
