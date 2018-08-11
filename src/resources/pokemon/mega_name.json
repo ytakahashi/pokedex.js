@@ -1,0 +1,23 @@
+[
+  {
+      "id": "3m",
+      "name": {
+        "jp": "メガフシギバナ",
+        "en": "Mega Venusaur"
+      }
+    },
+    {
+      "id": "6x",
+      "name": {
+        "jp": "メガリザードンX",
+        "en": "Mega Charizard X"
+      }
+    },
+    {
+      "id": "6y",
+      "name": {
+        "jp": "メガリザードンY",
+        "en": "Mega Charizard Y"
+      }
+    }
+]
