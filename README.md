@@ -38,7 +38,7 @@ console.log(pokedex.getById(25))
 
 ```
 
-These return Pokemon JSON ([schema of Pokemon JSON](./src/resources/schema.json)).
+These return Pokemon JSON ([schema](./src/resources/schema.json)).
 
 ### With filtering
 
@@ -79,6 +79,6 @@ console.log(
 
 Multiple filters can be applied at the same time by chaining methods like examples above.
 By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.
-Returned JSON is a list of ([Pokemon JSON](./src/resources/schema.json)).
+Returned JSON is a list of ([Pokemon](./src/resources/schema.json)).
 
 Everything can be done in Japanese! See [README_ja.md](./README_ja.md).
