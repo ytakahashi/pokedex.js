@@ -78,7 +78,8 @@
     "egg_groups": [
       "怪獣",
       "ドラゴン"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "255",
@@ -158,7 +159,8 @@
     },
     "egg_groups": [
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "258",
@@ -241,7 +243,8 @@
     "egg_groups": [
       "怪獣",
       "水中1"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "261",
@@ -874,7 +877,8 @@
     },
     "egg_groups": [
       "不定形"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "283",
@@ -1426,7 +1430,8 @@
     },
     "egg_groups": [
       "人型"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "303",
@@ -1457,7 +1462,8 @@
     "egg_groups": [
       "陸上",
       "妖精"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "304",
@@ -1547,7 +1553,8 @@
     },
     "egg_groups": [
       "怪獣"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "307",
@@ -1601,7 +1608,8 @@
     },
     "egg_groups": [
       "人型"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "309",
@@ -1659,7 +1667,8 @@
     },
     "egg_groups": [
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "311",
@@ -1914,7 +1923,8 @@
     },
     "egg_groups": [
       "水中2"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "320",
@@ -2034,7 +2044,8 @@
     },
     "egg_groups": [
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "324",
@@ -2339,7 +2350,8 @@
     "egg_groups": [
       "飛行",
       "ドラゴン"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "335",
@@ -2885,7 +2897,8 @@
     },
     "egg_groups": [
       "不定形"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "355",
@@ -3020,7 +3033,8 @@
     },
     "egg_groups": [
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "360",
@@ -3106,7 +3120,8 @@
     "egg_groups": [
       "妖精",
       "鉱物"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "363",
@@ -3413,7 +3428,8 @@
     },
     "egg_groups": [
       "ドラゴン"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "374",
@@ -3494,7 +3510,8 @@
     },
     "egg_groups": [
       "鉱物"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "377",
@@ -3596,7 +3613,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "381",
@@ -3620,7 +3638,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "382",
@@ -3643,7 +3662,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "383",
@@ -3666,7 +3686,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "384",
@@ -3690,7 +3711,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "385",

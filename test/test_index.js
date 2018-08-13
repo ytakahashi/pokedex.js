@@ -125,5 +125,16 @@ describe('Pokedex class', () => {
 
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
+
+    it('returns expected Pokemon Array (mega)', () => {
+      const actual = pokedex
+        .canMegaEvolve()
+        .get()
+
+      const isExpected = (pokemon) =>
+        isValidPokemon(pokemon) && pokemon.megaEvolution !== undefined
+
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
   })
 })

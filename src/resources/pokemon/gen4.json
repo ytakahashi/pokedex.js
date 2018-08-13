@@ -1168,7 +1168,8 @@
     "egg_groups": [
       "陸上",
       "人型"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "429",
@@ -1651,7 +1652,8 @@
     "egg_groups": [
       "怪獣",
       "ドラゴン"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "446",
@@ -1740,7 +1742,8 @@
     "egg_groups": [
       "陸上",
       "人型"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "449",
@@ -2081,7 +2084,8 @@
     "egg_groups": [
       "怪獣",
       "植物"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "461",
@@ -2508,7 +2512,8 @@
     },
     "egg_groups": [
       "不定形"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "476",

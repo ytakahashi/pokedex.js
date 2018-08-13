@@ -848,7 +848,8 @@
     "egg_groups": [
       "怪獣",
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "182",
@@ -1623,7 +1624,8 @@
     },
     "egg_groups": [
       "鉱物"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "209",
@@ -1743,7 +1745,8 @@
     },
     "egg_groups": [
       "虫"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "213",
@@ -1803,7 +1806,8 @@
     },
     "egg_groups": [
       "虫"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "215",
@@ -2252,7 +2256,8 @@
     },
     "egg_groups": [
       "陸上"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "230",
@@ -2776,7 +2781,8 @@
     },
     "egg_groups": [
       "怪獣"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "249",
