@@ -56,7 +56,7 @@ console.log(
 - `belongsToEggGroup(eggGroop: string)` : 指定されたタマゴグループのポケモンでフィルタします。
 - `totalBaseStatsGe(status: number)` : 指定された合計種族値でフィルタします。
 - `totalBaseStatsLe(status: number)` : 指定された合計種族値でフィルタします。
-- `canMegaEvolve()` : メガシンカ可能なポケモンでフィルタします。
+- `canMegaEvolve()` : メガシンカ可能なポケモンでフィルタします（ゲンシカイキ、ウルトラバーストも含みます）。
 
 上記例のようにフィルタメソッドの最後に `.get()` を付けることで、条件に合うポケモンのリストを JSON として取得できます。  
 返却される JSON は、[ポケモン](./src/resources/schema.json) のリストとなります.

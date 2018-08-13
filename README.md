@@ -75,7 +75,7 @@ console.log(
 - `belongsToEggGroup(eggGroop: string)` : filters Pokémon that belong to a given egg group
 - `totalBaseStatsGe(status: number)` : filters Pokémon whose base stat total is higher than specified value
 - `totalBaseStatsLe(status: number)` : filters Pokémon whose base stat total is lower than specified value
-- `canMegaEvolve()` : filters Pokémon that are capable of Mega Evolution
+- `canMegaEvolve()` : filters Pokémon that are capable of Mega Evolution (including Primal Reversion, Ultra Burst)
 
 Multiple filters can be applied at the same time by chaining methods like examples above.  
 By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.  
