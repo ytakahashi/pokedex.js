@@ -19,7 +19,7 @@ console.log(pokedex.getById(25))
 // {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
 ```
 
-返却される JSON の形式は、[Pokemon JSON schema](./src/resources/schema.json)を参照してください。
+返却される JSON の形式は、[こちら](./src/resources/schema.json)を参照してください。
 
 ### フィルタ
 
@@ -36,17 +36,17 @@ console.log(
 
 #### 合計種族値、世代でフィルタ
 
-合計種族値が 580 以上 600 以下、かつ第 1 世代のポケモンを取得します.
+合計種族値が 580 以上 600 以下、かつ第 2 世代のポケモンを取得します.
 
 ```node.js
 console.log(
   pokedex
     .totalBaseStatsGe(580)
     .totalBaseStatsLe(600)
-    .ofGeneration(1)
+    .ofGeneration(2)
     .get()
 )
-// [{"id":"144","name":"フリーザー","type":["こおり","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"ゆきがくれ","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"85","B":"100","C":"95","D":"125","S":"85"},"generation":1},{"id":"145","name":"サンダー","type":["でんき","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいでんき","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"90","B":"85","C":"125","D":"90","S":"100"},"generation":1},{"id":"146","name":"ファイヤー","type":["ほのお","ひこう"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"ほのおのからだ","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"100","B":"90","C":"125","D":"85","S":"90"},"generation":1},{"id":"149","name":"カイリュー","type":["ドラゴン","ひこう"],"ability":[{"name":"せいしんりょく","hidden":false},{"name":"マルチスケイル","hidden":true}],"eggGroup":["水中1","ドラゴン"],"baseStats":{"H":"91","A":"134","B":"95","C":"100","D":"100","S":"80"},"generation":1},{"id":"151","name":"ミュウ","type":["エスパー"],"ability":[{"name":"シンクロ","hidden":false}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":1}]
+// [{"id":"243","name":"ライコウ","type":["でんき"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"85","B":"75","C":"115","D":"100","S":"115"},"generation":2},{"id":"244","name":"エンテイ","type":["ほのお"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"115","A":"115","B":"85","C":"90","D":"75","S":"100"},"generation":2},{"id":"245","name":"スイクン","type":["みず"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"75","B":"115","C":"90","D":"115","S":"85"},"generation":2},{"id":"248","name":"バンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false},{"name":"きんちょうかん","hidden":true}],"eggGroup":["怪獣"],"baseStats":{"H":"100","A":"134","B":"110","C":"95","D":"100","S":"61"},"generation":2,"megaEvolution":[{"name":"メガバンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false}],"baseStats":{"H":"100","A":"164","B":"150","C":"95","D":"120","S":"71"}}]},{"id":"251","name":"セレビィ","type":["エスパー","くさ"],"ability":[{"name":"しぜんかいふく","hidden":false}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":2}]
 ```
 
 ### 利用可能なフィルタ
@@ -56,5 +56,7 @@ console.log(
 - `belongsToEggGroup(eggGroop: string)` : 指定されたタマゴグループのポケモンでフィルタします。
 - `totalBaseStatsGe(status: number)` : 指定された合計種族値でフィルタします。
 - `totalBaseStatsLe(status: number)` : 指定された合計種族値でフィルタします。
+- `canMegaEvolve()` : メガシンカ可能なポケモンでフィルタします。
 
 上記例のようにフィルタメソッドの最後に `.get()` を付けることで、条件に合うポケモンのリストを JSON として取得できます。
+返却される JSON は、[ポケモン](./src/resources/schema.json) のリストとなります.
