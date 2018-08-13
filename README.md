@@ -77,8 +77,8 @@ console.log(
 - `totalBaseStatsLe(status: number)` : filters Pokémon whose base stat total is lower than specified value
 - `canMegaEvolve()` : filters Pokémon that are capable of Mega Evolution
 
-Multiple filters can be applied at the same time by chaining methods like examples above.
-By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.
+Multiple filters can be applied at the same time by chaining methods like examples above.  
+By adding `.get()` after filter methods, you can get JSON array of Pokemons which satisfy filters.  
 Returned JSON is a list of ([Pokemon](./src/resources/schema.json)).
 
 Everything can be done in Japanese! See [README_ja.md](./README_ja.md).
