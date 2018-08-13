@@ -1,6 +1,7 @@
 const abilityMap = new Map(
   [
     ['あくしゅう', 'Stench'],
+    ['あめふらし', 'Drizzle'],
     ['かそく', 'Speed Boost'],
     ['カブトアーマー', 'Battle Armor'],
     ['がんじょう', 'Sturdy'],

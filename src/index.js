@@ -70,6 +70,12 @@ module.exports = class Pokedex {
     return this
   }
 
+  canMegaEvolve () {
+    this.poke =
+      this.poke.filter(pokemon => pokemon.megaEvolution !== undefined)
+    return this
+  }
+
   get () {
     const ret = this.poke
     this.poke = this.allPoke

@@ -23,8 +23,6 @@ class Pokemon {
 
 class MegaPokemon {
   constructor (pokemon, lang) {
-    console.log('pokemon')
-    console.log(pokemon)
     this.name = name.getName(pokemon.id, lang)
     this.type = pokemonType.getType(pokemon.type, lang)
     this.ability = ability.getAbility(pokemon.abilities, lang)

@@ -246,7 +246,8 @@
     "egg_groups": [
       "怪獣",
       "水中1"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "10",
@@ -400,7 +401,8 @@
     },
     "egg_groups": [
       "虫"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "16",
@@ -490,7 +492,8 @@
     },
     "egg_groups": [
       "飛行"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "19",
@@ -1842,7 +1845,8 @@
     },
     "egg_groups": [
       "人型"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "66",
@@ -2280,7 +2284,8 @@
     "egg_groups": [
       "怪獣",
       "水中1"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "81",
@@ -2681,7 +2686,8 @@
     },
     "egg_groups": [
       "不定形"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "95",
@@ -3279,7 +3285,8 @@
     },
     "egg_groups": [
       "怪獣"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "116",
@@ -3627,7 +3634,8 @@
     },
     "egg_groups": [
       "虫"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "128",
@@ -3711,7 +3719,8 @@
     "egg_groups": [
       "水中2",
       "ドラゴン"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "131",
@@ -4058,7 +4067,8 @@
     },
     "egg_groups": [
       "飛行"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "143",
@@ -4276,7 +4286,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "151",

@@ -40,6 +40,12 @@
       "description": "Shows at which generation this Pokemon was added",
       "minimum": 1,
       "maximum": 7
+    },
+    "megaEvolution": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/megaPokemon"
+      }
     }
   },
   "definitions": {
@@ -84,6 +90,30 @@
         "S": {
           "type": "string",
           "description": "Base Stat of Speed"
+        }
+      }
+    },
+    "megaPokemon": {
+      "type": "object",
+      "required": [ "name", "ability", "baseStats", "type" ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ability": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ability"
+          }
+        },
+        "baseStats": {
+          "$ref": "#/definitions/baseStats"
         }
       }
     }

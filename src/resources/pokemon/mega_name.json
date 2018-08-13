@@ -1,23 +1,359 @@
 [
   {
-      "id": "3m",
-      "name": {
-        "jp": "メガフシギバナ",
-        "en": "Mega Venusaur"
-      }
-    },
-    {
-      "id": "6x",
-      "name": {
-        "jp": "メガリザードンX",
-        "en": "Mega Charizard X"
-      }
-    },
-    {
-      "id": "6y",
-      "name": {
-        "jp": "メガリザードンY",
-        "en": "Mega Charizard Y"
-      }
+    "id": "3m",
+    "name": {
+      "jp": "メガフシギバナ",
+      "en": "Mega Venusaur"
     }
+  },
+  {
+    "id": "6x",
+    "name": {
+      "jp": "メガリザードンX",
+      "en": "Mega Charizard X"
+    }
+  },
+  {
+    "id": "6y",
+    "name": {
+      "jp": "メガリザードンY",
+      "en": "Mega Charizard Y"
+    }
+  },
+  {
+    "id": "9m",
+    "name": {
+      "jp": "メガカメックス",
+      "en": "Mega Blastoise"
+    }
+  },
+  {
+    "id": "15m",
+    "name": {
+      "jp": "メガスピアー",
+      "en": "Mega Beedrill"
+    }
+  },
+  {
+    "id": "18m",
+    "name": {
+      "jp": "メガピジョット",
+      "en": "Mega Pidgeot"
+    }
+  },
+  {
+    "id": "65m",
+    "name": {
+      "jp": "メガフーディン",
+      "en": "Mega Alakazam"
+    }
+  },
+  {
+    "id": "80m",
+    "name": {
+      "jp": "メガヤドラン",
+      "en": "Mega Slowbro"
+    }
+  },
+  {
+    "id": "94m",
+    "name": {
+      "jp": "メガゲンガー",
+      "en": "Mega Gengar"
+    }
+  },
+  {
+    "id": "115m",
+    "name": {
+      "jp": "メガガルーラ",
+      "en": "Mega Kangaskhan"
+    }
+  },
+  {
+    "id": "127m",
+    "name": {
+      "jp": "メガカイロス",
+      "en": "Mega Pinsir"
+    }
+  },
+  {
+    "id": "130m",
+    "name": {
+      "jp": "メガギャラドス",
+      "en": "Mega Gyarados"
+    }
+  },
+  {
+    "id": "142m",
+    "name": {
+      "jp": "メガプテラ",
+      "en": "Mega Aerodactyl"
+    }
+  },
+  {
+    "id": "150x",
+    "name": {
+      "jp": "メガミュウツーX",
+      "en": "Mega Mewtwo X"
+    }
+  },
+  {
+    "id": "150y",
+    "name": {
+      "jp": "メガミュウツーY",
+      "en": "Mega Mewtwo Y"
+    }
+  },
+  {
+    "id": "181m",
+    "name": {
+      "jp": "メガデンリュウ",
+      "en": "Mega Ampharos"
+    }
+  },
+  {
+    "id": "208m",
+    "name": {
+      "jp": "メガハガネール",
+      "en": "Mega Steelix"
+    }
+  },
+  {
+    "id": "212m",
+    "name": {
+      "jp": "メガハッサム",
+      "en": "Mega Scizor"
+    }
+  },
+  {
+    "id": "214m",
+    "name": {
+      "jp": "メガヘラクロス",
+      "en": "Mega Heracross"
+    }
+  },
+  {
+    "id": "229m",
+    "name": {
+      "jp": "メガヘルガー",
+      "en": "Mega Houndoom"
+    }
+  },
+  {
+    "id": "248m",
+    "name": {
+      "jp": "メガバンギラス",
+      "en": "Mega Tyranitar"
+    }
+  },
+  {
+    "id": "254m",
+    "name": {
+      "jp": "メガジュカイン",
+      "en": "Mega Sceptile"
+    }
+  },
+  {
+    "id": "257m",
+    "name": {
+      "jp": "メガバシャーモ",
+      "en": "Mega Blaziken"
+    }
+  },
+  {
+    "id": "260m",
+    "name": {
+      "jp": "メガラグラージ",
+      "en": "Mega Swampert"
+    }
+  },
+  {
+    "id": "282m",
+    "name": {
+      "jp": "メガサーナイト",
+      "en": "Mega Gardevoir"
+    }
+  },
+  {
+    "id": "302m",
+    "name": {
+      "jp": "メガヤミラミ",
+      "en": "Mega Sableye"
+    }
+  },
+  {
+    "id": "303m",
+    "name": {
+      "jp": "メガクチート",
+      "en": "Mega Mawile"
+    }
+  },
+  {
+    "id": "306m",
+    "name": {
+      "jp": "メガボスゴドラ",
+      "en": "Mega Aggron"
+    }
+  },
+  {
+    "id": "308m",
+    "name": {
+      "jp": "メガチャーレム",
+      "en": "Mega Medicham"
+    }
+  },
+  {
+    "id": "310m",
+    "name": {
+      "jp": "メガライボルト",
+      "en": "Mega Manectric"
+    }
+  },
+  {
+    "id": "319m",
+    "name": {
+      "jp": "メガサメハダー",
+      "en": "Mega Sharpedo"
+    }
+  },
+  {
+    "id": "323m",
+    "name": {
+      "jp": "メガバクーダ",
+      "en": "Mega Camerupt"
+    }
+  },
+  {
+    "id": "334m",
+    "name": {
+      "jp": "メガチルタリス",
+      "en": "Mega Altaria"
+    }
+  },
+  {
+    "id": "354m",
+    "name": {
+      "jp": "メガジュペッタ",
+      "en": "Mega Banette"
+    }
+  },
+  {
+    "id": "359m",
+    "name": {
+      "jp": "メガアブソル",
+      "en": "Mega Absol"
+    }
+  },
+  {
+    "id": "362m",
+    "name": {
+      "jp": "メガオニゴーリ",
+      "en": "Mega Glalie"
+    }
+  },
+  {
+    "id": "373m",
+    "name": {
+      "jp": "メガボーマンダ",
+      "en": "Mega Salamence"
+    }
+  },
+  {
+    "id": "376m",
+    "name": {
+      "jp": "メガメタグロス",
+      "en": "Mega Metagross"
+    }
+  },
+  {
+    "id": "380m",
+    "name": {
+      "jp": "メガラティアス",
+      "en": "Mega Latias"
+    }
+  },
+  {
+    "id": "381m",
+    "name": {
+      "jp": "メガラティオス",
+      "en": "Mega Latios"
+    }
+  },
+  {
+    "id": "382p",
+    "name": {
+      "jp": "ゲンシカイオーガ",
+      "en": "Primal Kyogre"
+    }
+  },
+  {
+    "id": "383p",
+    "name": {
+      "jp": "ゲンシグラードン",
+      "en": "Primal Groudon"
+    }
+  },
+  {
+    "id": "384m",
+    "name": {
+      "jp": "メガレックウザ",
+      "en": "Mega Rayquaza"
+    }
+  },
+  {
+    "id": "428m",
+    "name": {
+      "jp": "メガミミロップ",
+      "en": "Mega Lopunny"
+    }
+  },
+  {
+    "id": "445m",
+    "name": {
+      "jp": "メガガブリアス",
+      "en": "Mega Garchomp"
+    }
+  },
+  {
+    "id": "448m",
+    "name": {
+      "jp": "メガルカリオ",
+      "en": "Mega Lucario"
+    }
+  },
+  {
+    "id": "460m",
+    "name": {
+      "jp": "メガユキノオー",
+      "en": "Mega Abomasnow"
+    }
+  },
+  {
+    "id": "475m",
+    "name": {
+      "jp": "メガエルレイド",
+      "en": "Mega Gallade"
+    }
+  },
+  {
+    "id": "531m",
+    "name": {
+      "jp": "メガタブンネ",
+      "en": "Mega Audino"
+    }
+  },
+  {
+    "id": "719m",
+    "name": {
+      "jp": "メガディアンシー",
+      "en": "Mega Diancie"
+    }
+  },
+  {
+    "id": "800u",
+    "name": {
+      "jp": "ウルトラネクロズマ",
+      "en": "Ultra Necrozma"
+    }
+  }
 ]

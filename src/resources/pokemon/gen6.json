@@ -1937,7 +1937,8 @@
     },
     "egg_groups": [
       "タマゴ未発見"
-    ]
+    ],
+    "mega_evolve": true
   },
   {
     "id": "720",
