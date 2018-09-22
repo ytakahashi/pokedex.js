@@ -10,7 +10,8 @@ const getAll = (lang) => {
     require('./resources/pokemon/gen4.json').map(p => new Pokemon(p, Number(4), lang)),
     require('./resources/pokemon/gen5.json').map(p => new Pokemon(p, Number(5), lang)),
     require('./resources/pokemon/gen6.json').map(p => new Pokemon(p, Number(6), lang)),
-    require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang))
+    require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang)),
+    require('./resources/pokemon/form.json').map(p => new Pokemon(p, null, lang))
   )
 }
 
@@ -30,13 +31,13 @@ module.exports = class Pokedex {
 
   getById (id) {
     return JSON.stringify(
-      this.poke.find(pokemon => String(id) === pokemon.id)
+      this.poke.filter(pokemon => String(id) === pokemon.id)
     )
   }
 
   getByName (name) {
     return JSON.stringify(
-      this.poke.find(pokemon => name === pokemon.name)
+      this.poke.filter(pokemon => name === pokemon.name)
     )
   }
 

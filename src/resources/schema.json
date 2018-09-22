@@ -3,7 +3,7 @@
   "title": "Pokemon",
   "description": "A Schema of Pokemon of pokedex.js",
   "type": "object",
-  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup", "generation" ],
+  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup" ],
   "properties": {
     "id": {
       "type": "string",
@@ -12,6 +12,10 @@
     "name": {
       "type": "string",
       "description": "Name of this Pokemon."
+    },
+    "formName": {
+      "type": "string",
+      "description": "Form name of this Pokemon."
     },
     "type": {
       "type": "array",
