@@ -10,7 +10,8 @@ const getAll = (lang) => {
     require('./resources/pokemon/gen4.json').map(p => new Pokemon(p, Number(4), lang)),
     require('./resources/pokemon/gen5.json').map(p => new Pokemon(p, Number(5), lang)),
     require('./resources/pokemon/gen6.json').map(p => new Pokemon(p, Number(6), lang)),
-    require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang))
+    require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang)),
+    require('./resources/pokemon/form.json').map(p => new Pokemon(p, null, lang))
   )
 }
 

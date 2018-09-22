@@ -1,0 +1,612 @@
+[
+  {
+    "id": 19,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "names": [
+      {
+        "formId": "a",
+        "jp": "アローラのすがた",
+        "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ノーマルフォルム",
+        "en": "Normal Forme"
+      },
+      {
+        "formId": "a",
+        "jp": "アタックフォルム",
+        "en": "Attack Forme"
+      },
+      {
+        "formId": "d",
+        "jp": "ディフェンスフォルム",
+        "en": "Defense Forme"
+      },
+      {
+        "formId": "s",
+        "jp": "スピードフォルム",
+        "en": "Speed Forme"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "names": [
+      {
+        "formId": "",
+        "jp": "くさきのミノ",
+        "en": "Plant Cloak"
+      },
+      {
+        "formId": "s",
+        "jp": "すなちのミノ",
+        "en": "Sandy Cloak"
+      },
+      {
+        "formId": "d",
+        "jp": "ゴミのミノ",
+        "en": "Trash Cloak"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "names": [
+      {
+        "formId": "h",
+        "jp": "ヒートロトム",
+        "en": "Heat Rotom"
+      },
+      {
+        "formId": "w",
+        "jp": "ウォッシュロトム",
+        "en": "Wash Rotom"
+      },
+      {
+        "formId": "f",
+        "jp": "フロストロトム",
+        "en": "Frost Rotom"
+      },
+      {
+        "formId": "s",
+        "jp": "スピンロトム",
+        "en": "Fan Rotom"
+      },
+      {
+        "formId": "c",
+        "jp": "カットロトム",
+        "en": "Mow Rotom"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "names": [
+      {
+        "formId": "",
+        "jp": "アナザーフォルム",
+        "en": "Altered Forme"
+      },
+      {
+        "formId": "o",
+        "jp": "オリジンフォルム",
+        "en": "Origin Forme"
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ランドフォルム",
+        "en": "Land Forme"
+      },
+      {
+        "formId": "s",
+        "jp": "スカイフォルム",
+        "en": "Sky Forme"
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "names": [
+      {
+        "formId": "",
+        "jp": "あかすじ",
+        "en": "Red-Striped Form"
+      },
+      {
+        "formId": "f",
+        "jp": "あおすじ",
+        "en": "Blue-Striped Form"
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ノーマルモード",
+        "en": "Standard Mode"
+      },
+      {
+        "formId": "f",
+        "jp": "ダルマモード",
+        "en": "Zen Mode"
+      }
+    ]
+  },
+  {
+    "id": 641,
+    "names": [
+      {
+        "formId": "",
+        "jp": "けしんフォルム",
+        "en": "Incarnate Forme"
+      },
+      {
+        "formId": "a",
+        "jp": "れいじゅうフォルム",
+        "en": "Therian Forme"
+      }
+    ]
+  },
+  {
+    "id": 642,
+    "names": [
+      {
+        "formId": "",
+        "jp": "けしんフォルム",
+        "en": "Incarnate Forme"
+      },
+      {
+        "formId": "a",
+        "jp": "れいじゅうフォルム",
+        "en": "Therian Forme"
+      }
+    ]
+  },
+  {
+    "id": 645,
+    "names": [
+      {
+        "formId": "",
+        "jp": "けしんフォルム",
+        "en": "Incarnate Forme"
+      },
+      {
+        "formId": "a",
+        "jp": "れいじゅうフォルム",
+        "en": "Therian Forme"
+      }
+    ]
+  },
+  {
+    "id": 646,
+    "names": [
+      {
+        "formId": "w",
+        "jp": "ホワイトキュレム",
+        "en": "White Kyurem"
+      },
+      {
+        "formId": "b",
+        "jp": "ブラックキュレム",
+        "en": "Black Kyurem"
+      }
+    ]
+  },
+  {
+    "id": 647,
+    "names": [
+      {
+        "formId": "",
+        "jp": "いつものすがた",
+        "en": "Ordinary Form"
+      },
+      {
+        "formId": "k",
+        "jp": "かくごのすがた",
+        "en": "Resolute Form"
+      }
+    ]
+  },
+  {
+    "id": 648,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ボイスフォルム",
+        "en": "Aria Forme"
+      },
+      {
+        "formId": "f",
+        "jp": "ステップフォルム",
+        "en": "Pirouette Forme"
+      }
+    ]
+  },
+  {
+    "id": 678,
+    "names": [
+      {
+        "formId": "",
+        "jp": "オスのすがた",
+        "en": "Male"
+      },
+      {
+        "formId": "f",
+        "jp": "メスのすがた",
+        "en": "Female"
+      }
+    ]
+  },
+  {
+    "id": 681,
+    "names": [
+      {
+        "formId": "",
+        "jp": "シールドフォルム",
+        "en": "Shield Forme"
+      },
+      {
+        "formId": "b",
+        "jp": "ブレードフォルム",
+        "en": "Blade Forme"
+      }
+    ]
+  },
+  {
+    "id": 710,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ふつうのサイズ",
+        "en": "Average Size"
+      },
+      {
+        "formId": "s",
+        "jp": "ちいさいサイズ",
+        "en": "Small Size"
+      },
+      {
+        "formId": "l",
+        "jp": "おおきいサイズ",
+        "en": "Large Size"
+      },
+      {
+        "formId": "k",
+        "jp": "おおきいサイズ",
+        "en": "Super Size"
+      }
+    ]
+  },
+  {
+    "id": 711,
+    "names": [
+      {
+        "formId": "",
+        "jp": "ふつうのサイズ",
+        "en": "Average Size"
+      },
+      {
+        "formId": "s",
+        "jp": "ちいさいサイズ",
+        "en": "Small Size"
+      },
+      {
+        "formId": "l",
+        "jp": "おおきいサイズ",
+        "en": "Large Size"
+      },
+      {
+        "formId": "k",
+        "jp": "おおきいサイズ",
+        "en": "Super Size"
+      }
+    ]
+  },
+  {
+    "id": 718,
+    "names": [
+      {
+        "formId": "",
+        "jp": "50%フォルム",
+        "en": "50% Forme"
+      },
+      {
+        "formId": "t",
+        "jp": "10%フォルム",
+        "en": "10% Forme"
+      },
+      {
+        "formId": "c",
+        "jp": "パーフェクトフォルム",
+        "en": "Complete Forme"
+      }
+    ]
+  },
+  {
+    "id": 720,
+    "names": [
+      {
+        "formId": "",
+        "jp": "いましめられしフーパ",
+        "en": "Hoopa Confined"
+      },
+      {
+        "formId": "u",
+        "jp": "ときはなたれしフーパ",
+        "en": "Hoopa Unbound"
+      }
+    ]
+  },
+  {
+    "id": 741,
+    "names": [
+      {
+        "formId": "",
+        "jp": "めらめらスタイル",
+        "en": "Baile Style"
+      },
+      {
+        "formId": "p",
+        "jp": "ぱちぱちスタイル",
+        "en": "Pom-Pom Style"
+      },
+      {
+        "formId": "f",
+        "jp": "ふらふらスタイル",
+        "en": "Pa'u Style"
+      },
+      {
+        "formId": "m",
+        "jp": "まいまいスタイル",
+        "en": "Sensu Style"
+      }
+    ]
+  },
+  {
+    "id": 745,
+    "names": [
+      {
+        "formId": "",
+        "jp": "まひるのすがた",
+        "en": "Midday Form"
+      },
+      {
+        "formId": "f",
+        "jp": "まよなかのすがた",
+        "en": "Midnight Form"
+      },
+      {
+        "formId": "d",
+        "jp": "たそがれのすがた",
+        "en": "Dusk Form"
+      }
+    ]
+  },
+  {
+    "id": 746,
+    "names": [
+      {
+        "formId": "",
+        "jp": "たんどくのすがた",
+        "en": "Solo Form"
+      },
+      {
+        "formId": "f",
+        "jp": "むれたすがた",
+        "en": "School Form"
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "names": [
+      {
+        "formId": "",
+        "jp": "りゅうせいのすがた",
+        "en": "Meteor Form"
+      },
+      {
+        "formId": "f",
+        "jp": "コア",
+        "en": "Core"
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "names": [
+      {
+        "formId": "s",
+        "jp": "たそがれのたてがみ",
+        "en": "Dusk Mane Necrozma"
+      },
+      {
+        "formId": "m",
+        "jp": "あかつきのつばさ",
+        "en": "Dawn Wings Necrozma"
+      }
+    ]
+  }
+]

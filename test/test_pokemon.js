@@ -38,6 +38,8 @@ describe('Pokemon class (language: ja)', () => {
       .to.equal('25')
     expect(pikachu.name)
       .to.equal('ピカチュウ')
+    expect(pikachu.formName)
+      .to.be.undefined
     expect(pikachu.type)
       .to.be.an('array')
       .that.has.lengthOf(1)
@@ -50,6 +52,60 @@ describe('Pokemon class (language: ja)', () => {
       .and.that.include('陸上')
       .and.that.include('妖精')
     expect(pikachu.megaEvolution)
+      .to.be.undefined
+  })
+
+  it('returns corrent properties for Alola Raichu', () => {
+    const actual = new Pokemon({
+      'id': '26',
+      'formId': 'a',
+      'name': 'ライチュウ',
+      'type': [
+        'でんき',
+        'エスパー'
+      ],
+      'abilities': [
+        {
+          'name': 'サーフテール'
+        }
+      ],
+      'status': {
+        'H': '60',
+        'A': '85',
+        'B': '50',
+        'C': '95',
+        'D': '85',
+        'S': '110'
+      },
+      'egg_groups': [
+        '陸上',
+        '妖精'
+      ]
+    },
+    null,
+    'en')
+
+    expect(actual.id)
+      .to.equal('26')
+    expect(actual.name)
+      .to.equal('Raichu')
+    expect(actual.formName)
+      .to.equal('Alola Form')
+    expect(actual.type)
+      .to.be.an('array')
+      .that.has.lengthOf(2)
+      .and.that.include('Electric')
+      .and.that.include('Psychic')
+    expect(actual.baseStats)
+      .to.have.all.keys('H', 'A', 'B', 'C', 'D', 'S')
+    expect(actual.eggGroup)
+      .to.be.an('array')
+      .that.has.lengthOf(2)
+      .and.that.include('Field')
+      .and.that.include('Fairy')
+    expect(actual.megaEvolution)
+      .to.be.undefined
+    expect(actual.generation)
       .to.be.undefined
   })
 
@@ -90,6 +146,8 @@ describe('Pokemon class (language: ja)', () => {
       .to.equal('6')
     expect(actual.name)
       .to.equal('リザードン')
+    expect(actual.formName)
+      .to.be.undefined
     expect(actual.type)
       .to.be.an('array')
       .that.has.lengthOf(2)
@@ -150,6 +208,8 @@ describe('Pokemon class (language: en)', () => {
       .to.equal('3')
     expect(actual.name)
       .to.equal('Venusaur')
+    expect(actual.formName)
+      .to.be.undefined
     expect(actual.type)
       .to.be.an('array')
       .that.has.lengthOf(2)
