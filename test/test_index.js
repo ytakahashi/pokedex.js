@@ -32,7 +32,7 @@ describe('Pokedex class', () => {
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.getById(25)
 
-      const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
 
       expect(actual)
         .to.deep.equal(expected)
@@ -41,7 +41,7 @@ describe('Pokedex class', () => {
     it('returns expected Pokemon (name: ピカチュウ)', () => {
       const actual = pokedex.getByName('ピカチュウ')
 
-      const expected = '{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
 
       expect(actual)
         .to.deep.equal(expected)
@@ -85,13 +85,13 @@ describe('Pokedex class', () => {
     it('returns undefined for not defined name', () => {
       const actual = pokedex.getById('foo')
       expect(actual)
-        .to.be.an('undefined')
+        .to.deep.equal('[]')
     })
 
     it('returns undefined for not defined id', () => {
       const actual = pokedex.getById(0)
       expect(actual)
-        .to.be.an('undefined')
+        .to.deep.equal('[]')
     })
   })
 
@@ -101,7 +101,7 @@ describe('Pokedex class', () => {
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.getById(25)
 
-      const expected = '{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      const expected = '[{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual)
         .to.deep.equal(expected)
     })
@@ -109,7 +109,7 @@ describe('Pokedex class', () => {
     it('returns expected Pokemon (name: Pikachu)', () => {
       const actual = pokedex.getByName('Pikachu')
 
-      const expected = '{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}'
+      const expected = '[{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual)
         .to.deep.equal(expected)
     })

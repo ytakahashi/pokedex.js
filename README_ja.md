@@ -15,11 +15,11 @@ const pokedex = new Pokedex('ja')
 console.log(pokedex.getByName('ピカチュウ'))
 // {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
 
-console.log(pokedex.getById(25))
-// {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
+console.log(pokedex.getById(26))
+// [{"id":"26","name":"ライチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"アローラのすがた","name":"ライチュウ","type":["でんき","エスパー"],"ability":[{"name":"サーフテール","hidden":false}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"}}]
 ```
 
-返却される JSON の形式は、[こちら](./src/resources/schema.json)を参照してください。
+名前またはずかん番号指定で、[ポケモン情報](./src/resources/schema.json)の配列を取得できます。
 
 ### フィルタ
 

@@ -31,13 +31,13 @@ module.exports = class Pokedex {
 
   getById (id) {
     return JSON.stringify(
-      this.poke.find(pokemon => String(id) === pokemon.id)
+      this.poke.filter(pokemon => String(id) === pokemon.id)
     )
   }
 
   getByName (name) {
     return JSON.stringify(
-      this.poke.find(pokemon => name === pokemon.name)
+      this.poke.filter(pokemon => name === pokemon.name)
     )
   }
 

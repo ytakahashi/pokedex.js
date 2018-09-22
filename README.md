@@ -33,12 +33,12 @@ const pokedex = new Pokedex('en')
 console.log(pokedex.getByName('Pikachu'))
 // {"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
 
-console.log(pokedex.getById(25))
-// {"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
+console.log(pokedex.getById(26))
+// [{"id":"26","name":"Raichu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"Alola Form","name":"Raichu","type":["Electric","Psychic"],"ability":[{"name":"Surge Surfer","hidden":false}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"}}]
 
 ```
 
-These return Pokemon JSON ([schema](./src/resources/schema.json)).
+These methods return list of [Pokemon JSON](./src/resources/schema.json) of specified name/id.
 
 ### With filtering
 
