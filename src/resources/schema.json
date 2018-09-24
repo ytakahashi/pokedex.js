@@ -3,7 +3,7 @@
   "title": "Pokemon",
   "description": "A Schema of Pokemon of pokedex.js",
   "type": "object",
-  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup" ],
+  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup", "generation" ],
   "properties": {
     "id": {
       "type": "string",
