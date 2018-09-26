@@ -13,10 +13,10 @@ const Pokedex = require('pokedex.js')
 const pokedex = new Pokedex('ja')
 
 console.log(pokedex.getByName('ピカチュウ'))
-// {"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}
+// [{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]
 
 console.log(pokedex.getById(26))
-// [{"id":"26","name":"ライチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"アローラのすがた","name":"ライチュウ","type":["でんき","エスパー"],"ability":[{"name":"サーフテール","hidden":false}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"}}]
+// [{"id":"26","name":"ライチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"アローラのすがた","name":"ライチュウ","type":["でんき","エスパー"],"ability":[{"name":"サーフテール","hidden":false}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"},"generation":7}]
 ```
 
 名前またはずかん番号指定で、[ポケモン情報](./src/resources/schema.json)の配列を取得できます。
@@ -46,7 +46,7 @@ console.log(
     .ofGeneration(2)
     .get()
 )
-// [{"id":"243","name":"ライコウ","type":["でんき"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"85","B":"75","C":"115","D":"100","S":"115"},"generation":2},{"id":"244","name":"エンテイ","type":["ほのお"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"115","A":"115","B":"85","C":"90","D":"75","S":"100"},"generation":2},{"id":"245","name":"スイクン","type":["みず"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"75","B":"115","C":"90","D":"115","S":"85"},"generation":2},{"id":"248","name":"バンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false},{"name":"きんちょうかん","hidden":true}],"eggGroup":["怪獣"],"baseStats":{"H":"100","A":"134","B":"110","C":"95","D":"100","S":"61"},"generation":2,"megaEvolution":[{"name":"メガバンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false}],"baseStats":{"H":"100","A":"164","B":"150","C":"95","D":"120","S":"71"}}]},{"id":"251","name":"セレビィ","type":["エスパー","くさ"],"ability":[{"name":"しぜんかいふく","hidden":false}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":2}]
+// [{"id":"243","name":"ライコウ","type":["でんき"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"90","A":"85","B":"75","C":"115","D":"100","S":"115"},"generation":2},{"id":"244","name":"エンテイ","type":["ほのお"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"115","A":"115","B":"85","C":"90","D":"75","S":"100"},"generation":2},{"id":"245","name":"スイクン","type":["みず"],"ability":[{"name":"プレッシャー","hidden":false},{"name":"せいしんりょく","hidden":true}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"75","B":"115","C":"90","D":"115","S":"85"},"generation":2},{"id":"248","name":"バンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false},{"name":"きんちょうかん","hidden":true}],"eggGroup":["怪獣"],"baseStats":{"H":"100","A":"134","B":"110","C":"95","D":"100","S":"61"},"megaEvolution":[{"name":"メガバンギラス","type":["いわ","あく"],"ability":[{"name":"すなおこし","hidden":false}],"baseStats":{"H":"100","A":"164","B":"150","C":"95","D":"120","S":"71"}}],"generation":2},{"id":"251","name":"セレビィ","type":["エスパー","くさ"],"ability":[{"name":"しぜんかいふく","hidden":false}],"eggGroup":["タマゴ未発見"],"baseStats":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":2}]
 ```
 
 ### 利用可能なフィルタ
