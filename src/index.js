@@ -45,7 +45,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons with name
-   * @param {String} name NAme of Pokémon
+   * @param {String} name Name of Pokémon
    */
   name (name) {
     this.poke =
@@ -64,7 +64,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons with an egg group
+   * Filters a list of Pokémons with egg group
    * @param {String} eggGroup Egg group of Pokémon
    */
   eggGroup (eggGroup) {
@@ -123,7 +123,7 @@ module.exports = class Pokedex {
 
   /**
    * @deprecated use '.id' and '.get' instead
-   * @param {Number|String} id id of Pokémon
+   * @param {Number|String} id ID of Pokémon
    * @see {@link id}
    * @see {@link get}
    */
@@ -135,7 +135,7 @@ module.exports = class Pokedex {
 
   /**
    * @deprecated use '.name' and '.get' instead
-   * @param {String} name name of Pokémon
+   * @param {String} name Name of Pokémon
    * @see {@link name}
    * @see {@link get}
    */
