@@ -48,13 +48,13 @@ console.log(pokedex.id(26).get())
 - `baseStatTotalLe(value: Number|String)` : Takes Pokémons whose base stat total is a given value or under.
 - `canMegaEvolve()` : Takes Pokémons which can Mega Evolve (including Primal Reversion, Ultra Burst).
 - `generation(generation: Number|String)` : Filters list of Pokémons by a generation when the Pokémons was introduced.
-- `get()`: Returns JSON String of a list of Pokémons which satisfy applied filter method(s). Returned JSON is a list of ([Pokemon](./src/resources/schema.json)).
+- `get()`: Returns JSON String of a list of Pokémons which satisfy applied filter method(s). Returned JSON is a list of [Pokemon](./src/resources/schema.json).
 
 Multiple filtering methods can be applied at the same time by chaining methods like examples below.  
 
 ### Examples
 
-#### Filter by multiple typeså
+#### Filter by multiple types
 
 Get Pokémons which have type Water/Fairy
 

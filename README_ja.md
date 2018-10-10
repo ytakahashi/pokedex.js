@@ -35,11 +35,11 @@ console.log(pokedex.id(26).get())
 - `name(name: String)` : 名前でフィルタします。
 - `type(type: String)` : タイプでフィルタします。
 - `eggGroup(eggGroop: String)` : タマゴグループでフィルタします。
-- `totalBaseStatsGe(value: Number|String)` : 合計種族理でフィルタします。
-- `totalBaseStatsLe(value: Number|String)` : 合計種族理でフィルタします。
+- `baseStatTotalGe(value: Number|String)` : 合計種族値が与えられた数値以上のポケモンのみ取得します。
+- `baseStatTotalLe(value: Number|String)` : 合計種族値が与えられた数値以下のポケモンのみ取得します。
 - `canMegaEvolve()` : メガシンカするポケモン（ゲンシカイキ、ウルトラバースト含む）のみ取得します。
 - `generation(generation: Number|String)` : 指定された世代で登場したポケモンのみ取得します。
-- `get()`: 指定された条件に合うポケモンのリストを JSON 文字列として返します。返却される JSON は[Pokemon](./src/resources/schema.json) の配列となります。
+- `get()`: 指定された条件に合うポケモンのリストを JSON 文字列として返します。返却される JSON は[ポケモン](./src/resources/schema.json) の配列となります。
 
 以下の例のように、複数のフィルタを同時に適用することも可能です。
 
