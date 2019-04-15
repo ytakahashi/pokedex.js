@@ -18,6 +18,15 @@ const isValidPokemon = (value) => {
   }
 }
 
+const bst = (pokemon) => {
+  return Number(pokemon.baseStats.H) +
+    Number(pokemon.baseStats.A) +
+    Number(pokemon.baseStats.B) +
+    Number(pokemon.baseStats.C) +
+    Number(pokemon.baseStats.D) +
+    Number(pokemon.baseStats.S)
+}
+
 describe('Pokedex class', () => {
   describe('language: foo)', () => {
     it('throws Error', () => {
@@ -58,21 +67,45 @@ describe('Pokedex class', () => {
         .eggGroup('妖精')
         .get()
 
-      const bst = (pokemon) => {
-        return Number(pokemon.baseStats.H) +
-        Number(pokemon.baseStats.A) +
-        Number(pokemon.baseStats.B) +
-        Number(pokemon.baseStats.C) +
-        Number(pokemon.baseStats.D) +
-        Number(pokemon.baseStats.S)
-      }
-
       const isExpected = (pokemon) => isValidPokemon(pokemon) &&
         pokemon.eggGroup.includes('妖精') &&
         bst(pokemon) >= 400 &&
         bst(pokemon) <= 500
 
       expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
+    it('can return Pokemon with expected base stat', () => {
+      const bstIn200and210Closed = JSON.parse(
+        pokedex
+          .baseStatTotal('>=', 200)
+          .baseStatTotal('<=', '210')
+          .get()
+      )
+      const isExpected = (pokemon) => isValidPokemon(pokemon) &&
+        bst(pokemon) >= 200 && bst(pokemon) <= 210
+      expect(bstIn200and210Closed.every(isExpected)).to.be.true
+
+      const bstIn200and210 = JSON.parse(
+        pokedex
+          .baseStatTotal('>', '200')
+          .baseStatTotal('<', 210)
+          .get()
+      )
+      const isExpected2 = (pokemon) => isValidPokemon(pokemon) &&
+        bst(pokemon) >= 200 && bst(pokemon) <= 210
+      expect(bstIn200and210.every(isExpected2)).to.be.true
+
+      const bst200 = JSON.parse(pokedex.baseStatTotal('=', 200).get())
+      const isExpected3 = (pokemon) => isValidPokemon(pokemon) && bst(pokemon) === 200
+      expect(bst200.every(isExpected3)).to.be.true
+
+      const bst210 = JSON.parse(pokedex.baseStatTotal('=', '210').get())
+      const isExpected4 = (pokemon) => isValidPokemon(pokemon) && bst(pokemon) === 210
+      expect(bst210.every(isExpected4)).to.be.true
+
+      expect(bst200.length + bstIn200and210.length + bst210.length)
+        .to.equal(bstIn200and210Closed.length)
     })
 
     it('returns empty array for not defined name', () => {
@@ -114,6 +147,11 @@ describe('Pokedex class', () => {
       const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.megaEvolution !== undefined
 
       expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
+    it('throws exception for undefined operator of base stat total', () => {
+      expect(() => pokedex.baseStatTotal('a', 100))
+        .to.throw('Invalid operator (a).')
     })
   })
 })

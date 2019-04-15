@@ -35,6 +35,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons with ID
+   *
    * @param {Number|String} id ID of Pokémon
    */
   id (id) {
@@ -45,6 +46,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons with name
+   *
    * @param {String} name Name of Pokémon
    */
   name (name) {
@@ -55,6 +57,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons with type
+   *
    * @param {String} type Type of Pokémon
    */
   type (type) {
@@ -65,6 +68,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons with egg group
+   *
    * @param {String} eggGroup Egg group of Pokémon
    */
   eggGroup (eggGroup) {
@@ -75,6 +79,7 @@ module.exports = class Pokedex {
 
   /**
    * Takes Pokémons whose base stat total is a given value and over
+   *
    * @param {Number|String} value
    */
   baseStatTotalGe (value) {
@@ -85,11 +90,46 @@ module.exports = class Pokedex {
 
   /**
    * Takes Pokémons whose base stat total is a given value or under
+   *
    * @param {Number|String} value
    */
   baseStatTotalLe (value) {
     this.poke =
       this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
+    return this
+  }
+
+  /**
+   * Takes Pokémons whose base stat total matches to given operator and value
+   *
+   * @param {String} operator
+   * @param {Number|String} value
+   */
+  baseStatTotal (operator, value) {
+    switch (operator) {
+      case '>':
+        this.poke =
+          this.poke.filter(pokemon => pokemon.baseStats.total > Number(value))
+        break
+      case '>=':
+        this.poke =
+          this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
+        break
+      case '<':
+        this.poke =
+          this.poke.filter(pokemon => pokemon.baseStats.total < Number(value))
+        break
+      case '<=':
+        this.poke =
+          this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
+        break
+      case '=':
+        this.poke =
+          this.poke.filter(pokemon => pokemon.baseStats.total === Number(value))
+        break
+      default:
+        throw new Error(`Invalid operator (${operator}).`)
+    }
     return this
   }
 
@@ -104,6 +144,7 @@ module.exports = class Pokedex {
 
   /**
    * Filters a list of Pokémons by a generation when the Pokémons was introduced
+   *
    * @param {Number|String} gen Generation
    */
   generation (gen) {
