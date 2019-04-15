@@ -44,8 +44,7 @@ console.log(pokedex.id(26).get())
 - `name(name: String)` : Filters list of Pokémons with name.
 - `type(type: String)` : Filters list of Pokémons with type.
 - `eggGroup(eggGroop: String)` : Filters list of Pokémons with egg group.
-- `baseStatTotalGe(value: Number|String)` : Takes Pokémons whose base stat total is a given value and over.
-- `baseStatTotalLe(value: Number|String)` : Takes Pokémons whose base stat total is a given value or under.
+- `baseStatTotal(operatot: String, value: Number|String)` : Takes Pokémons whose base stat total matches to given operation (one of `'>='`, `'>'`, `'<='`, `'<'`, `'='`) and value.
 - `canMegaEvolve()` : Takes Pokémons which can Mega Evolve (including Primal Reversion, Ultra Burst).
 - `generation(generation: Number|String)` : Filters list of Pokémons by a generation when the Pokémons was introduced.
 - `get()`: Returns JSON String of a list of Pokémons which satisfy applied filter method(s). Returned JSON is a list of [Pokemon](./src/resources/schema.json).
@@ -75,8 +74,8 @@ Get Pokémons whose base stat total is between 580 and 600, and introduced at 2n
 ```node.js
 console.log(
   pokedex
-    .baseStatTotalGe(580)
-    .baseStatTotalLe(600)
+    .baseStatTotal('>=', 580)
+    .baseStatTotal('<=', 600)
     .generation(2)
     .get()
 )
