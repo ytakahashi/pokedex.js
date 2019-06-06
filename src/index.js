@@ -78,28 +78,6 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Takes Pokémons whose base stat total is a given value and over
-   *
-   * @param {Number|String} value
-   */
-  baseStatTotalGe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
-    return this
-  }
-
-  /**
-   * Takes Pokémons whose base stat total is a given value or under
-   *
-   * @param {Number|String} value
-   */
-  baseStatTotalLe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
-    return this
-  }
-
-  /**
    * Takes Pokémons whose base stat total matches to given operator and value
    *
    * @param {String} operator
@@ -160,6 +138,30 @@ module.exports = class Pokedex {
     const ret = this.poke
     this.poke = this.allPoke
     return JSON.stringify(ret)
+  }
+
+  /**
+   * Takes Pokémons whose base stat total is a given value and over
+   *
+   * @deprecated use '.baseStatTotal' instead
+   * @param {Number|String} value
+   */
+  baseStatTotalGe (value) {
+    this.poke =
+      this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
+    return this
+  }
+
+  /**
+   * Takes Pokémons whose base stat total is a given value or under
+   *
+   * @deprecated use '.baseStatTotal' instead
+   * @param {Number|String} value
+   */
+  baseStatTotalLe (value) {
+    this.poke =
+      this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
+    return this
   }
 
   /**
