@@ -7,8 +7,7 @@
   "author": "ytakahashi <yt01tc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "standard && istanbul cover _mocha -- test",
-    "test-ci": "standard && istanbul cover _mocha -- test && codecov",
+    "test": "nyc --reporter=html --reporter=text mocha",
     "lint": "standard"
   },
   "keywords": [
@@ -19,10 +18,9 @@
   ],
   "devDependencies": {
     "chai": "^4.1.2",
-    "codecov": "^3.0.4",
-    "istanbul": "^0.4.5",
     "jsonschema": "^1.2.4",
     "mocha": "^5.2.0",
+    "nyc": "^14.1.1",
     "sinon": "^6.1.4",
     "standard": "^11.0.1"
   },
