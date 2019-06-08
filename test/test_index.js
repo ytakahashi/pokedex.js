@@ -60,21 +60,6 @@ describe('Pokedex class', () => {
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
-    it('returns expected Pokemon Array (filter by base stats: 400-500, egg group: 妖精)', () => {
-      const actual = pokedex
-        .baseStatTotalGe(400)
-        .baseStatTotalLe(500)
-        .eggGroup('妖精')
-        .get()
-
-      const isExpected = (pokemon) => isValidPokemon(pokemon) &&
-        pokemon.eggGroup.includes('妖精') &&
-        bst(pokemon) >= 400 &&
-        bst(pokemon) <= 500
-
-      expect(JSON.parse(actual).every(isExpected)).to.be.true
-    })
-
     it('can return Pokemon with expected base stat', () => {
       const bstIn200and210Closed = JSON.parse(
         pokedex
@@ -190,14 +175,20 @@ describe('Pokedex class (deprecated methods)', () => {
         .belongsToEggGroup('妖精')
         .get()
 
-      const bst = (pokemon) => {
-        return Number(pokemon.baseStats.H) +
-          Number(pokemon.baseStats.A) +
-          Number(pokemon.baseStats.B) +
-          Number(pokemon.baseStats.C) +
-          Number(pokemon.baseStats.D) +
-          Number(pokemon.baseStats.S)
-      }
+      const isExpected = (pokemon) => isValidPokemon(pokemon) &&
+        pokemon.eggGroup.includes('妖精') &&
+        bst(pokemon) >= 400 &&
+        bst(pokemon) <= 500
+
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
+    it('returns expected Pokemon Array (filter by base stats: 400-500, egg group: 妖精)', () => {
+      const actual = pokedex
+        .baseStatTotalGe(400)
+        .baseStatTotalLe(500)
+        .eggGroup('妖精')
+        .get()
 
       const isExpected = (pokemon) => isValidPokemon(pokemon) &&
         pokemon.eggGroup.includes('妖精') &&
