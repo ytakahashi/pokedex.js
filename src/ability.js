@@ -257,7 +257,7 @@ const getAbility = (ability, lang) => {
       hidden = false
       name = abilityName(a.name, lang)
     }
-    abilities.push({name, hidden})
+    abilities.push({ name, hidden })
   }
   return abilities
 }

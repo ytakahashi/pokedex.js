@@ -105,7 +105,7 @@ describe('Pokedex class', () => {
   })
 
   describe('language: en)', () => {
-    let pokedex = new Pokedex('en')
+    const pokedex = new Pokedex('en')
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.id(25).get()
@@ -210,7 +210,7 @@ describe('Pokedex class (deprecated methods)', () => {
   })
 
   describe('language: en)', () => {
-    let pokedex = new Pokedex('en')
+    const pokedex = new Pokedex('en')
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.getById(25)
