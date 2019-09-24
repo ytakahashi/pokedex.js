@@ -5,10 +5,10 @@ describe('Ability class', () => {
   it('test ability', () => {
     const abilities = [
       {
-        'name': 'しんりょく'
+        name: 'しんりょく'
       },
       {
-        'name': '*ようりょくそ'
+        name: '*ようりょくそ'
       }
     ]
 

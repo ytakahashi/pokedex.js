@@ -7,8 +7,9 @@
   "author": "ytakahashi <yt01tc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha",
-    "lint": "standard"
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "standard && nyc --reporter=html --reporter=text mocha"
   },
   "keywords": [
     "pokedex",

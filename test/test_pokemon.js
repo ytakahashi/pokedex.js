@@ -7,26 +7,26 @@ const { Pokemon } = require('../src/pokemon')
 describe('Pokemon class (language: ja)', () => {
   it('returns corrent properties for ピカチュウ', () => {
     const pikachu = new Pokemon({
-      'id': '25',
-      'name': 'ピカチュウ',
-      'type': ['でんき'],
-      'abilities': [
+      id: '25',
+      name: 'ピカチュウ',
+      type: ['でんき'],
+      abilities: [
         {
-          'name': 'せいでんき'
+          name: 'せいでんき'
         },
         {
-          'name': '*ひらいしん'
+          name: '*ひらいしん'
         }
       ],
-      'status': {
-        'H': '35',
-        'A': '55',
-        'B': '40',
-        'C': '50',
-        'D': '50',
-        'S': '90'
+      status: {
+        H: '35',
+        A: '55',
+        B: '40',
+        C: '50',
+        D: '50',
+        S: '90'
       },
-      'egg_groups': [
+      egg_groups: [
         '陸上',
         '妖精'
       ]
@@ -57,27 +57,27 @@ describe('Pokemon class (language: ja)', () => {
 
   it('returns corrent properties for Alola Raichu', () => {
     const actual = new Pokemon({
-      'id': '26',
-      'formId': 'a',
-      'name': 'ライチュウ',
-      'type': [
+      id: '26',
+      formId: 'a',
+      name: 'ライチュウ',
+      type: [
         'でんき',
         'エスパー'
       ],
-      'abilities': [
+      abilities: [
         {
-          'name': 'サーフテール'
+          name: 'サーフテール'
         }
       ],
-      'status': {
-        'H': '60',
-        'A': '85',
-        'B': '50',
-        'C': '95',
-        'D': '85',
-        'S': '110'
+      status: {
+        H: '60',
+        A: '85',
+        B: '50',
+        C: '95',
+        D: '85',
+        S: '110'
       },
-      'egg_groups': [
+      egg_groups: [
         '陸上',
         '妖精'
       ]
@@ -111,33 +111,33 @@ describe('Pokemon class (language: ja)', () => {
 
   it('returns corrent properties for リザードン', () => {
     const actual = new Pokemon({
-      'id': '6',
-      'name': 'リザードン',
-      'type': [
+      id: '6',
+      name: 'リザードン',
+      type: [
         'ほのお',
         'ひこう'
       ],
-      'abilities': [
+      abilities: [
         {
-          'name': 'もうか'
+          name: 'もうか'
         },
         {
-          'name': '*サンパワー'
+          name: '*サンパワー'
         }
       ],
-      'status': {
-        'H': '78',
-        'A': '84',
-        'B': '78',
-        'C': '109',
-        'D': '85',
-        'S': '100'
+      status: {
+        H: '78',
+        A: '84',
+        B: '78',
+        C: '109',
+        D: '85',
+        S: '100'
       },
-      'egg_groups': [
+      egg_groups: [
         '怪獣',
         'ドラゴン'
       ],
-      'mega_evolve': true
+      mega_evolve: true
     },
     1,
     'ja')
@@ -173,33 +173,33 @@ describe('Pokemon class (language: ja)', () => {
 describe('Pokemon class (language: en)', () => {
   it('returns corrent properties for Venusaur', () => {
     const actual = new Pokemon({
-      'id': '3',
-      'name': 'フシギバナ',
-      'type': [
+      id: '3',
+      name: 'フシギバナ',
+      type: [
         'くさ',
         'どく'
       ],
-      'abilities': [
+      abilities: [
         {
-          'name': 'しんりょく'
+          name: 'しんりょく'
         },
         {
-          'name': '*ようりょくそ'
+          name: '*ようりょくそ'
         }
       ],
-      'status': {
-        'H': '80',
-        'A': '82',
-        'B': '83',
-        'C': '100',
-        'D': '100',
-        'S': '80'
+      status: {
+        H: '80',
+        A: '82',
+        B: '83',
+        C: '100',
+        D: '100',
+        S: '80'
       },
-      'egg_groups': [
+      egg_groups: [
         '怪獣',
         '植物'
       ],
-      'mega_evolve': true
+      mega_evolve: true
     },
     1,
     'en')

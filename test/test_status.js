@@ -6,12 +6,12 @@ describe('Status class', () => {
   it('returns corrent properties', () => {
     const status = new Status(
       {
-        'H': '35',
-        'A': '55',
-        'B': '40',
-        'C': '50',
-        'D': '50',
-        'S': '90'
+        H: '35',
+        A: '55',
+        B: '40',
+        C: '50',
+        D: '50',
+        S: '90'
       }
     )
 
