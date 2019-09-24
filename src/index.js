@@ -21,7 +21,7 @@ const getAll = (lang) => {
 
 module.exports = class Pokedex {
   constructor (lang) {
-    if (lang === void 0) {
+    if (lang === undefined) {
       this.lang = 'ja'
     } else if (lang === 'ja' | lang === 'en') {
       this.lang = lang
