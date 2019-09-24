@@ -22,7 +22,7 @@
     "jsonschema": "^1.2.4",
     "mocha": "^6.1.0",
     "nyc": "^14.1.1",
-    "sinon": "^7.3.2",
+    "sinon": "^7.5.0",
     "standard": "^13.1.0"
   },
   "standard": {
