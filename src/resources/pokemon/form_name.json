@@ -96,6 +96,11 @@
         "formId": "a",
         "jp": "アローラのすがた",
         "en": "Alola Form"
+      },
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
       }
     ]
   },
@@ -140,6 +145,36 @@
     ]
   },
   {
+    "id": 77,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
     "id": 88,
     "names": [
       {
@@ -176,6 +211,56 @@
         "formId": "a",
         "jp": "アローラのすがた",
         "en": "Alola Form"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
       }
     ]
   },
@@ -300,6 +385,16 @@
     ]
   },
   {
+    "id": 554,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
     "id": 555,
     "names": [
       {
@@ -311,6 +406,36 @@
         "formId": "f",
         "jp": "ダルマモード",
         "en": "Zen Mode"
+      },
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      },
+      {
+        "formId": "h",
+        "jp": "ダルマモード（ガラルのすがた）",
+        "en": "Zen Mode (Galarian Form)"
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 618,
+    "names": [
+      {
+        "formId": "g",
+        "jp": "ガラルのすがた",
+        "en": "Galarian Form"
       }
     ]
   },
@@ -606,6 +731,76 @@
         "formId": "m",
         "jp": "あかつきのつばさ",
         "en": "Dawn Wings Necrozma"
+      }
+    ]
+  },
+  {
+    "id": 875,
+    "names": [
+      {
+        "formId": "",
+        "jp": "アイスフェイス",
+        "en": "Ice Face"
+      },
+      {
+        "formId": "f",
+        "jp": "ナイスフェイス",
+        "en": "Noice Face"
+      }
+    ]
+  },
+  {
+    "id": 876,
+    "names": [
+      {
+        "formId": "",
+        "jp": "オスのすがた",
+        "en": "Male"
+      },
+      {
+        "formId": "f",
+        "jp": "メスのすがた",
+        "en": "Female"
+      }
+    ]
+  },
+  {
+    "id": 888,
+    "names": [
+      {
+        "formId": "",
+        "jp": "れきせんのゆうしゃ",
+        "en": "Hero of Many Battles"
+      },
+      {
+        "formId": "f",
+        "jp": "けんのおう",
+        "en": "Crowned Sword"
+      }
+    ]
+  },
+  {
+    "id": 889,
+    "names": [
+      {
+        "formId": "",
+        "jp": "れきせんのゆうしゃ",
+        "en": "Hero of Many Battles"
+      },
+      {
+        "formId": "f",
+        "jp": "たてのおう",
+        "en": "Crowned Shield"
+      }
+    ]
+  },
+  {
+    "id": 890,
+    "names": [
+      {
+        "formId": "f",
+        "jp": "ムゲンダイマックス",
+        "en": "Eternatus Eternamax"
       }
     ]
   }

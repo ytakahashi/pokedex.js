@@ -93,6 +93,14 @@ describe('Pokedex class', () => {
         .to.equal(bstIn200and210Closed.length)
     })
 
+    it('returns Galar region new Pokemon', () => {
+      const actual = pokedex.generation(8).get()
+      const isExpected = (pokemon) =>
+        isValidPokemon(pokemon) && pokemon.generation === 8
+
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
     it('returns empty array for not defined name', () => {
       const actual = pokedex.name('foo').get()
       expect(actual).to.deep.equal('[]')
