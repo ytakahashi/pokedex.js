@@ -233,7 +233,32 @@ const abilityMap = new Map(
     ['メタルプロテクト', 'Full Metal Body'],
     ['ファントムガード', 'Shadow Shield'],
     ['プリズムアーマー', 'Prism Armor'],
-    ['ブレインフォース', 'Neuroforce']
+    ['ブレインフォース', 'Neuroforce'],
+    ['アイスフェイス', 'Ice Face'],
+    ['うのミサイル', 'Gulp Missile'],
+    ['かがくへんかガス', 'Neutralizing Gas'],
+    ['ぎたい', 'Mimicry'],
+    ['こおりのりんぷん', 'Ice Scales'],
+    ['ごりむちゅう', 'Gorilla Tactics'],
+    ['さまようたましい', 'Wandering Spirit'],
+    ['じゅくせい', 'Ripen'],
+    ['じょうききかん', 'Steam Engine'],
+    ['スクリューおびれ', 'Propeller Tail'],
+    ['すじがねいり', 'Stalwart'],
+    ['すなはき', 'Sand Rush'],
+    ['たまひろい', 'Ball Fetch'],
+    ['はがねのせいしん', 'Steely Spirit'],
+    ['はらぺこスイッチ', 'Hunger Switch'],
+    ['パステルベール', 'Pastel Veil'],
+    ['バリアフリー', 'Screen Cleaner'],
+    ['パワースポット', 'Power Spot'],
+    ['パンクロック', 'Punk Rock'],
+    ['ふくつのたて', 'Dauntless Shield'],
+    ['ふとうのけん', 'Intrepid Sword'],
+    ['ほろびのボディ', 'Perish Body'],
+    ['ミラーアーマー', 'Mirror Armor'],
+    ['リベロ', 'Libero'],
+    ['わたげ', 'Cotton Down']
   ]
 )
 

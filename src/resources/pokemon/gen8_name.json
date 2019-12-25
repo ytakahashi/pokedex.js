@@ -1,0 +1,569 @@
+[
+  {
+    "id": "810",
+    "name": {
+      "jp": "サルノリ",
+      "en": "Grookey"
+    }
+  },
+  {
+    "id": "811",
+    "name": {
+      "jp": "バチンキー",
+      "en": "Thwackey"
+    }
+  },
+  {
+    "id": "812",
+    "name": {
+      "jp": "ゴリランダー",
+      "en": "Rillaboom"
+    }
+  },
+  {
+    "id": "813",
+    "name": {
+      "jp": "ヒバニー",
+      "en": "Scorbunny"
+    }
+  },
+  {
+    "id": "814",
+    "name": {
+      "jp": "ラビフット",
+      "en": "Raboot"
+    }
+  },
+  {
+    "id": "815",
+    "name": {
+      "jp": "エースバーン",
+      "en": "Cinderace"
+    }
+  },
+  {
+    "id": "816",
+    "name": {
+      "jp": "メッソン",
+      "en": "Sobble"
+    }
+  },
+  {
+    "id": "817",
+    "name": {
+      "jp": "ジメレオン",
+      "en": "Drizzile"
+    }
+  },
+  {
+    "id": "818",
+    "name": {
+      "jp": "インテレオン",
+      "en": "Inteleon"
+    }
+  },
+  {
+    "id": "819",
+    "name": {
+      "jp": "ホシガリス",
+      "en": "Skwovet"
+    }
+  },
+  {
+    "id": "820",
+    "name": {
+      "jp": "ヨクバリス",
+      "en": "Greedent"
+    }
+  },
+  {
+    "id": "821",
+    "name": {
+      "jp": "ココガラ",
+      "en": "Rookidee"
+    }
+  },
+  {
+    "id": "822",
+    "name": {
+      "jp": "アオガラス",
+      "en": "Corvisquire"
+    }
+  },
+  {
+    "id": "823",
+    "name": {
+      "jp": "アーマーガア",
+      "en": "Corviknight"
+    }
+  },
+  {
+    "id": "824",
+    "name": {
+      "jp": "サッチムシ",
+      "en": "Blipbug"
+    }
+  },
+  {
+    "id": "825",
+    "name": {
+      "jp": "レドームシ",
+      "en": "Dottler"
+    }
+  },
+  {
+    "id": "826",
+    "name": {
+      "jp": "イオルブ",
+      "en": "Orbeetle"
+    }
+  },
+  {
+    "id": "827",
+    "name": {
+      "jp": "クスネ",
+      "en": "Nickit"
+    }
+  },
+  {
+    "id": "828",
+    "name": {
+      "jp": "フォクスライ",
+      "en": "Thievul"
+    }
+  },
+  {
+    "id": "829",
+    "name": {
+      "jp": "ヒメンカ",
+      "en": "Gossifleur"
+    }
+  },
+  {
+    "id": "830",
+    "name": {
+      "jp": "ワタシラガ",
+      "en": "Eldegoss"
+    }
+  },
+  {
+    "id": "831",
+    "name": {
+      "jp": "ウールー",
+      "en": "Wooloo"
+    }
+  },
+  {
+    "id": "832",
+    "name": {
+      "jp": "バイウールー",
+      "en": "Dubwool"
+    }
+  },
+  {
+    "id": "833",
+    "name": {
+      "jp": "カムカメ",
+      "en": "Chewtle"
+    }
+  },
+  {
+    "id": "834",
+    "name": {
+      "jp": "カジリガメ",
+      "en": "Drednaw"
+    }
+  },
+  {
+    "id": "835",
+    "name": {
+      "jp": "ワンパチ",
+      "en": "Yamper"
+    }
+  },
+  {
+    "id": "836",
+    "name": {
+      "jp": "パルスワン",
+      "en": "Boltund"
+    }
+  },
+  {
+    "id": "837",
+    "name": {
+      "jp": "タンドン",
+      "en": "Rolycoly"
+    }
+  },
+  {
+    "id": "838",
+    "name": {
+      "jp": "トロッゴン",
+      "en": "Carkol"
+    }
+  },
+  {
+    "id": "839",
+    "name": {
+      "jp": "セキタンザン",
+      "en": "Coalossal"
+    }
+  },
+  {
+    "id": "840",
+    "name": {
+      "jp": "カジッチュ",
+      "en": "Applin"
+    }
+  },
+  {
+    "id": "841",
+    "name": {
+      "jp": "アップリュー",
+      "en": "Flapple"
+    }
+  },
+  {
+    "id": "842",
+    "name": {
+      "jp": "タルップル",
+      "en": "Appletun"
+    }
+  },
+  {
+    "id": "843",
+    "name": {
+      "jp": "スナヘビ",
+      "en": "Silicobra"
+    }
+  },
+  {
+    "id": "844",
+    "name": {
+      "jp": "サダイジャ",
+      "en": "Sandaconda"
+    }
+  },
+  {
+    "id": "845",
+    "name": {
+      "jp": "ウッウ",
+      "en": "Cramorant"
+    }
+  },
+  {
+    "id": "846",
+    "name": {
+      "jp": "サシカマス",
+      "en": "Arrokuda"
+    }
+  },
+  {
+    "id": "847",
+    "name": {
+      "jp": "カマスジョー",
+      "en": "Barraskewda"
+    }
+  },
+  {
+    "id": "848",
+    "name": {
+      "jp": "エレズン",
+      "en": "Toxel"
+    }
+  },
+  {
+    "id": "849",
+    "name": {
+      "jp": "ストリンダー",
+      "en": "Toxtricity"
+    }
+  },
+  {
+    "id": "850",
+    "name": {
+      "jp": "ヤクデ",
+      "en": "Sizzlipede"
+    }
+  },
+  {
+    "id": "851",
+    "name": {
+      "jp": "マルヤクデ",
+      "en": "Centiskorch"
+    }
+  },
+  {
+    "id": "852",
+    "name": {
+      "jp": "タタッコ",
+      "en": "Clobbopus"
+    }
+  },
+  {
+    "id": "853",
+    "name": {
+      "jp": "オトスパス",
+      "en": "Grapploct"
+    }
+  },
+  {
+    "id": "854",
+    "name": {
+      "jp": "ヤバチャ",
+      "en": "Sinistea"
+    }
+  },
+  {
+    "id": "855",
+    "name": {
+      "jp": "ポットデス",
+      "en": "Polteageist"
+    }
+  },
+  {
+    "id": "856",
+    "name": {
+      "jp": "ミブリム",
+      "en": "Hatenna"
+    }
+  },
+  {
+    "id": "857",
+    "name": {
+      "jp": "テブリム",
+      "en": "Hattrem"
+    }
+  },
+  {
+    "id": "858",
+    "name": {
+      "jp": "ブリムオン",
+      "en": "Hatterene"
+    }
+  },
+  {
+    "id": "859",
+    "name": {
+      "jp": "ベロバー",
+      "en": "Impidimp"
+    }
+  },
+  {
+    "id": "860",
+    "name": {
+      "jp": "ギモー",
+      "en": "Morgrem"
+    }
+  },
+  {
+    "id": "861",
+    "name": {
+      "jp": "オーロンゲ",
+      "en": "Grimmsnarl"
+    }
+  },
+  {
+    "id": "862",
+    "name": {
+      "jp": "タチフサグマ",
+      "en": "Obstagoon"
+    }
+  },
+  {
+    "id": "863",
+    "name": {
+      "jp": "ニャイキング",
+      "en": "Perrserker"
+    }
+  },
+  {
+    "id": "864",
+    "name": {
+      "jp": "サニゴーン",
+      "en": "Cursola"
+    }
+  },
+  {
+    "id": "865",
+    "name": {
+      "jp": "ネギガナイト",
+      "en": "Sirfetch'd"
+    }
+  },
+  {
+    "id": "866",
+    "name": {
+      "jp": "バリコオル",
+      "en": "Mr. Rime"
+    }
+  },
+  {
+    "id": "867",
+    "name": {
+      "jp": "デスバーン",
+      "en": "Runerigus"
+    }
+  },
+  {
+    "id": "868",
+    "name": {
+      "jp": "マホミル",
+      "en": "Milcery"
+    }
+  },
+  {
+    "id": "869",
+    "name": {
+      "jp": "マホイップ",
+      "en": "Alcremie"
+    }
+  },
+  {
+    "id": "870",
+    "name": {
+      "jp": "タイレーツ",
+      "en": "Falinks"
+    }
+  },
+  {
+    "id": "871",
+    "name": {
+      "jp": "バチンウニ",
+      "en": "Pincurchin"
+    }
+  },
+  {
+    "id": "872",
+    "name": {
+      "jp": "ユキハミ",
+      "en": "Snom"
+    }
+  },
+  {
+    "id": "873",
+    "name": {
+      "jp": "モスノウ",
+      "en": "Frosmoth"
+    }
+  },
+  {
+    "id": "874",
+    "name": {
+      "jp": "イシヘンジン",
+      "en": "Stonjourner"
+    }
+  },
+  {
+    "id": "875",
+    "name": {
+      "jp": "コオリッポ",
+      "en": "Eiscue"
+    }
+  },
+  {
+    "id": "876",
+    "name": {
+      "jp": "イエッサン",
+      "en": "Indeedee"
+    }
+  },
+  {
+    "id": "877",
+    "name": {
+      "jp": "モルペコ",
+      "en": "Morpeko"
+    }
+  },
+  {
+    "id": "878",
+    "name": {
+      "jp": "ゾウドウ",
+      "en": "Cufant"
+    }
+  },
+  {
+    "id": "879",
+    "name": {
+      "jp": "ダイオウドウ",
+      "en": "Copperajah"
+    }
+  },
+  {
+    "id": "880",
+    "name": {
+      "jp": "パッチラゴン",
+      "en": "Dracozolt"
+    }
+  },
+  {
+    "id": "881",
+    "name": {
+      "jp": "パッチルドン",
+      "en": "Arctozolt"
+    }
+  },
+  {
+    "id": "882",
+    "name": {
+      "jp": "ウオノラゴン",
+      "en": "Dracovish"
+    }
+  },
+  {
+    "id": "883",
+    "name": {
+      "jp": "ウオチルドン",
+      "en": "Arctovish"
+    }
+  },
+  {
+    "id": "884",
+    "name": {
+      "jp": "ジュラルドン",
+      "en": "Duraludon"
+    }
+  },
+  {
+    "id": "885",
+    "name": {
+      "jp": "ドラメシヤ",
+      "en": "Dreepy"
+    }
+  },
+  {
+    "id": "886",
+    "name": {
+      "jp": "ドロンチ",
+      "en": "Drakloak"
+    }
+  },
+  {
+    "id": "887",
+    "name": {
+      "jp": "ドラパルト",
+      "en": "Dragapult"
+    }
+  },
+  {
+    "id": "888",
+    "name": {
+      "jp": "ザシアン",
+      "en": "Zacian"
+    }
+  },
+  {
+    "id": "889",
+    "name": {
+      "jp": "ザマゼンタ",
+      "en": "Zamazenta"
+    }
+  },
+  {
+    "id": "890",
+    "name": {
+      "jp": "ムゲンダイナ",
+      "en": "Eternatus"
+    }
+  }
+]

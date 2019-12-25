@@ -6,6 +6,7 @@ const jsons = [].concat(
   require('./resources/pokemon/gen5_name.json'),
   require('./resources/pokemon/gen6_name.json'),
   require('./resources/pokemon/gen7_name.json'),
+  require('./resources/pokemon/gen8_name.json'),
   require('./resources/pokemon/mega_name.json')
 )
 const nameMap = new Map(jsons.map(obj => [obj.id, obj.name]))
