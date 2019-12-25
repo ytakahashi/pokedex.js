@@ -16,7 +16,7 @@ const formNameMap = new Map(formNameJson.map(obj => [obj.id.toString(), obj.name
 
 const getName = (id, lang) => {
   if (lang === 'ja') {
-    return nameMap.get(id).jp
+    return nameMap.get(id).ja
   } else if (lang === 'en') {
     return nameMap.get(id).en
   }
@@ -26,7 +26,7 @@ const getFormName = (id, formId, lang) => {
   const names = formNameMap.get(id)
   const name = names.find(n => { return n.formId === formId })
   if (lang === 'ja') {
-    return name.jp
+    return name.ja
   } else if (lang === 'en') {
     return name.en
   }

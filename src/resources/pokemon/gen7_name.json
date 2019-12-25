@@ -2,602 +2,602 @@
   {
     "id": "722",
     "name": {
-      "jp": "モクロー",
+      "ja": "モクロー",
       "en": "Rowlet"
     }
   },
   {
     "id": "723",
     "name": {
-      "jp": "フクスロー",
+      "ja": "フクスロー",
       "en": "Dartrix"
     }
   },
   {
     "id": "724",
     "name": {
-      "jp": "ジュナイパー",
+      "ja": "ジュナイパー",
       "en": "Decidueye"
     }
   },
   {
     "id": "725",
     "name": {
-      "jp": "ニャビー",
+      "ja": "ニャビー",
       "en": "Litten"
     }
   },
   {
     "id": "726",
     "name": {
-      "jp": "ニャヒート",
+      "ja": "ニャヒート",
       "en": "Torracat"
     }
   },
   {
     "id": "727",
     "name": {
-      "jp": "ガオガエン",
+      "ja": "ガオガエン",
       "en": "Incineroar"
     }
   },
   {
     "id": "728",
     "name": {
-      "jp": "アシマリ",
+      "ja": "アシマリ",
       "en": "Popplio"
     }
   },
   {
     "id": "729",
     "name": {
-      "jp": "オシャマリ",
+      "ja": "オシャマリ",
       "en": "Brionne"
     }
   },
   {
     "id": "730",
     "name": {
-      "jp": "アシレーヌ",
+      "ja": "アシレーヌ",
       "en": "Primarina"
     }
   },
   {
     "id": "731",
     "name": {
-      "jp": "ツツケラ",
+      "ja": "ツツケラ",
       "en": "Pikipek"
     }
   },
   {
     "id": "732",
     "name": {
-      "jp": "ケララッパ",
+      "ja": "ケララッパ",
       "en": "Trumbeak"
     }
   },
   {
     "id": "733",
     "name": {
-      "jp": "ドデカバシ",
+      "ja": "ドデカバシ",
       "en": "Toucannon"
     }
   },
   {
     "id": "734",
     "name": {
-      "jp": "ヤングース",
+      "ja": "ヤングース",
       "en": "Yungoos"
     }
   },
   {
     "id": "735",
     "name": {
-      "jp": "デカグース",
+      "ja": "デカグース",
       "en": "Gumshoos"
     }
   },
   {
     "id": "736",
     "name": {
-      "jp": "アゴジムシ",
+      "ja": "アゴジムシ",
       "en": "Grubbin"
     }
   },
   {
     "id": "737",
     "name": {
-      "jp": "デンヂムシ",
+      "ja": "デンヂムシ",
       "en": "Charjabug"
     }
   },
   {
     "id": "738",
     "name": {
-      "jp": "クワガノン",
+      "ja": "クワガノン",
       "en": "Vikavolt"
     }
   },
   {
     "id": "739",
     "name": {
-      "jp": "マケンカニ",
+      "ja": "マケンカニ",
       "en": "Crabrawler"
     }
   },
   {
     "id": "740",
     "name": {
-      "jp": "ケケンカニ",
+      "ja": "ケケンカニ",
       "en": "Crabominable"
     }
   },
   {
     "id": "741",
     "name": {
-      "jp": "オドリドリ",
+      "ja": "オドリドリ",
       "en": "Oricorio"
     }
   },
   {
     "id": "742",
     "name": {
-      "jp": "アブリー",
+      "ja": "アブリー",
       "en": "Cutiefly"
     }
   },
   {
     "id": "743",
     "name": {
-      "jp": "アブリボン",
+      "ja": "アブリボン",
       "en": "Ribombee"
     }
   },
   {
     "id": "744",
     "name": {
-      "jp": "イワンコ",
+      "ja": "イワンコ",
       "en": "Rockruff"
     }
   },
   {
     "id": "745",
     "name": {
-      "jp": "ルガルガン",
+      "ja": "ルガルガン",
       "en": "Lycanroc"
     }
   },
   {
     "id": "746",
     "name": {
-      "jp": "ヨワシ",
+      "ja": "ヨワシ",
       "en": "Wishiwashi"
     }
   },
   {
     "id": "747",
     "name": {
-      "jp": "ヒドイデ",
+      "ja": "ヒドイデ",
       "en": "Mareanie"
     }
   },
   {
     "id": "748",
     "name": {
-      "jp": "ドヒドイデ",
+      "ja": "ドヒドイデ",
       "en": "Toxapex"
     }
   },
   {
     "id": "749",
     "name": {
-      "jp": "ドロバンコ",
+      "ja": "ドロバンコ",
       "en": "Mudbray"
     }
   },
   {
     "id": "750",
     "name": {
-      "jp": "バンバドロ",
+      "ja": "バンバドロ",
       "en": "Mudsdale"
     }
   },
   {
     "id": "751",
     "name": {
-      "jp": "シズクモ",
+      "ja": "シズクモ",
       "en": "Dewpider"
     }
   },
   {
     "id": "752",
     "name": {
-      "jp": "オニシズクモ",
+      "ja": "オニシズクモ",
       "en": "Araquanid"
     }
   },
   {
     "id": "753",
     "name": {
-      "jp": "カリキリ",
+      "ja": "カリキリ",
       "en": "Fomantis"
     }
   },
   {
     "id": "754",
     "name": {
-      "jp": "ラランテス",
+      "ja": "ラランテス",
       "en": "Lurantis"
     }
   },
   {
     "id": "755",
     "name": {
-      "jp": "ネマシュ",
+      "ja": "ネマシュ",
       "en": "Morelull"
     }
   },
   {
     "id": "756",
     "name": {
-      "jp": "マシェード",
+      "ja": "マシェード",
       "en": "Shiinotic"
     }
   },
   {
     "id": "757",
     "name": {
-      "jp": "ヤトウモリ",
+      "ja": "ヤトウモリ",
       "en": "Salandit"
     }
   },
   {
     "id": "758",
     "name": {
-      "jp": "エンニュート",
+      "ja": "エンニュート",
       "en": "Salazzle"
     }
   },
   {
     "id": "759",
     "name": {
-      "jp": "ヌイコグマ",
+      "ja": "ヌイコグマ",
       "en": "Stufful"
     }
   },
   {
     "id": "760",
     "name": {
-      "jp": "キテルグマ",
+      "ja": "キテルグマ",
       "en": "Bewear"
     }
   },
   {
     "id": "761",
     "name": {
-      "jp": "アマカジ",
+      "ja": "アマカジ",
       "en": "Bounsweet"
     }
   },
   {
     "id": "762",
     "name": {
-      "jp": "アママイコ",
+      "ja": "アママイコ",
       "en": "Steenee"
     }
   },
   {
     "id": "763",
     "name": {
-      "jp": "アマージョ",
+      "ja": "アマージョ",
       "en": "Tsareena"
     }
   },
   {
     "id": "764",
     "name": {
-      "jp": "キュワワー",
+      "ja": "キュワワー",
       "en": "Comfey"
     }
   },
   {
     "id": "765",
     "name": {
-      "jp": "ヤレユータン",
+      "ja": "ヤレユータン",
       "en": "Oranguru"
     }
   },
   {
     "id": "766",
     "name": {
-      "jp": "ナゲツケサル",
+      "ja": "ナゲツケサル",
       "en": "Passimian"
     }
   },
   {
     "id": "767",
     "name": {
-      "jp": "コソクムシ",
+      "ja": "コソクムシ",
       "en": "Wimpod"
     }
   },
   {
     "id": "768",
     "name": {
-      "jp": "グソクムシャ",
+      "ja": "グソクムシャ",
       "en": "Golisopod"
     }
   },
   {
     "id": "769",
     "name": {
-      "jp": "スナバァ",
+      "ja": "スナバァ",
       "en": "Sandygast"
     }
   },
   {
     "id": "770",
     "name": {
-      "jp": "シロデスナ",
+      "ja": "シロデスナ",
       "en": "Palossand"
     }
   },
   {
     "id": "771",
     "name": {
-      "jp": "ナマコブシ",
+      "ja": "ナマコブシ",
       "en": "Pyukumuku"
     }
   },
   {
     "id": "772",
     "name": {
-      "jp": "タイプ：ヌル",
+      "ja": "タイプ：ヌル",
       "en": "Type: Null"
     }
   },
   {
     "id": "773",
     "name": {
-      "jp": "シルヴァディ",
+      "ja": "シルヴァディ",
       "en": "Silvally"
     }
   },
   {
     "id": "774",
     "name": {
-      "jp": "メテノ",
+      "ja": "メテノ",
       "en": "Minior"
     }
   },
   {
     "id": "775",
     "name": {
-      "jp": "ネッコアラ",
+      "ja": "ネッコアラ",
       "en": "Komala"
     }
   },
   {
     "id": "776",
     "name": {
-      "jp": "バクガメス",
+      "ja": "バクガメス",
       "en": "Turtonator"
     }
   },
   {
     "id": "777",
     "name": {
-      "jp": "トゲデマル",
+      "ja": "トゲデマル",
       "en": "Togedemaru"
     }
   },
   {
     "id": "778",
     "name": {
-      "jp": "ミミッキュ",
+      "ja": "ミミッキュ",
       "en": "Mimikyu"
     }
   },
   {
     "id": "779",
     "name": {
-      "jp": "ハギギシリ",
+      "ja": "ハギギシリ",
       "en": "Bruxish"
     }
   },
   {
     "id": "780",
     "name": {
-      "jp": "ジジーロン",
+      "ja": "ジジーロン",
       "en": "Drampa"
     }
   },
   {
     "id": "781",
     "name": {
-      "jp": "ダダリン",
+      "ja": "ダダリン",
       "en": "Dhelmise"
     }
   },
   {
     "id": "782",
     "name": {
-      "jp": "ジャラコ",
+      "ja": "ジャラコ",
       "en": "Jangmo-o"
     }
   },
   {
     "id": "783",
     "name": {
-      "jp": "ジャランゴ",
+      "ja": "ジャランゴ",
       "en": "Hakamo-o"
     }
   },
   {
     "id": "784",
     "name": {
-      "jp": "ジャラランガ",
+      "ja": "ジャラランガ",
       "en": "Kommo-o"
     }
   },
   {
     "id": "785",
     "name": {
-      "jp": "カプ・コケコ",
+      "ja": "カプ・コケコ",
       "en": "Tapu Koko"
     }
   },
   {
     "id": "786",
     "name": {
-      "jp": "カプ・テテフ",
+      "ja": "カプ・テテフ",
       "en": "Tapu Lele"
     }
   },
   {
     "id": "787",
     "name": {
-      "jp": "カプ・ブルル",
+      "ja": "カプ・ブルル",
       "en": "Tapu Bulu"
     }
   },
   {
     "id": "788",
     "name": {
-      "jp": "カプ・レヒレ",
+      "ja": "カプ・レヒレ",
       "en": "Tapu Fini"
     }
   },
   {
     "id": "789",
     "name": {
-      "jp": "コスモッグ",
+      "ja": "コスモッグ",
       "en": "Cosmog"
     }
   },
   {
     "id": "790",
     "name": {
-      "jp": "コスモウム",
+      "ja": "コスモウム",
       "en": "Cosmoem"
     }
   },
   {
     "id": "791",
     "name": {
-      "jp": "ソルガレオ",
+      "ja": "ソルガレオ",
       "en": "Solgaleo"
     }
   },
   {
     "id": "792",
     "name": {
-      "jp": "ルナアーラ",
+      "ja": "ルナアーラ",
       "en": "Lunala"
     }
   },
   {
     "id": "793",
     "name": {
-      "jp": "ウツロイド",
+      "ja": "ウツロイド",
       "en": "Nihilego"
     }
   },
   {
     "id": "794",
     "name": {
-      "jp": "マッシブーン",
+      "ja": "マッシブーン",
       "en": "Buzzwole"
     }
   },
   {
     "id": "795",
     "name": {
-      "jp": "フェローチェ",
+      "ja": "フェローチェ",
       "en": "Pheromosa"
     }
   },
   {
     "id": "796",
     "name": {
-      "jp": "デンジュモク",
+      "ja": "デンジュモク",
       "en": "Xurkitree"
     }
   },
   {
     "id": "797",
     "name": {
-      "jp": "テッカグヤ",
+      "ja": "テッカグヤ",
       "en": "Celesteela"
     }
   },
   {
     "id": "798",
     "name": {
-      "jp": "カミツルギ",
+      "ja": "カミツルギ",
       "en": "Kartana"
     }
   },
   {
     "id": "799",
     "name": {
-      "jp": "アクジキング",
+      "ja": "アクジキング",
       "en": "Guzzlord"
     }
   },
   {
     "id": "800",
     "name": {
-      "jp": "ネクロズマ",
+      "ja": "ネクロズマ",
       "en": "Necrozma"
     }
   },
   {
     "id": "801",
     "name": {
-      "jp": "マギアナ",
+      "ja": "マギアナ",
       "en": "Magearna"
     }
   },
   {
     "id": "802",
     "name": {
-      "jp": "マーシャドー",
+      "ja": "マーシャドー",
       "en": "Marshadow"
     }
   },
   {
     "id": "803",
     "name": {
-      "jp": "ベベノム",
+      "ja": "ベベノム",
       "en": "Poipole"
     }
   },
   {
     "id": "804",
     "name": {
-      "jp": "アーゴヨン",
+      "ja": "アーゴヨン",
       "en": "Naganadel"
     }
   },
   {
     "id": "805",
     "name": {
-      "jp": "ツンデツンデ",
+      "ja": "ツンデツンデ",
       "en": "Stakataka"
     }
   },
   {
     "id": "806",
     "name": {
-      "jp": "ズガドーン",
+      "ja": "ズガドーン",
       "en": "Blacephalon"
     }
   },
   {
     "id": "807",
     "name": {
-      "jp": "ゼラオラ",
+      "ja": "ゼラオラ",
       "en": "Zeraora"
     }
   }
