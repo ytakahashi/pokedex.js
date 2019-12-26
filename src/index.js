@@ -36,7 +36,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons with ID
+   * Filters a list of Pokémon with ID
    *
    * @param {Number|String} id ID of Pokémon
    */
@@ -47,7 +47,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons with name
+   * Filters a list of Pokémon with name
    *
    * @param {String} name Name of Pokémon
    */
@@ -58,7 +58,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons with type
+   * Filters a list of Pokémon with type
    *
    * @param {String} type Type of Pokémon
    */
@@ -69,7 +69,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons with egg group
+   * Filters a list of Pokémon with egg group
    *
    * @param {String} eggGroup Egg group of Pokémon
    */
@@ -80,7 +80,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Takes Pokémons whose base stat total matches to given operator and value
+   * Takes Pokémon whose base stat total matches to given operator and value
    *
    * @param {String} operator
    * @param {Number|String} value
@@ -114,7 +114,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Takes Pokémons which can Mega Evolve (including Primal Reversion, Ultra Burst)
+   * Takes Pokémon which can Mega Evolve (including Primal Reversion, Ultra Burst)
    */
   canMegaEvolve () {
     this.poke =
@@ -123,7 +123,7 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Filters a list of Pokémons by a generation when the Pokémons was introduced
+   * Filters a list of Pokémon by a generation when the Pokémon was introduced
    *
    * @param {Number|String} gen Generation
    */
@@ -134,112 +134,11 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Returns JSON String of a list of Pokémons
+   * Returns JSON String of a list of Pokémon
    */
   get () {
     const ret = this.poke
     this.poke = this.allPoke
     return JSON.stringify(ret)
-  }
-
-  /**
-   * Takes Pokémons whose base stat total is a given value and over
-   *
-   * @deprecated use '.baseStatTotal' instead
-   * @param {Number|String} value
-   */
-  baseStatTotalGe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
-    return this
-  }
-
-  /**
-   * Takes Pokémons whose base stat total is a given value or under
-   *
-   * @deprecated use '.baseStatTotal' instead
-   * @param {Number|String} value
-   */
-  baseStatTotalLe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
-    return this
-  }
-
-  /**
-   * @deprecated use '.id' and '.get' instead
-   * @param {Number|String} id ID of Pokémon
-   * @see {@link id}
-   * @see {@link get}
-   */
-  getById (id) {
-    return JSON.stringify(
-      this.poke.filter(pokemon => String(id) === pokemon.id)
-    )
-  }
-
-  /**
-   * @deprecated use '.name' and '.get' instead
-   * @param {String} name Name of Pokémon
-   * @see {@link name}
-   * @see {@link get}
-   */
-  getByName (name) {
-    return JSON.stringify(
-      this.poke.filter(pokemon => name === pokemon.name)
-    )
-  }
-
-  /**
-   * @deprecated use '.type' instead
-   * @param {String} type Type of Pokémon
-   * @see {@link type}
-   */
-  withType (type) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.type.includes(type))
-    return this
-  }
-
-  /**
-   * @deprecated use '.generation' instead
-   * @param {Number|String} gen Generation
-   * @see {@link generation}
-   */
-  ofGeneration (gen) {
-    this.poke =
-      this.poke.filter(pokemon => String(pokemon.generation) === String(gen))
-    return this
-  }
-
-  /**
-   * @deprecated use '.eggGroup' instead
-   * @param {String} eggGroup Egg group of Pokémon
-   * @see {@link eggGroup}
-   */
-  belongsToEggGroup (eggGroup) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.eggGroup.includes(eggGroup))
-    return this
-  }
-
-  /**
-   * @deprecated use '.baseStatTotalGe' instead
-   * @param {Number|String} value
-   */
-  totalBaseStatsGe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total >= Number(value))
-    return this
-  }
-
-  /**
-   * @deprecated use '.baseStatTotalLe' instead
-   * @param {Number|String} value
-   */
-  totalBaseStatsLe (value) {
-    this.poke =
-      this.poke.filter(pokemon => pokemon.baseStats.total <= Number(value))
-    return this
   }
 }

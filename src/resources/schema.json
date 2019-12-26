@@ -41,7 +41,7 @@
     },
     "generation": {
       "type": "integer",
-      "description": "Shows at which generation this Pokemon was added",
+      "description": "Shows at which generation this Pokémon was added",
       "minimum": 1,
       "maximum": 8
     },
