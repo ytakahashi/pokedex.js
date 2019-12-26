@@ -1,6 +1,7 @@
 # Pekedex.js
 
 [![npm version](https://badge.fury.io/js/pokedex.js.svg)](https://badge.fury.io/js/pokedex.js)
+[![Actions Status](https://github.com/ytakahashi/pokedex.js/workflows/Node%20CI/badge.svg)](https://github.com/ytakahashi/pokedex.js/actions)
 [![CircleCI](https://circleci.com/gh/ytakahashi/pokedex.js.svg?style=shield&circle-token=7cf6f0c8b57b6a06542156647c3e2b9af3cae77e)](https://circleci.com/gh/ytakahashi/pokedex.js)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -39,14 +40,14 @@ console.log(pokedex.id(26).get())
 
 ### APIs
 
-- `id(id: Number|String)` : Filters list of Pokémons with ID.
-- `name(name: String)` : Filters list of Pokémons with name.
-- `type(type: String)` : Filters list of Pokémons with type.
-- `eggGroup(eggGroop: String)` : Filters list of Pokémons with egg group.
-- `baseStatTotal(operatot: String, value: Number|String)` : Takes Pokémons whose base stat total matches to given operation (one of `'>='`, `'>'`, `'<='`, `'<'`, `'='`) and value.
-- `canMegaEvolve()` : Takes Pokémons which can Mega Evolve (including Primal Reversion, Ultra Burst).
-- `generation(generation: Number|String)` : Filters list of Pokémons by a generation when the Pokémons was introduced.
-- `get()`: Returns JSON String of a list of Pokémons which satisfy applied filter method(s). Returned JSON is a list of [Pokémon](./src/resources/schema.json).
+- `id(id: Number|String)` : Filters list of Pokémon with ID.
+- `name(name: String)` : Filters list of Pokémon with name.
+- `type(type: String)` : Filters list of Pokémon with type.
+- `eggGroup(eggGroop: String)` : Filters list of Pokémon with egg group.
+- `baseStatTotal(operatot: String, value: Number|String)` : Takes Pokémon whose base stat total matches to given operation (one of `'>='`, `'>'`, `'<='`, `'<'`, `'='`) and value.
+- `canMegaEvolve()` : Takes Pokémon which can Mega Evolve (including Primal Reversion, Ultra Burst).
+- `generation(generation: Number|String)` : Filters list of Pokémon by a generation when the Pokémon was introduced.
+- `get()`: Returns JSON String of a list of Pokémon which satisfy applied filter method(s). Returned JSON is a list of [Pokémon](./src/resources/schema.json).
 
 Multiple filtering methods can be applied at the same time by chaining methods like examples below.  
 
@@ -54,7 +55,7 @@ Multiple filtering methods can be applied at the same time by chaining methods l
 
 #### Filter by multiple types
 
-Get Pokémons which have type Water/Fairy
+Get Pokémon which have type Water/Fairy
 
 ```node.js
 console.log(
@@ -68,7 +69,7 @@ console.log(
 
 #### Filter by base stat total, generation
 
-Get Pokémons whose base stat total is between 580 and 600, and introduced at 2nd generation.
+Get Pokémon whose base stat total is between 580 and 600, and introduced at 2nd generation.
 
 ```node.js
 console.log(
@@ -81,7 +82,7 @@ console.log(
 // [{"id":"243","name":"Raikou","type":["Electric"],"ability":[{"name":"Pressure","hidden":false},{"name":"Inner Focus","hidden":true}],"eggGroup":["Undiscovered"],"baseStats":{"H":"90","A":"85","B":"75","C":"115","D":"100","S":"115"},"generation":2},{"id":"244","name":"Entei","type":["Fire"],"ability":[{"name":"Pressure","hidden":false},{"name":"Inner Focus","hidden":true}],"eggGroup":["Undiscovered"],"baseStats":{"H":"115","A":"115","B":"85","C":"90","D":"75","S":"100"},"generation":2},{"id":"245","name":"Suicine","type":["Water"],"ability":[{"name":"Pressure","hidden":false},{"name":"Inner Focus","hidden":true}],"eggGroup":["Undiscovered"],"baseStats":{"H":"100","A":"75","B":"115","C":"90","D":"115","S":"85"},"generation":2},{"id":"248","name":"Tyranitar","type":["Rock","Dark"],"ability":[{"name":"Sand Stream","hidden":false},{"name":"Unnerve","hidden":true}],"eggGroup":["Monster"],"baseStats":{"H":"100","A":"134","B":"110","C":"95","D":"100","S":"61"},"megaEvolution":[{"name":"Mega Tyranitar","type":["Rock","Dark"],"ability":[{"name":"Sand Stream","hidden":false}],"baseStats":{"H":"100","A":"164","B":"150","C":"95","D":"120","S":"71"}}],"generation":2},{"id":"251","name":"Celebi","type":["Psychic","Grass"],"ability":[{"name":"Natural Cure","hidden":false}],"eggGroup":["Undiscovered"],"baseStats":{"H":"100","A":"100","B":"100","C":"100","D":"100","S":"100"},"generation":2}]
 ```
 
-#### New Pokémon on Galar Region
+#### New Pokémon in Galar Region
 
 ```node.js
 console.log(
