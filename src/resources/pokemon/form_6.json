@@ -1,6 +1,9 @@
 [
   {
     "id": "678",
+    "localId": {
+      "galar": "209"
+    },
     "formId": "f",
     "name": "ニャオニクス",
     "type": [
@@ -31,6 +34,9 @@
   },
   {
     "id": "681",
+    "localId": {
+      "galar": "332"
+    },
     "formId": "",
     "name": "ギルガルド",
     "type": [
@@ -81,6 +87,9 @@
   },
   {
     "id": "710",
+    "localId": {
+      "galar": "191"
+    },
     "formId": "s",
     "name": "バケッチャ",
     "type": [
@@ -112,6 +121,9 @@
   },
   {
     "id": "710",
+    "localId": {
+      "galar": "191"
+    },
     "formId": "l",
     "name": "バケッチャ",
     "type": [
@@ -143,6 +155,9 @@
   },
   {
     "id": "710",
+    "localId": {
+      "galar": "191"
+    },
     "formId": "k",
     "name": "バケッチャ",
     "type": [
@@ -174,6 +189,9 @@
   },
   {
     "id": "711",
+    "localId": {
+      "galar": "192"
+    },
     "formId": "s",
     "name": "パンプジン",
     "type": [
@@ -205,6 +223,9 @@
   },
   {
     "id": "711",
+    "localId": {
+      "galar": "192"
+    },
     "formId": "l",
     "name": "パンプジン",
     "type": [
@@ -236,6 +257,9 @@
   },
   {
     "id": "711",
+    "localId": {
+      "galar": "192"
+    },
     "formId": "k",
     "name": "パンプジン",
     "type": [

@@ -1,4 +1,4 @@
-# Pekedex.js
+# Pokedex.js
 
 [![npm version](https://badge.fury.io/js/pokedex.js.svg)](https://badge.fury.io/js/pokedex.js)
 [![Actions Status](https://github.com/ytakahashi/pokedex.js/workflows/Node%20CI/badge.svg)](https://github.com/ytakahashi/pokedex.js/actions)
@@ -47,6 +47,7 @@ console.log(pokedex.id(26).get())
 - `baseStatTotal(operatot: String, value: Number|String)` : Takes Pokémon whose base stat total matches to given operation (one of `'>='`, `'>'`, `'<='`, `'<'`, `'='`) and value.
 - `canMegaEvolve()` : Takes Pokémon which can Mega Evolve (including Primal Reversion, Ultra Burst).
 - `generation(generation: Number|String)` : Filters list of Pokémon by a generation when the Pokémon was introduced.
+- `inGalarPokedex()` : Only Pokémon in the Galar Pokédex is returned if this filter is applied.
 - `get()`: Returns JSON String of a list of Pokémon which satisfy applied filter method(s). Returned JSON is a list of [Pokémon](./src/resources/schema.json).
 
 Multiple filtering methods can be applied at the same time by chaining methods like examples below.  
