@@ -138,7 +138,11 @@ module.exports = class Pokedex {
    */
   inGalarPokedex () {
     this.poke =
-      this.poke.filter(pokemon => pokemon.localId !== undefined && pokemon.localId.galar !== undefined)
+      this.poke
+        .filter(pokemon => pokemon.localId !== undefined && pokemon.localId.galar !== undefined)
+
+    this.poke.forEach(pokemon => delete pokemon.megaEvolution)
+
     return this
   }
 

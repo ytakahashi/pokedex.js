@@ -101,6 +101,16 @@ describe('Pokedex class', () => {
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
+    it('returns expected Pokemon Array (Galar Pokédex)', () => {
+      const actual = pokedex.inGalarPokedex().get()
+      const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.localId.galar !== undefined
+
+      // 400 + ニャース、バリヤード、ロトム（ヒート、ウォッシュ、フロスト、スピン、カット）、バスラオ、ヒヒダルマ、デスマス、ニャオニクス、ギルガルド
+      // バケッチャ（中、大、特大）、パンプジン（中、大、特大）、ヨワシ、ストリンダー、コオリッポ、イエッサン、ザシアン、ザマゼンタ、ムゲンダイナ
+      expect(JSON.parse(actual)).to.have.lengthOf(425)
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
     it('returns empty array for not defined name', () => {
       const actual = pokedex.name('foo').get()
       expect(actual).to.deep.equal('[]')
@@ -139,6 +149,14 @@ describe('Pokedex class', () => {
       const actual = pokedex.canMegaEvolve().get()
       const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.megaEvolution !== undefined
 
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
+    it('returns expected Pokemon Array (Galar Pokédex)', () => {
+      const actual = pokedex.inGalarPokedex().get()
+      const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.localId.galar !== undefined
+
+      expect(JSON.parse(actual)).to.have.lengthOf(425)
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
