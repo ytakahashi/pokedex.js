@@ -1,6 +1,9 @@
 [
   {
     "id": "52",
+    "localId": {
+      "galar": "182"
+    },
     "formId": "g",
     "name": "ニャース",
     "type": [
@@ -31,6 +34,9 @@
   },
   {
     "id": "77",
+    "localId": {
+      "galar": "333"
+    },
     "formId": "g",
     "name": "ポニータ",
     "type": [
@@ -61,6 +67,9 @@
   },
   {
     "id": "78",
+    "localId": {
+      "galar": "334"
+    },
     "formId": "g",
     "name": "ギャロップ",
     "type": [
@@ -92,6 +101,9 @@
   },
   {
     "id": "83",
+    "localId": {
+      "galar": "218"
+    },
     "formId": "g",
     "name": "カモネギ",
     "type": [
@@ -120,6 +132,9 @@
   },
   {
     "id": "110",
+    "localId": {
+      "galar": "251"
+    },
     "formId": "g",
     "name": "マタドガス",
     "type": [
@@ -151,6 +166,9 @@
   },
   {
     "id": "122",
+    "localId": {
+      "galar": "365"
+    },
     "formId": "g",
     "name": "バリヤード",
     "type": [
@@ -182,6 +200,9 @@
   },
   {
     "id": "222",
+    "localId": {
+      "galar": "236"
+    },
     "formId": "g",
     "name": "サニーゴ",
     "type": [
@@ -210,6 +231,9 @@
   },
   {
     "id": "263",
+    "localId": {
+      "galar": "31"
+    },
     "formId": "g",
     "name": "ジグザグマ",
     "type": [
@@ -241,6 +265,9 @@
   },
   {
     "id": "264",
+    "localId": {
+      "galar": "32"
+    },
     "formId": "g",
     "name": "マッスグマ",
     "type": [
@@ -273,6 +300,9 @@
   {
     "id": "554",
     "formId": "g",
+    "localId": {
+      "galar": "367"
+    },
     "name": "ダルマッカ",
     "type": [
       "こおり"
@@ -300,6 +330,9 @@
   {
     "id": "555",
     "formId": "g",
+    "localId": {
+      "galar": "368"
+    },
     "name": "ヒヒダルマ",
     "type": [
       "こおり"
@@ -326,6 +359,9 @@
   },
   {
     "id": "555",
+    "localId": {
+      "galar": "368"
+    },
     "formId": "h",
     "name": "ヒヒダルマ",
     "type": [
@@ -354,6 +390,9 @@
   },
   {
     "id": "562",
+    "localId": {
+      "galar": "327"
+    },
     "formId": "g",
     "name": "デスマス",
     "type": [
@@ -380,6 +419,9 @@
   },
   {
     "id": "618",
+    "localId": {
+      "galar": "226"
+    },
     "formId": "g",
     "name": "マッギョ",
     "type": [
@@ -405,7 +447,44 @@
     ]
   },
   {
+    "id": "849",
+    "localId": {
+      "galar": "311"
+    },
+    "formId": "f",
+    "name": "ストリンダー",
+    "type": [
+      "でんき",
+      "どく"
+    ],
+    "abilities": [
+      {
+        "name": "パンクロック"
+      },
+      {
+        "name": "マイナス"
+      },
+      {
+        "name": "*テクニシャン"
+      }
+    ],
+    "status": {
+      "H": "75",
+      "A": "98",
+      "B": "70",
+      "C": "114",
+      "D": "70",
+      "S": "75"
+    },
+    "egg_groups": [
+      "人型"
+    ]
+  },
+  {
     "id": "875",
+    "localId": {
+      "galar": "370"
+    },
     "formId": "f",
     "name": "コオリッポ",
     "type": [
@@ -431,6 +510,9 @@
   },
   {
     "id": "876",
+    "localId": {
+      "galar": "337"
+    },
     "formId": "f",
     "name": "イエッサン",
     "type": [
@@ -462,6 +544,9 @@
   },
   {
     "id": "888",
+    "localId": {
+      "galar": "398"
+    },
     "formId": "f",
     "name": "ザシアン",
     "type": [
@@ -487,6 +572,9 @@
   },
   {
     "id": "889",
+    "localId": {
+      "galar": "399"
+    },
     "formId": "f",
     "name": "ザマゼンタ",
     "type": [
@@ -512,6 +600,9 @@
   },
   {
     "id": "890",
+    "localId": {
+      "galar": "400"
+    },
     "formId": "f",
     "name": "ムゲンダイナ",
     "type": [

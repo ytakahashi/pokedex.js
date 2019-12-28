@@ -1,6 +1,9 @@
 [
   {
     "id": "550",
+    "localId": {
+      "galar": "154"
+    },
     "formId": "f",
     "name": "バスラオ",
     "type": [

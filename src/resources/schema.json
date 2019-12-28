@@ -9,6 +9,9 @@
       "type": "string",
       "description": "Pokedex ID of this Pokémon"
     },
+    "localId": {
+      "$ref": "#/definitions/localId"
+    },
     "name": {
       "type": "string",
       "description": "Name of this Pokémon."
@@ -53,6 +56,15 @@
     }
   },
   "definitions": {
+    "localId": {
+      "type": "object",
+      "properties": {
+        "galar": {
+          "type": "string",
+          "description": "Galar Pokédex number."
+        }
+      }
+    },
     "ability": {
       "type": "object",
       "required": [ "name", "hidden" ],

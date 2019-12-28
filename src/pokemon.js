@@ -12,6 +12,12 @@ class Pokemon {
     if (pokemon.formId !== undefined) {
       this.formName = name.getFormName(this.id, pokemon.formId, lang)
     }
+    if (pokemon.localId !== undefined) {
+      this.localId = {}
+      if (pokemon.localId.galar !== undefined) {
+        this.localId.galar = pokemon.localId.galar
+      }
+    }
 
     this.name = name.getName(pokemon.id, lang)
     this.type = pokemonType.getType(pokemon.type, lang)

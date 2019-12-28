@@ -134,6 +134,19 @@ module.exports = class Pokedex {
   }
 
   /**
+   * Takes Pokémon which is listed in the Galar Pokédex
+   */
+  inGalarPokedex () {
+    this.poke =
+      this.poke
+        .filter(pokemon => pokemon.localId !== undefined && pokemon.localId.galar !== undefined)
+
+    this.poke.forEach(pokemon => delete pokemon.megaEvolution)
+
+    return this
+  }
+
+  /**
    * Returns JSON String of a list of Pokémon
    */
   get () {

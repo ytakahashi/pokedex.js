@@ -579,7 +579,7 @@
       },
       {
         "formId": "k",
-        "ja": "おおきいサイズ",
+        "ja": "とくだいサイズ",
         "en": "Super Size"
       }
     ]
@@ -604,7 +604,7 @@
       },
       {
         "formId": "k",
-        "ja": "おおきいサイズ",
+        "ja": "とくだいサイズ",
         "en": "Super Size"
       }
     ]
@@ -716,6 +716,21 @@
         "formId": "f",
         "ja": "コア",
         "en": "Core"
+      }
+    ]
+  },
+  {
+    "id": 849,
+    "names": [
+      {
+        "formId": "",
+        "ja": "ハイなすがた",
+        "en": "Amped Form"
+      },
+      {
+        "formId": "f",
+        "ja": "ローなすがた",
+        "en": "Low Key Form"
       }
     ]
   },

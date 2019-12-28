@@ -40,14 +40,14 @@ describe('Pokedex class', () => {
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.id(25).get()
-      const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
 
       expect(actual).to.deep.equal(expected)
     })
 
     it('returns expected Pokemon (name: ピカチュウ)', () => {
       const actual = pokedex.name('ピカチュウ').get()
-      const expected = '[{"id":"25","name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
 
       expect(actual).to.deep.equal(expected)
     })
@@ -101,6 +101,16 @@ describe('Pokedex class', () => {
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
+    it('returns expected Pokemon Array (Galar Pokédex)', () => {
+      const actual = pokedex.inGalarPokedex().get()
+      const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.localId.galar !== undefined
+
+      // 400 + ニャース、バリヤード、ロトム（ヒート、ウォッシュ、フロスト、スピン、カット）、バスラオ、ヒヒダルマ、デスマス、ニャオニクス、ギルガルド
+      // バケッチャ（中、大、特大）、パンプジン（中、大、特大）、ヨワシ、ストリンダー、コオリッポ、イエッサン、ザシアン、ザマゼンタ、ムゲンダイナ
+      expect(JSON.parse(actual)).to.have.lengthOf(425)
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
     it('returns empty array for not defined name', () => {
       const actual = pokedex.name('foo').get()
       expect(actual).to.deep.equal('[]')
@@ -117,13 +127,13 @@ describe('Pokedex class', () => {
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.id(25).get()
-      const expected = '[{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual).to.deep.equal(expected)
     })
 
     it('returns expected Pokemon (name: Pikachu)', () => {
       const actual = pokedex.name('Pikachu').get()
-      const expected = '[{"id":"25","name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual).to.deep.equal(expected)
     })
 
@@ -139,6 +149,14 @@ describe('Pokedex class', () => {
       const actual = pokedex.canMegaEvolve().get()
       const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.megaEvolution !== undefined
 
+      expect(JSON.parse(actual).every(isExpected)).to.be.true
+    })
+
+    it('returns expected Pokemon Array (Galar Pokédex)', () => {
+      const actual = pokedex.inGalarPokedex().get()
+      const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.localId.galar !== undefined
+
+      expect(JSON.parse(actual)).to.have.lengthOf(425)
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
