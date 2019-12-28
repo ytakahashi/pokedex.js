@@ -8,6 +8,9 @@ describe('Pokemon class (language: ja)', () => {
   it('returns corrent properties for ピカチュウ', () => {
     const pikachu = new Pokemon({
       id: '25',
+      localId: {
+        galar: '194'
+      },
       name: 'ピカチュウ',
       type: ['でんき'],
       abilities: [
@@ -36,6 +39,8 @@ describe('Pokemon class (language: ja)', () => {
 
     expect(pikachu.id)
       .to.equal('25')
+    expect(pikachu.localId.galar)
+      .to.equal('194')
     expect(pikachu.name)
       .to.equal('ピカチュウ')
     expect(pikachu.formName)
@@ -87,6 +92,8 @@ describe('Pokemon class (language: ja)', () => {
 
     expect(actual.id)
       .to.equal('26')
+    expect(actual.localId)
+      .to.be.undefined
     expect(actual.name)
       .to.equal('Raichu')
     expect(actual.formName)
@@ -112,6 +119,9 @@ describe('Pokemon class (language: ja)', () => {
   it('returns corrent properties for リザードン', () => {
     const actual = new Pokemon({
       id: '6',
+      localId: {
+        galar: '380'
+      },
       name: 'リザードン',
       type: [
         'ほのお',
@@ -144,6 +154,8 @@ describe('Pokemon class (language: ja)', () => {
 
     expect(actual.id)
       .to.equal('6')
+    expect(actual.localId.galar)
+      .to.equal('380')
     expect(actual.name)
       .to.equal('リザードン')
     expect(actual.formName)
@@ -206,6 +218,8 @@ describe('Pokemon class (language: en)', () => {
 
     expect(actual.id)
       .to.equal('3')
+    expect(actual.localId)
+      .to.be.undefined
     expect(actual.name)
       .to.equal('Venusaur')
     expect(actual.formName)
