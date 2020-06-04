@@ -147,6 +147,22 @@ module.exports = class Pokedex {
   }
 
   /**
+   * Sorts Pokémon list according to a given sortKey.
+   * Invalid sort key is ignored.
+   *
+   * @param {string} sortKey - one of "NationalNumber" or "Lexicographical"
+   */
+  sort (sortKey) {
+    if (sortKey === 'Lexicographical') {
+      this.poke.sort((a, b) => a.compareName(b))
+    }
+    if (sortKey === 'NationalNumber') {
+      this.poke.sort((a, b) => a.compareId(b))
+    }
+    return this
+  }
+
+  /**
    * Returns JSON String of a list of Pokémon
    */
   get () {
