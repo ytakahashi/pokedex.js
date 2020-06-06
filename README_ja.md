@@ -38,6 +38,8 @@ console.log(pokedex.id(26).get())
 - `baseStatTotal(operatior: String, value: Number|String)` : 合計種族値が与えられた演算子と数値に合うポケモンのみ取得します。
 - `canMegaEvolve()` : メガシンカするポケモン（ゲンシカイキ、ウルトラバースト含む）のみ取得します。
 - `generation(generation: Number|String)` : 指定された世代で登場したポケモンのみ取得します。
+- `inGalarPokedex()` : ガラル図鑑に存在するポケモンのみ取得します。
+- `sort(sortKey: String)` : 引数の sortKey に合わせてリストをソートします。 `'Lexicographical'` または `'NationalNumber'` が利用可能です。
 - `get()`: 指定された条件に合うポケモンのリストを JSON 文字列として返します。返る JSON は[ポケモン](./src/resources/schema.json)の配列となります。
 
 以下の例のように、複数のフィルタを同時に適用することも可能です。

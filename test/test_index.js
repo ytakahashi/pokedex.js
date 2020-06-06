@@ -101,6 +101,29 @@ describe('Pokedex class', () => {
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
+    it('sorts lexicographically', () => {
+      const actual = JSON.parse(
+        pokedex.type('はがね').type('フェアリー').sort('Lexicographical').get()
+      )
+      expect(actual).to.have.length(4)
+      expect(actual[0].name).to.equal('クチート')
+      expect(actual[1].name).to.equal('クレッフィ')
+      expect(actual[2].name).to.equal('ザシアン')
+      expect(actual[2].formName).to.equal('けんのおう')
+      expect(actual[3].name).to.equal('マギアナ')
+    })
+
+    it('sorts by national number', () => {
+      const actual = JSON.parse(
+        pokedex.type('はがね').type('フェアリー').sort('NationalNumber').get()
+      )
+      expect(actual).to.have.length(4)
+      expect(actual[0].id).to.equal('303')
+      expect(actual[1].id).to.equal('707')
+      expect(actual[2].id).to.equal('801')
+      expect(actual[3].id).to.equal('888')
+    })
+
     it('returns expected Pokemon Array (Galar Pokédex)', () => {
       const actual = pokedex.inGalarPokedex().get()
       const isExpected = (pokemon) => isValidPokemon(pokemon) && pokemon.localId.galar !== undefined
@@ -160,9 +183,37 @@ describe('Pokedex class', () => {
       expect(JSON.parse(actual).every(isExpected)).to.be.true
     })
 
+    it('sorts lexicographically', () => {
+      const actual = JSON.parse(
+        pokedex.type('Steel').type('Fairy').sort('Lexicographical').get()
+      )
+      expect(actual).to.have.length(4)
+      expect(actual[0].name).to.equal('Klefki')
+      expect(actual[1].name).to.equal('Magearna')
+      expect(actual[2].name).to.equal('Mawile')
+      expect(actual[3].name).to.equal('Zacian')
+      expect(actual[3].formName).to.equal('Crowned Sword')
+    })
+
+    it('sorts by national number', () => {
+      const actual = JSON.parse(
+        pokedex.type('Steel').type('Fairy').sort('NationalNumber').get()
+      )
+      expect(actual).to.have.length(4)
+      expect(actual[0].id).to.equal('303')
+      expect(actual[1].id).to.equal('707')
+      expect(actual[2].id).to.equal('801')
+      expect(actual[3].id).to.equal('888')
+    })
+
     it('throws exception for undefined operator of base stat total', () => {
       expect(() => pokedex.baseStatTotal('a', 100))
         .to.throw('Invalid operator (a).')
+    })
+
+    it('throws exception for undefined sortKey', () => {
+      expect(() => pokedex.sort('a'))
+        .to.throw('Invalid sortKey (a).')
     })
   })
 })
