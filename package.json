@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "test": "standard && nyc --reporter=html --reporter=text mocha"
+    "test": "standard && nyc --reporter=html --reporter=text mocha --config=test/.mocharc.json"
   },
   "keywords": [
     "pokedex",
@@ -19,11 +19,11 @@
   ],
   "devDependencies": {
     "chai": "^4.2.0",
-    "jsonschema": "^1.2.5",
-    "mocha": "^7.1.1",
-    "nyc": "^15.0.0",
-    "sinon": "^9.0.1",
-    "standard": "^14.3.3"
+    "jsonschema": "^1.2.6",
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2",
+    "standard": "^14.3.4"
   },
   "standard": {
     "env": [
