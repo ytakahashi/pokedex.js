@@ -40,26 +40,29 @@ class Pokemon {
     if (this.name > pokemon.name) {
       return 1
     }
-    if (this.formName === undefined) {
+    if (this.formName === undefined && pokemon.formName !== undefined) {
       return -1
     }
-    if (pokemon.formName === undefined) {
+    if (pokemon.formName === undefined && this.formName !== undefined) {
       return 1
     }
     if (this.formName < pokemon.formName) {
       return -1
     }
-    return 1
+    if (this.formName > pokemon.formName) {
+      return 1
+    }
+    return 0
   }
 
   compareId (pokemon) {
     if (this.id !== pokemon.id) {
       return this.id - pokemon.id
     }
-    if (this.formName === undefined) {
+    if (this.formName === undefined && pokemon.formName !== undefined) {
       return -1
     }
-    if (pokemon.formName === undefined) {
+    if (pokemon.formName === undefined && this.formName !== undefined) {
       return 1
     }
     return 0
