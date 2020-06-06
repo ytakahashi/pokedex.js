@@ -48,6 +48,7 @@ console.log(pokedex.id(26).get())
 - `canMegaEvolve()` : Takes Pokémon which can Mega Evolve (including Primal Reversion, Ultra Burst).
 - `generation(generation: Number|String)` : Filters list of Pokémon by a generation when the Pokémon was introduced.
 - `inGalarPokedex()` : Only Pokémon in the Galar Pokédex is returned if this filter is applied.
+- `sort(sortKey: String)` : Sorts Pokémon list according to a given sortKey. `'Lexicographical'` or `'NationalNumber'` is available as `sortKey`.
 - `get()`: Returns JSON String of a list of Pokémon which satisfy applied filter method(s). Returned JSON is a list of [Pokémon](./src/resources/schema.json).
 
 Multiple filtering methods can be applied at the same time by chaining methods like examples below.  

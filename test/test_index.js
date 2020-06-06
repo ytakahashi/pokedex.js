@@ -210,5 +210,10 @@ describe('Pokedex class', () => {
       expect(() => pokedex.baseStatTotal('a', 100))
         .to.throw('Invalid operator (a).')
     })
+
+    it('throws exception for undefined sortKey', () => {
+      expect(() => pokedex.sort('a'))
+        .to.throw('Invalid sortKey (a).')
+    })
   })
 })
