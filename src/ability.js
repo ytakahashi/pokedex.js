@@ -258,7 +258,9 @@ const abilityMap = new Map(
     ['ほろびのボディ', 'Perish Body'],
     ['ミラーアーマー', 'Mirror Armor'],
     ['リベロ', 'Libero'],
-    ['わたげ', 'Cotton Down']
+    ['わたげ', 'Cotton Down'],
+    ['クイックドロウ', 'Quick Draw'],
+    ['ふかしのこぶし', 'Unseen Fist']
   ]
 )
 
