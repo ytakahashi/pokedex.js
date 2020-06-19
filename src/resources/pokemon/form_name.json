@@ -175,6 +175,16 @@
     ]
   },
   {
+    "id": 80,
+    "names": [
+      {
+        "formId": "g",
+        "ja": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
     "id": 83,
     "names": [
       {
@@ -826,6 +836,21 @@
         "formId": "f",
         "ja": "ムゲンダイマックス",
         "en": "Eternatus Eternamax"
+      }
+    ]
+  },
+  {
+    "id": 892,
+    "names": [
+      {
+        "formId": "",
+        "ja": "いちげきのかた",
+        "en": "Single Strike Style"
+      },
+      {
+        "formId": "r",
+        "ja": "れんげきのかた",
+        "en": "Rapid Strike Style"
       }
     ]
   }
