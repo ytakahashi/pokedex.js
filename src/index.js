@@ -21,7 +21,14 @@ const getAll = (lang) => {
   )
 }
 
+/**
+ * A class of a Pokedex.
+ */
 module.exports = class Pokedex {
+  /**
+   * Creates a new Pokedex instance with a fiven language
+   * @param {String} lang language ('en' or 'ja', defaults to 'ja')
+   */
   constructor (lang) {
     if (lang === undefined) {
       this.lang = 'ja'
@@ -38,7 +45,8 @@ module.exports = class Pokedex {
   /**
    * Filters a list of Pokémon with ID
    *
-   * @param {Number|String} id ID of Pokémon
+   * @param {number|string} id ID of Pokémon
+   * @return {Pokedex} this instance
    */
   id (id) {
     this.poke =
@@ -49,7 +57,8 @@ module.exports = class Pokedex {
   /**
    * Filters a list of Pokémon with name
    *
-   * @param {String} name Name of Pokémon
+   * @param {string} name Name of Pokémon
+   * @return {Pokedex} this instance
    */
   name (name) {
     this.poke =
@@ -60,7 +69,8 @@ module.exports = class Pokedex {
   /**
    * Filters a list of Pokémon with type
    *
-   * @param {String} type Type of Pokémon
+   * @param {string} type Type of Pokémon
+   * @return {Pokedex} this instance
    */
   type (type) {
     this.poke =
@@ -71,7 +81,8 @@ module.exports = class Pokedex {
   /**
    * Filters a list of Pokémon with egg group
    *
-   * @param {String} eggGroup Egg group of Pokémon
+   * @param {string} eggGroup Egg group of Pokémon
+   * @return {Pokedex} this instance
    */
   eggGroup (eggGroup) {
     this.poke =
@@ -82,8 +93,9 @@ module.exports = class Pokedex {
   /**
    * Takes Pokémon whose base stat total matches to given operator and value
    *
-   * @param {String} operator
-   * @param {Number|String} value
+   * @param {string} operator
+   * @param {number|string} value
+   * @return {Pokedex} this instance
    */
   baseStatTotal (operator, value) {
     switch (operator) {
@@ -115,6 +127,7 @@ module.exports = class Pokedex {
 
   /**
    * Takes Pokémon which can Mega Evolve (including Primal Reversion, Ultra Burst)
+   * @return {Pokedex} this instance
    */
   canMegaEvolve () {
     this.poke =
@@ -125,7 +138,8 @@ module.exports = class Pokedex {
   /**
    * Filters a list of Pokémon by a generation when the Pokémon was introduced
    *
-   * @param {Number|String} gen Generation
+   * @param {number|string} gen Generation
+   * @return {Pokedex} this instance
    */
   generation (gen) {
     this.poke =
@@ -135,6 +149,7 @@ module.exports = class Pokedex {
 
   /**
    * Takes Pokémon which is listed in the Galar Pokédex
+   * @return {Pokedex} this instance
    */
   inGalarPokedex () {
     this.poke =
@@ -150,6 +165,7 @@ module.exports = class Pokedex {
    * Sorts Pokémon list according to a given sortKey
    *
    * @param {string} sortKey - one of "NationalNumber" or "Lexicographical"
+   * @return {Pokedex} this instance
    */
   sort (sortKey) {
     switch (sortKey) {
@@ -167,6 +183,7 @@ module.exports = class Pokedex {
 
   /**
    * Returns JSON String of a list of Pokémon
+   * @return {string} result
    */
   get () {
     const ret = this.poke
