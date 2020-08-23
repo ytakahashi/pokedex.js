@@ -3,13 +3,16 @@
   "version": "3.6.0",
   "description": "Get/Search Pokémon information!",
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "repository": "https://github.com/ytakahashi/pokedex.js.git",
   "author": "ytakahashi <yt01tc@gmail.com>",
   "license": "MIT",
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "test": "standard && nyc --reporter=html --reporter=text mocha --config=test/.mocharc.json"
+    "prepublishOnly": "npm run tsc",
+    "test": "standard && nyc --reporter=html --reporter=text mocha --config=test/.mocharc.json",
+    "tsc": "tsc"
   },
   "keywords": [
     "pokedex",
@@ -23,7 +26,8 @@
     "mocha": "^7.2.0",
     "nyc": "^15.1.0",
     "sinon": "^9.0.2",
-    "standard": "^14.3.4"
+    "standard": "^14.3.4",
+    "typescript": "^4.0.2"
   },
   "standard": {
     "env": [
