@@ -22,15 +22,16 @@ const getAll = (lang) => {
 }
 
 /**
- * A class of a Pokedex.
+ * A class of a Pokédex.
  */
 module.exports = class Pokedex {
   /**
-   * Creates a new Pokedex instance with a fiven language
-   * @param {String} lang language ('en' or 'ja', defaults to 'ja')
+   * Creates a new Pokédex instance of a given language
+   *
+   * @param {String} [lang=ja] language ('en' or 'ja', defaults to 'ja')
    */
   constructor (lang) {
-    if (lang === undefined) {
+    if (!lang) {
       this.lang = 'ja'
     } else if (lang === 'ja' | lang === 'en') {
       this.lang = lang
@@ -93,8 +94,8 @@ module.exports = class Pokedex {
   /**
    * Takes Pokémon whose base stat total matches to given operator and value
    *
-   * @param {string} operator
-   * @param {number|string} value
+   * @param {string} operator an operator to compare with 'value' (one of '>', '>=', '<', '<=', '=')
+   * @param {number|string} value value to compare
    * @return {Pokedex} this instance
    */
   baseStatTotal (operator, value) {
@@ -149,6 +150,7 @@ module.exports = class Pokedex {
 
   /**
    * Takes Pokémon which is listed in the Galar Pokédex
+   *
    * @return {Pokedex} this instance
    */
   inGalarPokedex () {
@@ -183,6 +185,7 @@ module.exports = class Pokedex {
 
   /**
    * Returns JSON String of a list of Pokémon
+   *
    * @return {string} result
    */
   get () {
