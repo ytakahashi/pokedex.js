@@ -1,7 +1,7 @@
 {
   "name": "pokedex.js",
   "description": "Get/Search Pokémon information!",
-  "version": "3.7.0",
+  "version": "3.7.1",
   "author": "ytakahashi <yt01tc@gmail.com>",
   "bugs": "https://github.com/ytakahashi/pokedex.js/issues",
   "devDependencies": {
