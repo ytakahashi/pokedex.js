@@ -255,6 +255,46 @@
     ]
   },
   {
+    "id": 144,
+    "names": [
+      {
+        "formId": "g",
+        "ja": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "names": [
+      {
+        "formId": "g",
+        "ja": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "names": [
+      {
+        "formId": "g",
+        "ja": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "names": [
+      {
+        "formId": "g",
+        "ja": "ガラルのすがた",
+        "en": "Galarian Form"
+      }
+    ]
+  },
+  {
     "id": 222,
     "names": [
       {
@@ -851,6 +891,21 @@
         "formId": "r",
         "ja": "れんげきのかた",
         "en": "Rapid Strike Style"
+      }
+    ]
+  },
+  {
+    "id": 898,
+    "names": [
+      {
+        "formId": "w",
+        "ja": "はくばじょうのすがた",
+        "en": "Ice Rider"
+      },
+      {
+        "formId": "b",
+        "ja": "こくばじょうのすがた",
+        "en": "Shadow Rider"
       }
     ]
   }

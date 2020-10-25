@@ -260,7 +260,13 @@ const abilityMap = new Map(
     ['リベロ', 'Libero'],
     ['わたげ', 'Cotton Down'],
     ['クイックドロウ', 'Quick Draw'],
-    ['ふかしのこぶし', 'Unseen Fist']
+    ['ふかしのこぶし', 'Unseen Fist'],
+    ['きみょうなくすり', 'Curious Medicine'],
+    ['トランジスタ', 'Transistor'],
+    ['りゅうのあぎと', 'Dragon\'s Maw'],
+    ['しろのいななき', 'Chilling Neigh'],
+    ['くろのいななき', 'Grim Neigh'],
+    ['じんばいったい', 'As One']
   ]
 )
 

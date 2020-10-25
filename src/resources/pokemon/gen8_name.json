@@ -586,5 +586,40 @@
       "ja": "ザルード",
       "en": "Zarude"
     }
+  },
+  {
+    "id": "894",
+    "name": {
+      "ja": "レジエレキ",
+      "en": "Regieleki"
+    }
+  },
+  {
+    "id": "895",
+    "name": {
+      "ja": "レジドラゴ",
+      "en": "Regidrago"
+    }
+  },
+  {
+    "id": "896",
+    "name": {
+      "ja": "ブリザポス",
+      "en": "Glastrier"
+    }
+  },
+  {
+    "id": "897",
+    "name": {
+      "ja": "レイスポス",
+      "en": "Spectrier"
+    }
+  },
+  {
+    "id": "898",
+    "name": {
+      "ja": "バドレックス",
+      "en": "Calyrex"
+    }
   }
 ]
