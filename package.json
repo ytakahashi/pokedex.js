@@ -5,18 +5,28 @@
   "author": "ytakahashi <yt01tc@gmail.com>",
   "bugs": "https://github.com/ytakahashi/pokedex.js/issues",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.25",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "chai": "^4.3.0",
+    "cpy-cli": "^3.1.1",
+    "eslint": "^7.19.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
     "jsonschema": "^1.4.0",
-    "mocha": "^8.2.0",
+    "mocha": "^8.2.1",
     "nyc": "^15.1.0",
     "sinon": "^9.2.0",
     "standard": "^15.0.0",
+    "ts-node": "^9.1.1",
     "typescript": "^4.0.3"
   },
   "files": [
     "README_ja.md",
-    "src",
-    "types/index.d.ts"
+    "dist"
   ],
   "homepage": "https://github.com/ytakahashi/pokedex.js",
   "keywords": [
@@ -26,13 +36,14 @@
     "pokémon"
   ],
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/ytakahashi/pokedex.js.git",
   "scripts": {
-    "lint": "standard",
-    "lint-fix": "standard --fix",
-    "prepublishOnly": "npm run tsc",
-    "test": "standard && nyc --reporter=html --reporter=text mocha --config=test/.mocharc.json",
+    "copy-resources": "cpy 'resources/**/*.json' ../dist --cwd=src --parents",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepublishOnly": "npm run tsc && npm run copy-resources",
+    "test": "nyc --reporter=html --reporter=text mocha",
     "tsc": "tsc"
   },
   "standard": {

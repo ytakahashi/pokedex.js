@@ -1,11 +1,14 @@
 {
   "include": [
-    "src/index.js"
+    "src/**/*"
   ],
   "compilerOptions": {
     "allowJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "types"
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "strictNullChecks": true,
+    "target": "ES2020"
   }
 }
