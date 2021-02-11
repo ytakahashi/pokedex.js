@@ -54,7 +54,13 @@ export class Pokemon {
     }
   }
 
-  compareName (pokemon: Pokemon): number {
+  /**
+   * Compares Pokemon name with the specified object for order.
+   *
+   * @param pokemon pokemon to be compared
+   * @return {number} -1, 0, or 1 as this object is less than, equal to, or greater than the specified object.
+   */
+  compareName = (pokemon: Pokemon): number => {
     if (this.name < pokemon.name) {
       return -1
     }
@@ -76,7 +82,13 @@ export class Pokemon {
     return 0
   }
 
-  compareId (pokemon: Pokemon): number {
+  /**
+   * Compares Pokemon id with the specified object for order.
+   *
+   * @param pokemon pokemon to be compared
+   * @return {number} a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.
+   */
+  compareId = (pokemon: Pokemon): number => {
     if (this.id !== pokemon.id) {
       return Number(this.id) - Number(pokemon.id)
     }
