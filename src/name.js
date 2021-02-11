@@ -11,7 +11,7 @@ const jsons = [].concat(
 )
 const nameMap = new Map(jsons.map(obj => [obj.id, obj.name]))
 
-const formNameJson = require('../src/resources/pokemon/form_name.json')
+const formNameJson = require('./resources/pokemon/form_name.json')
 const formNameMap = new Map(formNameJson.map(obj => [obj.id.toString(), obj.names]))
 
 const getName = (id, lang) => {

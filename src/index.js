@@ -2,6 +2,12 @@
 
 const { Pokemon } = require('./pokemon')
 
+/**
+ * Returns list ogf Pokemon.
+ *
+ * @param {string} lang language
+ * @return {Pokemon[]} array of pokemon
+ */
 const getAll = (lang) => {
   return [].concat(
     require('./resources/pokemon/gen1.json').map(p => new Pokemon(p, Number(1), lang)),

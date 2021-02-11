@@ -1,6 +1,5 @@
-const expect = require('chai').expect
-
-const Status = require('../src/status')
+import { expect } from 'chai'
+import { Status } from '../src/status'
 
 describe('Status class', () => {
   it('returns corrent properties', () => {

@@ -1,4 +1,11 @@
-class Status {
+export class Status {
+  H: string
+  A: string
+  B: string
+  C: string
+  D: string
+  S: string
+
   constructor (status) {
     this.H = status.H
     this.A = status.A
@@ -8,7 +15,7 @@ class Status {
     this.S = status.S
   }
 
-  get total () {
+  get total (): number {
     return Number(this.H) +
             Number(this.A) +
             Number(this.B) +
@@ -17,5 +24,3 @@ class Status {
             Number(this.S)
   }
 }
-
-module.exports = Status
