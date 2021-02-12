@@ -31,10 +31,10 @@ const Pokedex = require('pokedex.js')
 // or import Pokedex from 'pokedex.js'
 const pokedex = new Pokedex('en')
 
-console.log(pokedex.name('Pikachu').get())
+console.log(pokedex.name('Pikachu').getPokemonAsJson())
 // [{"id":"25","localId":{"galar":"194"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]
 
-console.log(pokedex.id(26).get())
+console.log(pokedex.id(26).getPokemonAsJson())
 // [{"id":"26","localId":{"galar":"195"},"name":"Raichu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"Alola Form","name":"Raichu","type":["Electric","Psychic"],"ability":[{"name":"Surge Surfer","hidden":false}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"},"generation":7}]
 
 ```

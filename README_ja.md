@@ -23,10 +23,10 @@ const Pokedex = require('pokedex.js')
 // or import Pokedex from 'pokedex.js'
 const pokedex = new Pokedex('ja')
 
-console.log(pokedex.name('ピカチュウ').get())
+console.log(pokedex.name('ピカチュウ').getPokemonAsJson())
 // [{"id":"25","localId":{"galar":"194"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]
 
-console.log(pokedex.id(26).get())
+console.log(pokedex.id(26).getPokemonAsJson())
 // [{"id":"26","localId":{"galar":"195"},"name":"ライチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"90","B":"55","C":"90","D":"80","S":"110"},"generation":1},{"id":"26","formName":"アローラのすがた","name":"ライチュウ","type":["でんき","エスパー"],"ability":[{"name":"サーフテール","hidden":false}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"60","A":"85","B":"50","C":"95","D":"85","S":"110"},"generation":7}]
 ```
 
