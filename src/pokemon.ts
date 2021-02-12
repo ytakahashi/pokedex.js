@@ -19,13 +19,13 @@ type PokemonAbility = {
 export class Pokemon {
   id: string
   name: string
-  formName: string
-  localId: localId
-  type: string
+  formName?: string
+  localId?: localId
+  type: string[]
   ability: PokemonAbility[]
   eggGroup: string
   baseStats: Status
-  megaEvolution: MegaPokemon
+  megaEvolution?: MegaPokemon[]
   generation: number
 
   constructor (pokemon: any, gen: number, lang: string) {
@@ -67,19 +67,19 @@ export class Pokemon {
     if (this.name > pokemon.name) {
       return 1
     }
-    if (this.formName === undefined && pokemon.formName !== undefined) {
+    if (this.formName === undefined && pokemon.formName === undefined) {
+      return 0
+    } else if (this.formName === undefined) {
       return -1
-    }
-    if (pokemon.formName === undefined && this.formName !== undefined) {
+    } else if (pokemon.formName === undefined) {
       return 1
-    }
-    if (this.formName < pokemon.formName) {
+    } else if (this.formName < pokemon.formName) {
       return -1
-    }
-    if (this.formName > pokemon.formName) {
+    } else if (this.formName > pokemon.formName) {
       return 1
+    } else {
+      return 0
     }
-    return 0
   }
 
   /**

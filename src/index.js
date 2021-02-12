@@ -39,7 +39,7 @@ module.exports = class Pokedex {
   constructor (lang) {
     if (!lang) {
       this.lang = 'ja'
-    } else if (lang === 'ja' | lang === 'en') {
+    } else if (lang === 'ja' || lang === 'en') {
       this.lang = lang
     } else {
       throw new Error(`Language '${lang}' is not supported.`)
@@ -190,9 +190,32 @@ module.exports = class Pokedex {
   }
 
   /**
-   * Returns JSON String of a list of Pokémon
+   * Returns a list of Pokémon.
+   *
+   * @return {Pokemon[]} result
+   */
+  getPokemon () {
+    const ret = this.poke
+    this.poke = this.allPoke
+    return ret
+  }
+
+  /**
+   * Returns JSON String of a list of Pokémon.
    *
    * @return {string} result
+   */
+  getPokemonAsJson () {
+    const ret = this.poke
+    this.poke = this.allPoke
+    return JSON.stringify(ret)
+  }
+
+  /**
+   * Returns JSON String of a list of Pokémon.
+   *
+   * @return {string} result
+   * @deprecated Use {@link getPokemon} or {@link getPokemonAsJson} instead.
    */
   get () {
     const ret = this.poke
