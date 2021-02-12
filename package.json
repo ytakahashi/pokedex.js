@@ -46,10 +46,5 @@
     "test": "nyc --reporter=html --reporter=text mocha",
     "tsc": "tsc"
   },
-  "standard": {
-    "env": [
-      "mocha"
-    ]
-  },
-  "types": "types/index.d.ts"
+  "types": "dist/index.d.ts"
 }
