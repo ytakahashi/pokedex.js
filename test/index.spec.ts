@@ -1,5 +1,6 @@
 /* eslint no-unused-expressions: 0 */
 
+import { fail } from 'assert'
 import { expect } from 'chai'
 import Pokedex from '../src/index'
 
@@ -17,7 +18,10 @@ describe('Pokedex class (ts)', () => {
       const actual = pokedex.name('ピカチュウ').getPokemon()
       expect(actual).to.have.length(1)
       expect(actual[0].id).to.equal('25')
-      expect(actual[0].localId?.galar).to.equal('194')
+      if (actual[0].localId?.galar === undefined) {
+        fail()
+      }
+      expect(actual[0].localId.galar).to.equal('194')
       expect(actual[0].name).to.equal('ピカチュウ')
       expect(actual[0].type).to.have.length(1)
       expect(actual[0].type[0]).to.equal('でんき')
