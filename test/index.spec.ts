@@ -18,7 +18,7 @@ describe('Pokedex class (ts)', () => {
       const actual = pokedex.name('ピカチュウ').getPokemon()
       expect(actual).to.have.length(1)
       expect(actual[0].id).to.equal('25')
-      if (actual[0].localId?.galar === undefined) {
+      if (actual[0].localId.galar === undefined) {
         fail()
       }
       expect(actual[0].localId.galar).to.equal('194')
