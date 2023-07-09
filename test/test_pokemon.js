@@ -4,14 +4,14 @@ const expect = require('chai').expect
 
 const { Pokemon } = require('../src/pokemon')
 
-const venusaurObj = require('./resources/venusaur.json')
-const charizardObj = require('./resources/charizard.json')
-const pikachuObj = require('./resources/pikachu.json')
-const raichuObj = require('./resources/raichu.json')
-const alolaRaichuObj = require('./resources/alola_raichu.json')
-const meouthObj = require('./resources/meouth.json')
-const alolaMeouthObj = require('./resources/alola_meouth.json')
-const galarMeouthObj = require('./resources/galar_meouth.json')
+const venusaurObj = require('../test_resources/venusaur.json')
+const charizardObj = require('../test_resources/charizard.json')
+const pikachuObj = require('../test_resources/pikachu.json')
+const raichuObj = require('../test_resources/raichu.json')
+const alolaRaichuObj = require('../test_resources/alola_raichu.json')
+const meouthObj = require('../test_resources/meouth.json')
+const alolaMeouthObj = require('../test_resources/alola_meouth.json')
+const galarMeouthObj = require('../test_resources/galar_meouth.json')
 
 describe('Pokemon class (language: ja)', () => {
   const language = 'ja'
