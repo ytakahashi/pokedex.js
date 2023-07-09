@@ -40,8 +40,8 @@
   "repository": "https://github.com/ytakahashi/pokedex.js.git",
   "scripts": {
     "copy-resources": "cpy 'resources/**/*.json' ../dist --cwd=src --parents",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --ext .ts . --fix",
     "prepublishOnly": "npm run tsc && npm run copy-resources",
     "test": "nyc --reporter=html --reporter=text mocha",
     "tsc": "tsc"
