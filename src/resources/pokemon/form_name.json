@@ -115,6 +115,26 @@
     ]
   },
   {
+    "id": 58,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 74,
     "names": [
       {
@@ -215,6 +235,26 @@
     ]
   },
   {
+    "id": 100,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 103,
     "names": [
       {
@@ -285,12 +325,42 @@
     ]
   },
   {
+    "id": 157,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 199,
     "names": [
       {
         "formId": "g",
         "ja": "ガラルのすがた",
         "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
       }
     ]
   },
@@ -400,6 +470,26 @@
     ]
   },
   {
+    "id": 483,
+    "names": [
+      {
+        "formId": "o",
+        "ja": "オリジンフォルム",
+        "en": "Origin Forme"
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "names": [
+      {
+        "formId": "o",
+        "ja": "オリジンフォルム",
+        "en": "Origin Forme"
+      }
+    ]
+  },
+  {
     "id": 487,
     "names": [
       {
@@ -430,6 +520,26 @@
     ]
   },
   {
+    "id": 503,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 549,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 550,
     "names": [
       {
@@ -441,6 +551,11 @@
         "formId": "f",
         "ja": "あおすじ",
         "en": "Blue-Striped Form"
+      },
+      {
+        "formId": "w",
+        "ja": "しろすじ",
+        "en": "White-Striped Form"
       }
     ]
   },
@@ -490,12 +605,42 @@
     ]
   },
   {
+    "id": 570,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 618,
     "names": [
       {
         "formId": "g",
         "ja": "ガラルのすがた",
         "en": "Galarian Form"
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
       }
     ]
   },
@@ -620,6 +765,26 @@
     ]
   },
   {
+    "id": 705,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 706,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 710,
     "names": [
       {
@@ -670,6 +835,16 @@
     ]
   },
   {
+    "id": 713,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
     "id": 718,
     "names": [
       {
@@ -701,6 +876,16 @@
         "formId": "u",
         "ja": "ときはなたれしフーパ",
         "en": "Hoopa Unbound"
+      }
+    ]
+  },
+  {
+    "id": 724,
+    "names": [
+      {
+        "formId": "h",
+        "ja": "ヒスイのすがた",
+        "en": "Hisuian Form"
       }
     ]
   },
@@ -906,6 +1091,36 @@
         "formId": "b",
         "ja": "こくばじょうのすがた",
         "en": "Shadow Rider"
+      }
+    ]
+  },
+  {
+    "id": 902,
+    "names": [
+      {
+        "formId": "",
+        "ja": "オスのすがた",
+        "en": "Male"
+      },
+      {
+        "formId": "f",
+        "ja": "メスのすがた",
+        "en": "Female"
+      }
+    ]
+  },
+  {
+    "id": 905,
+    "names": [
+      {
+        "formId": "",
+        "ja": "けしんフォルム",
+        "en": "Incarnate Forme"
+      },
+      {
+        "formId": "a",
+        "ja": "れいじゅうフォルム",
+        "en": "Therian Forme"
       }
     ]
   }
