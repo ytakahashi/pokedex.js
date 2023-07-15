@@ -138,4 +138,112 @@ describe('Pokedex class (ts)', () => {
       expect(actual[3].id).to.equal('888')
     })
   })
+
+  describe('common', () => {
+    const pokedex = new Pokedex()
+    const formCountMap = {
+      19: 2,
+      20: 2,
+      26: 2,
+      27: 2,
+      28: 2,
+      37: 2,
+      38: 2,
+      50: 2,
+      51: 2,
+      52: 3,
+      53: 2,
+      58: 2,
+      59: 2,
+      74: 2,
+      75: 2,
+      76: 2,
+      77: 2,
+      78: 2,
+      79: 2,
+      80: 2,
+      83: 2,
+      88: 2,
+      89: 2,
+      100: 2,
+      101: 2,
+      103: 2,
+      105: 2,
+      110: 2,
+      122: 2,
+      144: 2,
+      145: 2,
+      146: 2,
+      157: 2,
+      199: 2,
+      211: 2,
+      215: 2,
+      222: 2,
+      263: 2,
+      264: 2,
+      386: 4,
+      413: 3,
+      479: 6,
+      483: 2,
+      484: 2,
+      487: 2,
+      492: 2,
+      503: 2,
+      549: 2,
+      550: 3,
+      554: 2,
+      555: 4,
+      562: 2,
+      570: 2,
+      571: 2,
+      618: 2,
+      628: 2,
+      641: 2,
+      642: 2,
+      645: 2,
+      646: 3,
+      647: 2,
+      648: 2,
+      678: 2,
+      681: 2,
+      705: 2,
+      706: 2,
+      710: 4,
+      711: 4,
+      713: 2,
+      718: 3,
+      720: 2,
+      724: 2,
+      741: 4,
+      745: 3,
+      746: 2,
+      774: 2,
+      800: 3,
+      849: 2,
+      875: 2,
+      876: 2,
+      888: 2,
+      889: 2,
+      890: 2,
+      892: 2,
+      898: 3,
+      902: 2,
+      905: 2
+    }
+
+    it('returns all Pokemon', () => {
+      const totalCount = 905
+
+      const all = pokedex.getPokemon().map(p => p.id)
+      const unique = new Set(all)
+      expect(unique).to.have.length(totalCount)
+
+      for (let i = 1; i <= totalCount; i++) {
+        const actual = pokedex.id(i).getPokemon()
+        const actualLength = actual.length
+        const expectedLength = formCountMap[String(i)] ?? 1
+        expect(actualLength).to.equal(expectedLength, `id: ${i}`)
+      }
+    })
+  })
 })

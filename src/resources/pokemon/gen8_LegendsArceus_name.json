@@ -1,0 +1,51 @@
+[
+  {
+    "id": "899",
+    "name": {
+      "ja": "アヤシシ",
+      "en": "Wyrdeer"
+    }
+  },
+  {
+    "id": "900",
+    "name": {
+      "ja": "バサギリ",
+      "en": "Kleavor"
+    }
+  },
+  {
+    "id": "901",
+    "name": {
+      "ja": "ガチグマ",
+      "en": "Ursaluna"
+    }
+  },
+  {
+    "id": "902",
+    "name": {
+      "ja": "イダイトウ",
+      "en": "Basculegion"
+    }
+  },
+  {
+    "id": "903",
+    "name": {
+      "ja": "オオニューラ",
+      "en": "Sneasler"
+    }
+  },
+  {
+    "id": "904",
+    "name": {
+      "ja": "ハリーマン",
+      "en": "Overqwil"
+    }
+  },
+  {
+    "id": "905",
+    "name": {
+      "ja": "ラブトロス",
+      "en": "Enamorus"
+    }
+  }
+]
