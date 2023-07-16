@@ -536,6 +536,9 @@
   },
   {
     "id": "741",
+    "localId": {
+      "paldea": "100"
+    },
     "formId": "m",
     "name": "オドリドリ",
     "type": [
@@ -561,6 +564,9 @@
   },
   {
     "id": "741",
+    "localId": {
+      "paldea": "100"
+    },
     "formId": "f",
     "name": "オドリドリ",
     "type": [
@@ -586,6 +592,9 @@
   },
   {
     "id": "741",
+    "localId": {
+      "paldea": "100"
+    },
     "formId": "p",
     "name": "オドリドリ",
     "type": [
@@ -611,6 +620,9 @@
   },
   {
     "id": "745",
+    "localId": {
+      "paldea": "90"
+    },
     "formId": "f",
     "name": "ルガルガン",
     "type": [
@@ -641,6 +653,9 @@
   },
   {
     "id": "745",
+    "localId": {
+      "paldea": "90"
+    },
     "formId": "d",
     "name": "ルガルガン",
     "type": [

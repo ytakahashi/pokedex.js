@@ -3,7 +3,15 @@
   "title": "Pokémon",
   "description": "A Schema of Pokémon of pokedex.js",
   "type": "object",
-  "required": [ "id", "name", "ability", "baseStats", "type", "eggGroup", "generation" ],
+  "required": [
+    "id",
+    "name",
+    "ability",
+    "baseStats",
+    "type",
+    "eggGroup",
+    "generation"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -46,7 +54,7 @@
       "type": "integer",
       "description": "Shows at which generation this Pokémon was added",
       "minimum": 1,
-      "maximum": 8
+      "maximum": 9
     },
     "megaEvolution": {
       "type": "array",
@@ -62,12 +70,19 @@
         "galar": {
           "type": "string",
           "description": "Galar Pokédex number."
+        },
+        "paldea": {
+          "type": "string",
+          "description": "Paldea Pokédex number."
         }
       }
     },
     "ability": {
       "type": "object",
-      "required": [ "name", "hidden" ],
+      "required": [
+        "name",
+        "hidden"
+      ],
       "properties": {
         "name": {
           "type": "string",
@@ -81,7 +96,14 @@
     },
     "baseStats": {
       "type": "object",
-      "required": [ "H", "A", "B", "C", "D", "S" ],
+      "required": [
+        "H",
+        "A",
+        "B",
+        "C",
+        "D",
+        "S"
+      ],
       "properties": {
         "H": {
           "type": "string",
@@ -111,7 +133,12 @@
     },
     "megaPokemon": {
       "type": "object",
-      "required": [ "name", "ability", "baseStats", "type" ],
+      "required": [
+        "name",
+        "ability",
+        "baseStats",
+        "type"
+      ],
       "properties": {
         "name": {
           "type": "string"

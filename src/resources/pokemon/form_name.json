@@ -295,6 +295,26 @@
     ]
   },
   {
+    "id": 128,
+    "names": [
+      {
+        "formId": "a",
+        "ja": "パルデアのすがた・コンバットしゅ",
+        "en": "Paldean Form (Combat Breed)"
+      },
+      {
+        "formId": "b",
+        "ja": "パルデアのすがた・ブレイズしゅ",
+        "en": "Paldean Form (Blaze Breed)"
+      },
+      {
+        "formId": "c",
+        "ja": "パルデアのすがた・ウォーターしゅ",
+        "en": "Paldean Form (Aqua Breed)"
+      }
+    ]
+  },
+  {
     "id": 144,
     "names": [
       {
@@ -331,6 +351,16 @@
         "formId": "h",
         "ja": "ヒスイのすがた",
         "en": "Hisuian Form"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "names": [
+      {
+        "formId": "p",
+        "ja": "パルデアのすがた",
+        "en": "Paldean Form"
       }
     ]
   },
@@ -1121,6 +1151,36 @@
         "formId": "a",
         "ja": "れいじゅうフォルム",
         "en": "Therian Forme"
+      }
+    ]
+  },
+  {
+    "id": 916,
+    "names": [
+      {
+        "formId": "",
+        "ja": "オスのすがた",
+        "en": "Male"
+      },
+      {
+        "formId": "f",
+        "ja": "メスのすがた",
+        "en": "Female"
+      }
+    ]
+  },
+  {
+    "id": 964,
+    "names": [
+      {
+        "formId": "",
+        "ja": "ナイーブフォルム",
+        "en": "Zero Form"
+      },
+      {
+        "formId": "f",
+        "ja": "マイティフォルム",
+        "en": "Hero Form"
       }
     ]
   }

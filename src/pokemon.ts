@@ -9,6 +9,7 @@ const megaPokemonJson = require('./resources/pokemon/mega.json')
 
 type localId = {
   galar?: string
+  paldea?: string
 }
 
 type PokemonAbility = {
@@ -37,6 +38,9 @@ export class Pokemon {
       this.localId = {}
       if (pokemon.localId.galar !== undefined) {
         this.localId.galar = pokemon.localId.galar
+      }
+      if (pokemon.localId.paldea !== undefined) {
+        this.localId.paldea = pokemon.localId.paldea
       }
     }
 

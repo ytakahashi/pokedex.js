@@ -266,7 +266,38 @@ const abilityMap = new Map(
     ['りゅうのあぎと', 'Dragon\'s Maw'],
     ['しろのいななき', 'Chilling Neigh'],
     ['くろのいななき', 'Grim Neigh'],
-    ['じんばいったい', 'As One']
+    ['じんばいったい', 'As One'],
+    ['いかりのこうら', 'Anger Shell'],
+    ['いわはこび', 'Rocky Payload'],
+    ['おうごんのからだ', 'Good as Gold'],
+    ['かぜのり', 'Wind Rider'],
+    ['きょうえん', 'Costar'],
+    ['きよめのしお', 'Purifying Salt'],
+    ['きれあじ', 'Sharpness'],
+    ['きんしのちから', 'Mycelium Might'],
+    ['クォークチャージ', 'Quark Drive'],
+    ['こだいかっせい', 'Protosynthesis'],
+    ['こぼれダネ', 'Seed Sower'],
+    ['こんがりボディ', 'Well-Baked Body'],
+    ['しれいとう', 'Commander'],
+    ['そうだいしょう', 'Supreme Overlord'],
+    ['テイルアーマー', 'Armor Tail'],
+    ['でんきにかえる', 'Electromorphosis'],
+    ['どくげしょう', 'Toxic Debris'],
+    ['どしょく', 'Earth Eater'],
+    ['とれないにおい', 'Lingering Aroma'],
+    ['ねつこうかん', 'Thermal Exchange'],
+    ['ハドロンエンジン', 'Hadron Engine'],
+    ['ばんけん', 'Guard Dog'],
+    ['はんすう', 'Cud Chew'],
+    ['ひひいろのこどう', 'Orichalcum Pulse'],
+    ['びんじょう', 'Opportunist'],
+    ['ふうりょくでんき', 'Wind Power'],
+    ['マイティチェンジ', 'Zero to Hero'],
+    ['わざわいのうつわ', 'Vessel of Ruin'],
+    ['わざわいのおふだ', 'Tablets of Ruin'],
+    ['わざわいのたま', 'Beads of Ruin'],
+    ['わざわいのつるぎ', 'Sword of Ruin']
   ]
 )
 
@@ -274,7 +305,11 @@ const abilityName = (name, lang) => {
   if (lang === 'ja') {
     return name
   } else if (lang === 'en') {
-    return abilityMap.get(name)
+    enName = abilityMap.get(name)
+    if (enName === undefined) {
+      throw new Error(`Undefined: ${name}`)
+    }
+    return enName
   }
 }
 

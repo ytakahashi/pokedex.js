@@ -619,7 +619,8 @@
   {
     "id": "849",
     "localId": {
-      "galar": "311"
+      "galar": "311",
+      "paldea": "199"
     },
     "formId": "f",
     "name": "ストリンダー",
@@ -653,7 +654,8 @@
   {
     "id": "875",
     "localId": {
-      "galar": "370"
+      "galar": "370",
+      "paldea": "320"
     },
     "formId": "f",
     "name": "コオリッポ",
@@ -681,7 +683,8 @@
   {
     "id": "876",
     "localId": {
-      "galar": "337"
+      "galar": "337",
+      "paldea": "241"
     },
     "formId": "f",
     "name": "イエッサン",

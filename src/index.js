@@ -19,13 +19,15 @@ const getAll = (lang) => {
     require('./resources/pokemon/gen7.json').map(p => new Pokemon(p, Number(7), lang)),
     require('./resources/pokemon/gen8.json').map(p => new Pokemon(p, Number(8), lang)),
     require('./resources/pokemon/gen8_LegendsArceus.json').map(p => new Pokemon(p, Number(8), lang)),
+    require('./resources/pokemon/gen9.json').map(p => new Pokemon(p, Number(9), lang)),
     require('./resources/pokemon/form_3.json').map(p => new Pokemon(p, Number(3), lang)),
     require('./resources/pokemon/form_4.json').map(p => new Pokemon(p, Number(4), lang)),
     require('./resources/pokemon/form_5.json').map(p => new Pokemon(p, Number(5), lang)),
     require('./resources/pokemon/form_6.json').map(p => new Pokemon(p, Number(6), lang)),
     require('./resources/pokemon/form_7.json').map(p => new Pokemon(p, Number(7), lang)),
     require('./resources/pokemon/form_8.json').map(p => new Pokemon(p, Number(8), lang)),
-    require('./resources/pokemon/form_LegendsArceus.json').map(p => new Pokemon(p, Number(8), lang))
+    require('./resources/pokemon/form_LegendsArceus.json').map(p => new Pokemon(p, Number(8), lang)),
+    require('./resources/pokemon/form_9.json').map(p => new Pokemon(p, Number(9), lang))
   )
 }
 

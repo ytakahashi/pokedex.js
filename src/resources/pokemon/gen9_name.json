@@ -1,0 +1,737 @@
+[
+  {
+    "id": "906",
+    "name": {
+      "ja": "ニャオハ",
+      "en": "Sprigatito"
+    }
+  },
+  {
+    "id": "907",
+    "name": {
+      "ja": "ニャローテ",
+      "en": "Floragato"
+    }
+  },
+  {
+    "id": "908",
+    "name": {
+      "ja": "マスカーニャ",
+      "en": "Meowscarada"
+    }
+  },
+  {
+    "id": "909",
+    "name": {
+      "ja": "ホゲータ",
+      "en": "Fuecoco"
+    }
+  },
+  {
+    "id": "910",
+    "name": {
+      "ja": "アチゲータ",
+      "en": "Crocalor"
+    }
+  },
+  {
+    "id": "911",
+    "name": {
+      "ja": "ラウドボーン",
+      "en": "Skeledirge"
+    }
+  },
+  {
+    "id": "912",
+    "name": {
+      "ja": "クワッス",
+      "en": "Quaxly"
+    }
+  },
+  {
+    "id": "913",
+    "name": {
+      "ja": "ウェルカモ",
+      "en": "Quaxwell"
+    }
+  },
+  {
+    "id": "914",
+    "name": {
+      "ja": "ウェーニバル",
+      "en": "Quaquaval"
+    }
+  },
+  {
+    "id": "915",
+    "name": {
+      "ja": "グルトン",
+      "en": "Lechonk"
+    }
+  },
+  {
+    "id": "916",
+    "name": {
+      "ja": "パフュートン",
+      "en": "Oinkologne"
+    }
+  },
+  {
+    "id": "917",
+    "name": {
+      "ja": "タマンチュラ",
+      "en": "Tarountula"
+    }
+  },
+  {
+    "id": "918",
+    "name": {
+      "ja": "ワナイダー",
+      "en": "Spidops"
+    }
+  },
+  {
+    "id": "919",
+    "name": {
+      "ja": "マメバッタ",
+      "en": "Nymble"
+    }
+  },
+  {
+    "id": "920",
+    "name": {
+      "ja": "エクスレッグ",
+      "en": "Lokix"
+    }
+  },
+  {
+    "id": "921",
+    "name": {
+      "ja": "パモ",
+      "en": "Pawmi"
+    }
+  },
+  {
+    "id": "922",
+    "name": {
+      "ja": "パモット",
+      "en": "Pawmo"
+    }
+  },
+  {
+    "id": "923",
+    "name": {
+      "ja": "パーモット",
+      "en": "Pawmot"
+    }
+  },
+  {
+    "id": "924",
+    "name": {
+      "ja": "ワッカネズミ",
+      "en": "Tandemaus"
+    }
+  },
+  {
+    "id": "925",
+    "name": {
+      "ja": "イッカネズミ",
+      "en": "Maushold"
+    }
+  },
+  {
+    "id": "926",
+    "name": {
+      "ja": "パピモッチ",
+      "en": "Fidough"
+    }
+  },
+  {
+    "id": "927",
+    "name": {
+      "ja": "バウッツェル",
+      "en": "Dachsbun"
+    }
+  },
+  {
+    "id": "928",
+    "name": {
+      "ja": "ミニーブ",
+      "en": "Smoliv"
+    }
+  },
+  {
+    "id": "929",
+    "name": {
+      "ja": "オリーニョ",
+      "en": "Dolliv"
+    }
+  },
+  {
+    "id": "930",
+    "name": {
+      "ja": "オリーヴァ",
+      "en": "Arboliva"
+    }
+  },
+  {
+    "id": "931",
+    "name": {
+      "ja": "イキリンコ",
+      "en": "Squawkabilly"
+    }
+  },
+  {
+    "id": "932",
+    "name": {
+      "ja": "コジオ",
+      "en": "Nacli"
+    }
+  },
+  {
+    "id": "933",
+    "name": {
+      "ja": "ジオヅム",
+      "en": "Naclstack"
+    }
+  },
+  {
+    "id": "934",
+    "name": {
+      "ja": "キョジオーン",
+      "en": "Garganacl"
+    }
+  },
+  {
+    "id": "935",
+    "name": {
+      "ja": "カルボウ",
+      "en": "Charcadet"
+    }
+  },
+  {
+    "id": "936",
+    "name": {
+      "ja": "グレンアルマ",
+      "en": "Armarouge"
+    }
+  },
+  {
+    "id": "937",
+    "name": {
+      "ja": "ソウブレイズ",
+      "en": "Ceruledge"
+    }
+  },
+  {
+    "id": "938",
+    "name": {
+      "ja": "ズピカ",
+      "en": "Tadbulb"
+    }
+  },
+  {
+    "id": "939",
+    "name": {
+      "ja": "ハラバリー",
+      "en": "Bellibolt"
+    }
+  },
+  {
+    "id": "940",
+    "name": {
+      "ja": "カイデン",
+      "en": "Wattrel"
+    }
+  },
+  {
+    "id": "941",
+    "name": {
+      "ja": "タイカイデン",
+      "en": "Kilowattrel"
+    }
+  },
+  {
+    "id": "942",
+    "name": {
+      "ja": "オラチフ",
+      "en": "Maschiff"
+    }
+  },
+  {
+    "id": "943",
+    "name": {
+      "ja": "マフィティフ",
+      "en": "Mabosstiff"
+    }
+  },
+  {
+    "id": "944",
+    "name": {
+      "ja": "シルシュルー",
+      "en": "Shroodle"
+    }
+  },
+  {
+    "id": "945",
+    "name": {
+      "ja": "タギングル",
+      "en": "Grafaiai"
+    }
+  },
+  {
+    "id": "946",
+    "name": {
+      "ja": "アノクサ",
+      "en": "Bramblin"
+    }
+  },
+  {
+    "id": "947",
+    "name": {
+      "ja": "アノホラグサ",
+      "en": "Brambleghast"
+    }
+  },
+  {
+    "id": "948",
+    "name": {
+      "ja": "ノノクラゲ",
+      "en": "Toedscool"
+    }
+  },
+  {
+    "id": "949",
+    "name": {
+      "ja": "リククラゲ",
+      "en": "Toedscruel"
+    }
+  },
+  {
+    "id": "950",
+    "name": {
+      "ja": "ガケガニ",
+      "en": "Klawf"
+    }
+  },
+  {
+    "id": "951",
+    "name": {
+      "ja": "カプサイジ",
+      "en": "Capsakid"
+    }
+  },
+  {
+    "id": "952",
+    "name": {
+      "ja": "スコヴィラン",
+      "en": "Scovillain"
+    }
+  },
+  {
+    "id": "953",
+    "name": {
+      "ja": "シガロコ",
+      "en": "Rellor"
+    }
+  },
+  {
+    "id": "954",
+    "name": {
+      "ja": "ベラカス",
+      "en": "Rabsca"
+    }
+  },
+  {
+    "id": "955",
+    "name": {
+      "ja": "ヒラヒナ",
+      "en": "Flittle"
+    }
+  },
+  {
+    "id": "956",
+    "name": {
+      "ja": "クエスパトラ",
+      "en": "Espathra"
+    }
+  },
+  {
+    "id": "957",
+    "name": {
+      "ja": "カヌチャン",
+      "en": "Tinkatink"
+    }
+  },
+  {
+    "id": "958",
+    "name": {
+      "ja": "ナカヌチャン",
+      "en": "Tinkatuff"
+    }
+  },
+  {
+    "id": "959",
+    "name": {
+      "ja": "デカヌチャン",
+      "en": "Tinkaton"
+    }
+  },
+  {
+    "id": "960",
+    "name": {
+      "ja": "ウミディグダ",
+      "en": "Wiglett"
+    }
+  },
+  {
+    "id": "961",
+    "name": {
+      "ja": "ウミトリオ",
+      "en": "Wugtrio"
+    }
+  },
+  {
+    "id": "962",
+    "name": {
+      "ja": "オトシドリ",
+      "en": "Bombirdier"
+    }
+  },
+  {
+    "id": "963",
+    "name": {
+      "ja": "ナミイルカ",
+      "en": "Finizen"
+    }
+  },
+  {
+    "id": "964",
+    "name": {
+      "ja": "イルカマン",
+      "en": "Palafin"
+    }
+  },
+  {
+    "id": "965",
+    "name": {
+      "ja": "ブロロン",
+      "en": "Varoom"
+    }
+  },
+  {
+    "id": "966",
+    "name": {
+      "ja": "ブロロローム",
+      "en": "Revavroom"
+    }
+  },
+  {
+    "id": "967",
+    "name": {
+      "ja": "モトトカゲ",
+      "en": "Cyclizar"
+    }
+  },
+  {
+    "id": "968",
+    "name": {
+      "ja": "ミミズズ",
+      "en": "Orthworm"
+    }
+  },
+  {
+    "id": "969",
+    "name": {
+      "ja": "キラーメ",
+      "en": "Glimmet"
+    }
+  },
+  {
+    "id": "970",
+    "name": {
+      "ja": "キラフロル",
+      "en": "Glimmora"
+    }
+  },
+  {
+    "id": "971",
+    "name": {
+      "ja": "ボチ",
+      "en": "Greavard"
+    }
+  },
+  {
+    "id": "972",
+    "name": {
+      "ja": "ハカドッグ",
+      "en": "Houndstone"
+    }
+  },
+  {
+    "id": "973",
+    "name": {
+      "ja": "カラミンゴ",
+      "en": "Flamigo"
+    }
+  },
+  {
+    "id": "974",
+    "name": {
+      "ja": "アルクジラ",
+      "en": "Cetoddle"
+    }
+  },
+  {
+    "id": "975",
+    "name": {
+      "ja": "ハルクジラ",
+      "en": "Cetitan"
+    }
+  },
+  {
+    "id": "976",
+    "name": {
+      "ja": "ミガルーサ",
+      "en": "Veluza"
+    }
+  },
+  {
+    "id": "977",
+    "name": {
+      "ja": "ヘイラッシャ",
+      "en": "Dondozo"
+    }
+  },
+  {
+    "id": "978",
+    "name": {
+      "ja": "シャリタツ",
+      "en": "Tatsugiri"
+    }
+  },
+  {
+    "id": "979",
+    "name": {
+      "ja": "コノヨザル",
+      "en": "Annihilape"
+    }
+  },
+  {
+    "id": "980",
+    "name": {
+      "ja": "ドオー",
+      "en": "Clodsire"
+    }
+  },
+  {
+    "id": "981",
+    "name": {
+      "ja": "リキキリン",
+      "en": "Farigiraf"
+    }
+  },
+  {
+    "id": "982",
+    "name": {
+      "ja": "ノココッチ",
+      "en": "Dudunsparce"
+    }
+  },
+  {
+    "id": "983",
+    "name": {
+      "ja": "ドドゲザン",
+      "en": "Kingambit"
+    }
+  },
+  {
+    "id": "984",
+    "name": {
+      "ja": "イダイナキバ",
+      "en": "Great Tusk"
+    }
+  },
+  {
+    "id": "985",
+    "name": {
+      "ja": "サケブシッポ",
+      "en": "Scream Tail"
+    }
+  },
+  {
+    "id": "986",
+    "name": {
+      "ja": "アラブルタケ",
+      "en": "Brute Bonnet"
+    }
+  },
+  {
+    "id": "987",
+    "name": {
+      "ja": "ハバタクカミ",
+      "en": "Flutter Mane"
+    }
+  },
+  {
+    "id": "988",
+    "name": {
+      "ja": "チヲハウハネ",
+      "en": "Slither Wing"
+    }
+  },
+  {
+    "id": "989",
+    "name": {
+      "ja": "スナノケガワ",
+      "en": "Sandy Shocks"
+    }
+  },
+  {
+    "id": "990",
+    "name": {
+      "ja": "テツノワダチ",
+      "en": "Iron Treads"
+    }
+  },
+  {
+    "id": "991",
+    "name": {
+      "ja": "テツノツツミ",
+      "en": "Iron Bundle"
+    }
+  },
+  {
+    "id": "992",
+    "name": {
+      "ja": "テツノカイナ",
+      "en": "Iron Hands"
+    }
+  },
+  {
+    "id": "993",
+    "name": {
+      "ja": "テツノコウベ",
+      "en": "Iron Jugulis"
+    }
+  },
+  {
+    "id": "994",
+    "name": {
+      "ja": "テツノドクガ",
+      "en": "Iron Moth"
+    }
+  },
+  {
+    "id": "995",
+    "name": {
+      "ja": "テツノイバラ",
+      "en": "Iron Thorns"
+    }
+  },
+  {
+    "id": "996",
+    "name": {
+      "ja": "セビエ",
+      "en": "Frigibax"
+    }
+  },
+  {
+    "id": "997",
+    "name": {
+      "ja": "セゴール",
+      "en": "Arctibax"
+    }
+  },
+  {
+    "id": "998",
+    "name": {
+      "ja": "セグレイブ",
+      "en": "Baxcalibur"
+    }
+  },
+  {
+    "id": "999",
+    "name": {
+      "ja": "コレクレー",
+      "en": "Gimmighoul"
+    }
+  },
+  {
+    "id": "1000",
+    "name": {
+      "ja": "サーフゴー",
+      "en": "Gholdengo"
+    }
+  },
+  {
+    "id": "1001",
+    "name": {
+      "ja": "チオンジェン",
+      "en": "Wo-Chien"
+    }
+  },
+  {
+    "id": "1002",
+    "name": {
+      "ja": "パオジアン",
+      "en": "Chien-Pao"
+    }
+  },
+  {
+    "id": "1003",
+    "name": {
+      "ja": "ディンルー",
+      "en": "Ting-Lu"
+    }
+  },
+  {
+    "id": "1004",
+    "name": {
+      "ja": "イーユイ",
+      "en": "Chi-Yu"
+    }
+  },
+  {
+    "id": "1005",
+    "name": {
+      "ja": "トドロクツキ",
+      "en": "Roaring Moon"
+    }
+  },
+  {
+    "id": "1006",
+    "name": {
+      "ja": "テツノブジン",
+      "en": "Iron Valiant"
+    }
+  },
+  {
+    "id": "1007",
+    "name": {
+      "ja": "コライドン",
+      "en": "Koraidon"
+    }
+  },
+  {
+    "id": "1008",
+    "name": {
+      "ja": "ミライドン",
+      "en": "Miraidon"
+    }
+  },
+  {
+    "id": "1009",
+    "name": {
+      "ja": "ウネルミナモ",
+      "en": "Walking Wake"
+    }
+  },
+  {
+    "id": "1010",
+    "name": {
+      "ja": "テツノイサハ",
+      "en": "Iron Leaves"
+    }
+  }
+]

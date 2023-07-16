@@ -40,15 +40,16 @@ describe('Pokedex class', () => {
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.id(25).getPokemonAsJson()
-      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected
+        = '[{"id":"25","localId":{"galar":"194","paldea":"74"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
 
       expect(actual).to.deep.equal(expected)
     })
 
     it('returns expected Pokemon (name: ピカチュウ)', () => {
       const actual = pokedex.name('ピカチュウ').getPokemonAsJson()
-      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
-
+      const expected
+        = '[{"id":"25","localId":{"galar":"194","paldea":"74"},"name":"ピカチュウ","type":["でんき"],"ability":[{"name":"せいでんき","hidden":false},{"name":"ひらいしん","hidden":true}],"eggGroup":["陸上","妖精"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual).to.deep.equal(expected)
     })
 
@@ -105,23 +106,33 @@ describe('Pokedex class', () => {
       const actual = JSON.parse(
         pokedex.type('はがね').type('フェアリー').sort('Lexicographical').getPokemonAsJson()
       )
-      expect(actual).to.have.length(4)
-      expect(actual[0].name).to.equal('クチート')
-      expect(actual[1].name).to.equal('クレッフィ')
-      expect(actual[2].name).to.equal('ザシアン')
-      expect(actual[2].formName).to.equal('けんのおう')
-      expect(actual[3].name).to.equal('マギアナ')
+      expect(actual.every((pokemon) => isValidPokemon(pokemon))).to.be.true
+
+      expect(actual).to.have.length(7)
+      expect(actual[0].name).to.equal('カヌチャン')
+      expect(actual[1].name).to.equal('クチート')
+      expect(actual[2].name).to.equal('クレッフィ')
+      expect(actual[3].name).to.equal('ザシアン')
+      expect(actual[3].formName).to.equal('けんのおう')
+      expect(actual[4].name).to.equal('デカヌチャン')
+      expect(actual[5].name).to.equal('ナカヌチャン')
+      expect(actual[6].name).to.equal('マギアナ')
     })
 
     it('sorts by national number', () => {
       const actual = JSON.parse(
         pokedex.type('はがね').type('フェアリー').sort('NationalNumber').getPokemonAsJson()
       )
-      expect(actual).to.have.length(4)
+      expect(actual.every((pokemon) => isValidPokemon(pokemon))).to.be.true
+
+      expect(actual).to.have.length(7)
       expect(actual[0].id).to.equal('303')
       expect(actual[1].id).to.equal('707')
       expect(actual[2].id).to.equal('801')
       expect(actual[3].id).to.equal('888')
+      expect(actual[4].id).to.equal('957')
+      expect(actual[5].id).to.equal('958')
+      expect(actual[6].id).to.equal('959')
     })
 
     it('returns expected Pokemon Array (Galar Pokédex)', () => {
@@ -150,13 +161,15 @@ describe('Pokedex class', () => {
 
     it('returns expected Pokemon (id: 25)', () => {
       const actual = pokedex.id(25).getPokemonAsJson()
-      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected
+        = '[{"id":"25","localId":{"galar":"194","paldea":"74"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual).to.deep.equal(expected)
     })
 
     it('returns expected Pokemon (name: Pikachu)', () => {
       const actual = pokedex.name('Pikachu').getPokemonAsJson()
-      const expected = '[{"id":"25","localId":{"galar":"194"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
+      const expected
+        = '[{"id":"25","localId":{"galar":"194","paldea":"74"},"name":"Pikachu","type":["Electric"],"ability":[{"name":"Static","hidden":false},{"name":"Lightning Rod","hidden":true}],"eggGroup":["Field","Fairy"],"baseStats":{"H":"35","A":"55","B":"40","C":"50","D":"50","S":"90"},"generation":1}]'
       expect(actual).to.deep.equal(expected)
     })
 
@@ -187,23 +200,33 @@ describe('Pokedex class', () => {
       const actual = JSON.parse(
         pokedex.type('Steel').type('Fairy').sort('Lexicographical').getPokemonAsJson()
       )
-      expect(actual).to.have.length(4)
+      expect(actual.every((pokemon) => isValidPokemon(pokemon))).to.be.true
+
+        expect(actual).to.have.length(7)
       expect(actual[0].name).to.equal('Klefki')
       expect(actual[1].name).to.equal('Magearna')
       expect(actual[2].name).to.equal('Mawile')
-      expect(actual[3].name).to.equal('Zacian')
-      expect(actual[3].formName).to.equal('Crowned Sword')
+      expect(actual[3].name).to.equal('Tinkatink')
+      expect(actual[4].name).to.equal('Tinkaton')
+      expect(actual[5].name).to.equal('Tinkatuff')
+      expect(actual[6].name).to.equal('Zacian')
+      expect(actual[6].formName).to.equal('Crowned Sword')
     })
 
     it('sorts by national number', () => {
       const actual = JSON.parse(
         pokedex.type('Steel').type('Fairy').sort('NationalNumber').getPokemonAsJson()
       )
-      expect(actual).to.have.length(4)
+      expect(actual.every((pokemon) => isValidPokemon(pokemon))).to.be.true
+
+      expect(actual).to.have.length(7)
       expect(actual[0].id).to.equal('303')
       expect(actual[1].id).to.equal('707')
       expect(actual[2].id).to.equal('801')
       expect(actual[3].id).to.equal('888')
+      expect(actual[4].id).to.equal('957')
+      expect(actual[5].id).to.equal('958')
+      expect(actual[6].id).to.equal('959')
     })
 
     it('throws exception for undefined operator of base stat total', () => {

@@ -58,7 +58,8 @@
   {
     "id": "479",
     "localId": {
-      "galar": "372"
+      "galar": "372",
+      "paldea": "310"
     },
     "formId": "h",
     "name": "ロトム",
@@ -86,7 +87,8 @@
   {
     "id": "479",
     "localId": {
-      "galar": "372"
+      "galar": "372",
+      "paldea": "310"
     },
     "formId": "w",
     "name": "ロトム",
@@ -114,7 +116,8 @@
   {
     "id": "479",
     "localId": {
-      "galar": "372"
+      "galar": "372",
+      "paldea": "310"
     },
     "formId": "f",
     "name": "ロトム",
@@ -142,7 +145,8 @@
   {
     "id": "479",
     "localId": {
-      "galar": "372"
+      "galar": "372",
+      "paldea": "310"
     },
     "formId": "s",
     "name": "ロトム",
@@ -170,7 +174,8 @@
   {
     "id": "479",
     "localId": {
-      "galar": "372"
+      "galar": "372",
+      "paldea": "310"
     },
     "formId": "c",
     "name": "ロトム",
