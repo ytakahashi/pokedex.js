@@ -39,7 +39,7 @@
   "main": "dist/index.js",
   "repository": "https://github.com/ytakahashi/pokedex.js.git",
   "scripts": {
-    "copy-resources": "cpy 'resources/**/*.json' ../dist --cwd=src --parents",
+    "copy-resources": "cpy 'resources/**/*.json' ../dist/resources --cwd=src --parents",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --ext .ts . --fix",
     "prepublishOnly": "npm run tsc && npm run copy-resources",
