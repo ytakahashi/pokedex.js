@@ -23,6 +23,7 @@ describe('Pokedex class (ts)', () => {
         fail()
       }
       expect(actual[0].localId.galar).to.equal('194')
+      expect(actual[0].localId.paldea).to.equal('74')
       expect(actual[0].name).to.equal('ピカチュウ')
       expect(actual[0].type).to.have.length(1)
       expect(actual[0].type[0]).to.equal('でんき')
@@ -89,6 +90,11 @@ describe('Pokedex class (ts)', () => {
       const actual = pokedex.id(25).getPokemon()
       expect(actual).to.have.length(1)
       expect(actual[0].id).to.equal('25')
+      if (actual[0].localId === undefined) {
+        fail()
+      }
+      expect(actual[0].localId.galar).to.equal('194')
+      expect(actual[0].localId.paldea).to.equal('74')
       expect(actual[0].name).to.equal('Pikachu')
       expect(actual[0].type).to.have.length(1)
       expect(actual[0].type[0]).to.equal('Electric')
