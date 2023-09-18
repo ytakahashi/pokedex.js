@@ -4,7 +4,7 @@
     "localId": {
       "paldea": "223"
     },
-    "form_id": "a",
+    "formId": "a",
     "name": "ケンタロス",
     "type": [
       "かくとう"
@@ -37,7 +37,7 @@
     "localId": {
       "paldea": "223"
     },
-    "form_id": "b",
+    "formId": "b",
     "name": "ケンタロス",
     "type": [
       "かくとう",
@@ -71,7 +71,7 @@
     "localId": {
       "paldea": "223"
     },
-    "form_id": "c",
+    "formId": "c",
     "name": "ケンタロス",
     "type": [
       "かくとう",
@@ -105,7 +105,7 @@
     "localId": {
       "paldea": "53"
     },
-    "form_id": "p",
+    "formId": "p",
     "name": "ウパー",
     "type": [
       "どく",
@@ -140,7 +140,7 @@
     "localId": {
       "paldea": "11"
     },
-    "form_id": "f",
+    "formId": "f",
     "name": "パフュートン",
     "type": [
       "ノーマル"
@@ -173,7 +173,7 @@
     "localId": {
       "paldea": "292"
     },
-    "form_id": "f",
+    "formId": "f",
     "name": "イルカマン",
     "type": [
       "みず"
