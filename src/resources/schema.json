@@ -91,6 +91,10 @@
         "hidden": {
           "type": "boolean",
           "description": "If true, this ability is hidden."
+        },
+        "terastallised": {
+          "const": true,
+          "description": "If true, this ability is active when terastallised."
         }
       }
     },

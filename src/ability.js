@@ -297,7 +297,12 @@ const abilityMap = new Map(
     ['わざわいのうつわ', 'Vessel of Ruin'],
     ['わざわいのおふだ', 'Tablets of Ruin'],
     ['わざわいのたま', 'Beads of Ruin'],
-    ['わざわいのつるぎ', 'Sword of Ruin']
+    ['わざわいのつるぎ', 'Sword of Ruin'],
+    ['しんがん', "Mind's Eye"],
+    ['かんろなミツ', 'Supersweet Syrup'],
+    ['おもてなし', 'Hospitality'],
+    ['どくのくさり', 'Toxic Chain'],
+    ['おもかげやどし', 'Embody Aspect'],
   ]
 )
 
@@ -318,14 +323,17 @@ const getAbility = (ability, lang) => {
   for (const a of ability) {
     let hidden
     let name
+    let terastallised
     if (a.name.indexOf('*') === 0) {
       hidden = true
       name = abilityName(a.name.substr(1), lang)
+      terastallised = a.terastallised
     } else {
       hidden = false
       name = abilityName(a.name, lang)
+      terastallised = a.terastallised
     }
-    abilities.push({ name, hidden })
+    abilities.push({ name, hidden, terastallised })
   }
   return abilities
 }

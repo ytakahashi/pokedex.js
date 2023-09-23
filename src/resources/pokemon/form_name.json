@@ -1183,5 +1183,40 @@
         "en": "Hero Form"
       }
     ]
+  },
+  {
+    "id": 901,
+    "names": [
+      {
+        "formId": "f",
+        "ja": "アカツキ",
+        "en": "Bloodmoon"
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "names": [
+      {
+        "formId": "",
+        "ja": "みどりのめん",
+        "en": "Teal Mask"
+      },
+      {
+        "formId": "w",
+        "ja": "いどのめん",
+        "en": "Wellspring Mask"
+      },
+      {
+        "formId": "h",
+        "ja": "かまどのめん",
+        "en": "Hearthflame Mask"
+      },
+      {
+        "formId": "c",
+        "ja": "いしずえのめん",
+        "en": "Cornerstone Mask"
+      }
+    ]
   }
 ]

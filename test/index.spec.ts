@@ -2,7 +2,22 @@
 
 import { fail } from 'assert'
 import { expect } from 'chai'
+import { Validator } from 'jsonschema'
 import Pokedex from '../src/index'
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const schema = require('../src/resources/schema.json')
+const v = new Validator()
+const isValidPokemon = (value): boolean => {
+  const validateResult = v.validate(value, schema)
+  if (validateResult.errors.length === 0) {
+    return true
+  } else {
+    console.log(JSON.stringify(value))
+    console.log(JSON.stringify(validateResult.errors))
+    return false
+  }
+}
 
 describe('Pokedex class (ts)', () => {
   describe('language ja)', () => {
@@ -30,11 +45,13 @@ describe('Pokedex class (ts)', () => {
       expect(actual[0].ability).to.have.length(2)
       expect(actual[0].ability[0]).to.deep.equal({
         name: 'せいでんき',
-        hidden: false
+        hidden: false,
+        terastallised: undefined
       })
       expect(actual[0].ability[1]).to.deep.equal({
         name: 'ひらいしん',
-        hidden: true
+        hidden: true,
+        terastallised: undefined
       })
       expect(actual[0].eggGroup).to.have.length(2)
       expect(actual[0].eggGroup).to.contain('陸上', '妖精')
@@ -101,11 +118,13 @@ describe('Pokedex class (ts)', () => {
       expect(actual[0].ability).to.have.length(2)
       expect(actual[0].ability[0]).to.deep.equal({
         name: 'Static',
-        hidden: false
+        hidden: false,
+        terastallised: undefined
       })
       expect(actual[0].ability[1]).to.deep.equal({
         name: 'Lightning Rod',
-        hidden: true
+        hidden: true,
+        terastallised: undefined
       })
       expect(actual[0].eggGroup).to.have.length(2)
       expect(actual[0].eggGroup).to.contain('Field', 'Fairy')
@@ -252,17 +271,21 @@ describe('Pokedex class (ts)', () => {
       890: 2,
       892: 2,
       898: 3,
+      901: 2,
       902: 2,
       905: 2,
       916: 2,
-      964: 2
+      964: 2,
+      1017: 4
     }
 
     it('returns all Pokemon', () => {
-      const totalCount = 1010
+      const totalCount = 1017
 
-      const all = pokedex.getPokemon().map(p => p.id)
-      const unique = new Set(all)
+      const all = pokedex.getPokemon()
+      expect(all.every((pokemon) => isValidPokemon(pokemon))).to.equal(true)
+      const allIds = all.map(p => p.id)
+      const unique = new Set(allIds)
       expect(unique).to.have.length(totalCount)
 
       for (let i = 1; i <= totalCount; i++) {

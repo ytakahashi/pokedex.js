@@ -15,6 +15,7 @@ type localId = {
 type PokemonAbility = {
   name: string
   hidden: boolean
+  terastallised?: boolean
 }
 
 export class Pokemon {

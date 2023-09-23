@@ -733,5 +733,54 @@
       "ja": "テツノイサハ",
       "en": "Iron Leaves"
     }
+  },
+  {
+    "id": "1011",
+    "name": {
+      "ja": "カミッチュ",
+      "en": "Dipplin"
+    }
+  },
+  {
+    "id": "1012",
+    "name": {
+      "ja": "チャデス",
+      "en": "Poltchageist"
+    }
+  },
+  {
+    "id": "1013",
+    "name": {
+      "ja": "ヤバソチャ",
+      "en": "Sinistcha"
+    }
+  },
+  {
+    "id": "1014",
+    "name": {
+      "ja": "イイネイヌ",
+      "en": "Okidogi"
+    }
+  },
+  {
+    "id": "1015",
+    "name": {
+      "ja": "マシマシラ",
+      "en": "Munkidori"
+    }
+  },
+  {
+    "id": "1016",
+    "name": {
+      "ja": "キチキギス",
+      "en": "Fezandipiti"
+    }
+  },
+  {
+    "id": "1017",
+    "name": {
+      "ja": "オーガポン",
+      "en": "Ogerpon"
+    }
   }
 ]
