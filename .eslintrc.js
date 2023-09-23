@@ -3,7 +3,7 @@ module.exports = {
     mocha: true
   },
   extends: 'standard-with-typescript',
-  ignorePatterns: ['dist/*'],
+  ignorePatterns: ['dist/*', 'logs/*'],
   parserOptions: {
     ecmaVersion: 2020,
     project: './tsconfig.test.json'

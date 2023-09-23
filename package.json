@@ -43,6 +43,7 @@
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --ext .ts . --fix",
     "prepublishOnly": "npm run tsc && npm run copy-resources",
+    "rm-dist": "node -e 'fs.rmSync(`dist`, {recursive:true, force:true})'",
     "test": "nyc --reporter=html --reporter=text mocha",
     "tsc": "tsc"
   },
