@@ -9,6 +9,7 @@ import Pokedex from '../src/index'
 const schema = require('../src/resources/schema.json')
 const v = new Validator()
 const isValidPokemon = (value): boolean => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
   const validateResult = v.validate(value, schema)
   if (validateResult.errors.length === 0) {
     return true
