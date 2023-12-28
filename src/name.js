@@ -26,6 +26,9 @@ const getName = (id, lang) => {
 
 const getFormName = (id, formId, lang) => {
   const names = formNameMap.get(id)
+  if (names === undefined) {
+      throw new Error(`Undefined: ${id}, ${formId}, ${lang}`)
+  }
   const name = names.find(n => { return n.formId === formId })
   if (lang === 'ja') {
     return name.ja

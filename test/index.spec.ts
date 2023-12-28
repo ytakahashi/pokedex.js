@@ -277,11 +277,12 @@ describe('Pokedex class (ts)', () => {
       905: 2,
       916: 2,
       964: 2,
-      1017: 4
+      1017: 4,
+      1024: 3
     }
 
     it('returns all Pokemon', () => {
-      const totalCount = 1017
+      const totalCount = 1024
 
       const all = pokedex.getPokemon()
       expect(all.every((pokemon) => isValidPokemon(pokemon))).to.equal(true)

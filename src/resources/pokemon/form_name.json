@@ -1218,5 +1218,25 @@
         "en": "Cornerstone Mask"
       }
     ]
+  },
+  {
+    "id": 1024,
+    "names": [
+      {
+        "formId": "",
+        "ja": "ノーマルフォルム",
+        "en": "Normal Form"
+      },
+      {
+        "formId": "t",
+        "ja": "テラスタルフォルム",
+        "en": "Terastal Form"
+      },
+      {
+        "formId": "s",
+        "ja": "ステラフォルム",
+        "en": "Stellar Form"
+      }
+    ]
   }
 ]
