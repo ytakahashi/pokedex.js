@@ -306,6 +306,7 @@ const abilityMap = new Map(
     ['テラスチェンジ', 'Tera Shift'],
     ['テラスシェル', 'Tera Shell'],
     ['ゼロフォーミング', 'Teraform Zero'],
+    ['どくくぐつ', 'Poison Puppeteer'],
   ]
 )
 
